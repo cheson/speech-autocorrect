@@ -1,0 +1,82 @@
+wavFilesLocation$ = "PC_GITA/PCGITA_JHU/"
+wavFormantInfo$ = "/Users/alyssa/Desktop/Parkinsons/phone_alignment/processed/"
+outFile$ = "/Users/alyssa/Desktop/Parkinsons/phone_alignment/praatResults/formant-values-with-pitch.txt"
+
+timeStep = 0.01
+maxNumFormants = 5
+maxFormant = 5500
+windowLength = 0.025
+preEmphasisFrom = 50
+pitchTimeStep = 0.01
+minPitch = 75
+maxPitch = 300
+
+Create Strings as file list... list 'wavFormantInfo$'
+numberOfFiles = Get number of strings
+
+for ifile to numberOfFiles
+	textFileName$ = Get string... ifile
+	formantInfo$ = readFile$(wavFormantInfo$ + textFileName$)
+	wavFileName$ = extractWord$(formantInfo$, "Name:")
+	soundFileName$ = left$(textFileName$, 20)
+	
+	appendFileLine: outFile$, wavFileName$
+	
+	toOpen$ = wavFilesLocation$ + wavFileName$
+
+	Read from file... 'toOpen$'
+	
+	select Sound 'soundFileName$'
+	To Formant (burg)... timeStep maxNumFormants maxFormant windowLength preEmphasisFrom
+	
+	select Sound 'soundFileName$'
+	To Pitch... pitchTimeStep minPitch maxPitch
+
+	formantInfoLen = length(formantInfo$)
+	formantInfo$ = mid$(formantInfo$, 28, formantInfoLen)
+	
+	currValue$ = "wav"
+
+	repeat
+		startValue = extractNumber(formantInfo$, currValue$)
+		endValue = extractNumber(formantInfo$, string$(startValue)) 
+		currValue$ = string$(endValue)
+		toEnd = endsWith(formantInfo$, currValue$)
+
+		startValue = startValue/1000.0
+		endValue = endValue/1000.0
+		midpoint = (startValue + endValue) / 2.0
+
+		select Formant 'soundFileName$'
+		f1 = Get value at time... 1 midpoint Hertz Linear
+		f2 = Get value at time... 2 midpoint Hertz Linear
+
+		select Pitch 'soundFileName$'
+		f0 = Get value at time... midpoint Hertz Linear
+		
+		if not f0 = undefined
+			appendFileLine: outFile$, f0, " ", f1, " ", f2
+		endif
+
+	until toEnd
+
+	appendInfoLine: "Done with ", wavFileName$
+
+	select Sound 'soundFileName$'
+	Remove
+	
+	select Formant 'soundFileName$'
+	Remove
+
+	select Pitch 'soundFileName$'
+	Remove
+
+	select Strings list
+
+endfor
+
+select Strings list
+Remove
+
+
+
