@@ -13,36 +13,22 @@ This file returns BigramCost and PossibleFills as global variables
 '''
 ######################
 
-CORPUS_PATH = 'corpus/'
-
-global _realBigramCost, _possibleFills
-
-
-def getRealCosts():
+def getRealCosts(path):
     print 'Done!'
-    return wordsegUtil.makeLanguageModels(CORPUS_PATH)
+    return wordsegUtil.makeLanguageModels(path)
 
-	        
+# bigramCost, possibleFills = getRealCosts()
+# print possibleFills
 
 
-bigramCost, possibleFills = getRealCosts()
-print possibleFills
-
-# def batchRun(queries):
-# 	for query in query: 
-# 		run(query)
-		
-
-# write function to take in queries and call batchRun 
-
-def run(query): 
+def run(query, bigramCost, possibleFills): 
 	# query = wordsegUtil.cleanQueryLine(query)
 	queryList = query.split()
 	pred = states.insertVowels(queryList, bigramCost, possibleFills)
 	return pred	
 
-query = sys.argv[1]
-print run(query)
+# query = sys.argv[1]
+# print run(query)
 
 
 
