@@ -60,6 +60,8 @@ queries = alignment.produceStrings(monologueAllCutTimes) # output for Gloria in 
 avPercentageChange = totalPercentageChange * 1.0 / totalNumQueries
 avImprovement = totalImprovements * 1.0 / totalNumQueries 
 
+print "avPercentageChange: " + avPercentageChange + "; avImprovement: " + avImprovement
+
 
 	# string for 
 	modifiedWav = path;
