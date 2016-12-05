@@ -17,9 +17,11 @@ queries = alignment.produceStrings(monologueAllCutTimes) # output for Gloria in 
 for filePrefix in queries:
     query = queries[filePrefix] #for each query == for each monologue
     # vowelsToFill is a list of vowels in sequence
-    print query
+    print query 
     vowelsToFill = newBigram.run(query, bigramCost, possibleFills) # need to edit run to return list of vowels
     print vowelsToFill
-    break
     finalConcatWavFile = 'data/finalOutput/' + filePrefix + 'reconstructed.wav'
     toReconstruct.fullReconstruct(filePrefix, 'monologue', vowelsToFill, finalConcatWavFile)
+
+# query = "s* p**d*"
+# newBigram.run(query, bigramCost, possibleFills)
