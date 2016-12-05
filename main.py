@@ -5,6 +5,8 @@ from cutWavFiles import ALPHABET
 
 # gets bigramCost, possibleFills based on corpus
 CORPUS_PATH = 'corpus/'
+TRANSCRIPT_FILE = 'data/AllText.txt'
+
 bigramCost, possibleFills = newBigram.getRealCosts(CORPUS_PATH)
 
 # processes wav files as classes
@@ -16,23 +18,22 @@ queries = alignment.produceStrings(monologueAllCutTimes) # output for Gloria in 
 
 
 
-# for filePrefix in queries:
-#     query = queries[filePrefix] #for each query == for each monologue
-#     # vowelsToFill is a list of vowels in sequence
-#     print query 
-#     vowelsToFill = newBigram.run(query, bigramCost, possibleFills) # need to edit run to return list of vowels
-#     finalConcatWavFile = 'data/finalOutput/' + filePrefix + 'reconstructed.wav'
-#     toReconstruct.fullReconstruct(filePrefix, 'monologue', vowelsToFill, finalConcatWavFile)
+for filePrefix in queries:
+    query = queries[filePrefix] #for each query == for each monologue
+    # vowelsToFill is a list of vowels in sequence
+    print query 
+    vowelsToFill = newBigram.run(query, bigramCost, possibleFills) # need to edit run to return list of vowels
+    finalConcatWavFile = 'data/finalOutput/' + filePrefix + 'reconstructed.wav'
+    toReconstruct.fullReconstruct(filePrefix, 'monologue', vowelsToFill, finalConcatWavFile)
 	
-	
-	eval <- wav1, wav2
-	eval <- wav, transcript 
+	transcript = ''
+	with open(TRANSCRIPT_FILE) as f:
+	for line in f:
+		if line.find(filePrefix) == 0:
+		     transcript = line
+		     transcript = transcript.replace(filePrefix, '')
 
-	string for 
-	modifiedWav = path;
-	transcriptWav = path;
+	#modifiedWav = filePrefix + modifiedWavLocation
 
-	# for each query, call eval on result and its monologue transcript
-
-query = "s* p**d*"
-newBigram.run(query, bigramCost, possibleFills)
+	#call eval(modifiedWav, transcript)
+	#os.system('call eval') eval(inputWav, transcript, filePrefix)
