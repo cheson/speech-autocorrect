@@ -3,6 +3,7 @@ from cutWavFiles import ProcessAlignments
 from reconstruct import Reconstruct
 from cutWavFiles import ALPHABET
 import evaluate
+import  random
 
 
 # gets bigramCost, possibleFills based on corpus
@@ -15,20 +16,39 @@ toReconstruct = Reconstruct()
 alignment = ProcessAlignments()
 monologueAllCutTimes = alignment.getCutTimes('monologue', ALPHABET)
 
-totalPercentageChange = 0
-totalNumQueries = 0 
-totalImprovements = 0
+# totalPercentageChange = 0
+# totalNumQueries = 0 
+# totalImprovements = 0
+
 queries = alignment.produceStrings(monologueAllCutTimes) # output for Gloria in string format, list of strings
 
 
+def fillQuery(query, vowelsToFill): 
+	result = ""
+	vowelIndex = 0
+	for word in query: 
+		for ch in word:
+			if ch == '*': 
+				replaceV = vowelsToFill[vowelIndex]
+				if replaceV == '*':
+					replaceV = random.choice('aeiouy')
+				vowelIndex += 1
+				result += replaceV
+			else: 
+				result += ch 
 
-# for filePrefix in queries:
-#     query = queries[filePrefix] #for each query == for each monologue
-#     # vowelsToFill is a list of vowels in sequence
-#     print query 
-#     vowelsToFill = newBigram.run(query, bigramCost, possibleFills) # need to edit run to return list of vowels
-#     finalConcatWavFile = 'data/finalOutput/' + filePrefix + 'reconstructed.wav'
-#     toReconstruct.fullReconstruct(filePrefix, 'monologue', vowelsToFill, finalConcatWavFile)
+	return result
+
+
+for filePrefix in queries:
+    query = queries[filePrefix] #for each query == for each monologue
+    # vowelsToFill is a list of vowels in sequence
+    # print query 
+    vowelsToFill = newBigram.run(query, bigramCost, possibleFills) # need to edit run to return list of vowels
+    print fillQuery(query, vowelsToFill)
+
+    # finalConcatWavFile = 'data/finalOutput/' + filePrefix + 'reconstructed.wav'
+    # toReconstruct.fullReconstruct(filePrefix, 'monologue', vowelsToFill, finalConcatWavFile)
 	
 	
 	# eval <- wav1, wav2
@@ -69,5 +89,5 @@ print "avPercentageChange: " + avPercentageChange + "; avImprovement: " + avImpr
 
 	# for each query, call eval on result and its monologue transcript
 
-query = "s* p**d*"
-newBigram.run(query, bigramCost, possibleFills)
+# query = "s* p**d*"
+# newBigram.run(query, bigramCost, possibleFills)
