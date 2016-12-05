@@ -119,6 +119,7 @@ class ProcessAlignments():
 
             stringsToProcess[filePrefix] = toProcess
 
+        return stringsToProcess
         print 'Done outputting strings'
 
 
