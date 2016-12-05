@@ -14,7 +14,6 @@ This file returns BigramCost and PossibleFills as global variables
 ######################
 
 def getRealCosts(path):
-    print ('Done!')
     return wordsegUtil.makeLanguageModels(path)
 
 # bigramCost, possibleFills = getRealCosts()
