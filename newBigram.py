@@ -38,7 +38,8 @@ print possibleFills
 def run(query): 
 	# query = wordsegUtil.cleanQueryLine(query)
 	queryList = query.split()
-	pred = states.insertVowels(queryList, bigramCost, possibleFills)	
+	pred = states.insertVowels(queryList, bigramCost, possibleFills)
+	return pred	
 
 query = sys.argv[1]
 print run(query)
