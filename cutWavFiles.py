@@ -114,6 +114,7 @@ class ProcessAlignments():
             for element in ranges:
                 letter = element[0]
                 if letter in VOWELS: toProcess += '*'
+                elif letter == 'SIL': toProcess += ' '
                 else: toProcess += letter
 
             stringsToProcess[filePrefix] = toProcess
