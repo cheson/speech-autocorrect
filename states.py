@@ -60,13 +60,13 @@ class VowelInsertionProblem(searchProblem.SearchProblem):
         # END_YOUR_CODE
 
 def findPossibleFills(query, possibleFills): 
-    key = query.find('*')
+    index = query.find('*')
     possibleFills = []
-    if key == -1: 
+    if index == -1: 
         return None
     else:
-        char = query[key]
-        for word in possibleFills[str(key)][char]: 
+        key = str(index)
+        for word in possibleFills[key]: 
             if removeVowels(word) == query:
                 possibleFills.add(word)
 
