@@ -6,7 +6,7 @@ where key = word1
 and value = [ (word2, probability of word2 | word1), (word3, probability of word3 | word 1) ... ] 
 '''
 # import sys, string
-import nltk, sys, string, collections, json, os 
+import nltk, sys, string, collections, json, os, io
 from nltk import word_tokenize
 from nltk.util import ngrams
 from collections import Counter
@@ -38,6 +38,7 @@ for subdir, dirs, files in os.walk(path):
 		filePath = subdir + '/' + filename
 		with open(filePath, 'r') as i: 
 			text = i.read()
+			text = text.lower()
 			text = text.translate(None, string.punctuation)
 			text = text.translate(None, string.digits)
 
@@ -76,16 +77,19 @@ for subdir, dirs, files in os.walk(path):
 # print sorted_bigramCost
 
 # print bigramCost, len(bigramCost)
+
+
 print "Finished processing"
+print bigramCost
 
-with open(outFile, 'w') as fp: 
-	json.dump(bigramCost, fp, ensure_ascii=False)
+with io.open(outFile, 'w', encoding = 'utf-8') as fp: 
+	json.dump(unicode(bigramCost), fp, ensure_ascii=False)
 
 
-print "Finished dump"
+# print "Finished dump"
 
-with open(outFile) as data_file:    
-    data = json.load(data_file)
-    print len(data)
+# with open(outFile) as data_file:    
+#     data = json.load(data_file)
+#     print len(data)
 
 # test this with sample.txt before going to write the next step
