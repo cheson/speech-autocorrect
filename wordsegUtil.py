@@ -84,7 +84,7 @@ def makeLanguageModels(path):
                 # char = word[key]
                 # possFills[str(key)][char].append(word)
         # print len(possFills)
-        print len(possFills)
+        # print possFills['2']
         return possFills
 
     possFills = makePossFills(unigrams)
@@ -95,8 +95,8 @@ def makeLanguageModels(path):
 
     return bigramModel, possFills
 
-path = 'corpus/'
-makeLanguageModels(path)
+# path = 'corpus/'
+# makeLanguageModels(path)
 
 def logSumExp(x, y):
     lo = min(x, y)

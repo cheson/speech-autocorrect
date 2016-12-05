@@ -1,11 +1,9 @@
-import shell
-import searchProblem
-import wordsegUtil
+import searchProblem, wordsegUtil
 
 ############################################################
 # Problem 2b: Solve the vowel insertion problem under a bigram cost
 
-class VowelInsertionProblem(util.SearchProblem):
+class VowelInsertionProblem(searchProblem.SearchProblem):
 
     # queryWords is passed in as a list [w1, w2, w3, ... ]
     # bigramCost is a dict 
@@ -79,7 +77,7 @@ def removeVowels(word):
 
 def insertVowels(queryWords, bigramCost, possibleFills):
     # BEGIN_YOUR_CODE (our solution is 3 lines of code, but don't worry if you deviate from this)
-    ucs = util.UniformCostSearch(verbose=1)
+    ucs = searchProblem.UniformCostSearch(verbose=1)
     ucs.solve(VowelInsertionProblem(queryWords, bigramCost, possibleFills))
     #print ' '.join(ucs.actions)
     return ucs.actions
