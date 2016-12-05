@@ -36,7 +36,7 @@ class VowelInsertionProblem(util.SearchProblem):
         prevWord, currIndex = state 
         results = []
         currUnfilled = self.queryWords[currIndex]
-        possFills = self.possibleFills(currUnfilled)
+        possFills = findPossibleFills(currUnfilled, self.possibleFills)
         
         '''
         TODO: Update costs to include unigram costs
@@ -61,7 +61,21 @@ class VowelInsertionProblem(util.SearchProblem):
         #raise Exception("Not implemented yet")
         # END_YOUR_CODE
 
+def findPossibleFills(query, possibleFills): 
+    key = query.find('*')
+    possibleFills = []
+    if key == -1: 
+        return None
+    else:
+        char = query[key]
+        for word in possibleFills[str(key)][char]: 
+            if removeVowels(word) == query:
+                possibleFills.add(word)
 
+    return possibleFills
+
+def removeVowels(word): 
+    return word.translate('aeiouy')
 
 def insertVowels(queryWords, bigramCost, possibleFills):
     # BEGIN_YOUR_CODE (our solution is 3 lines of code, but don't worry if you deviate from this)

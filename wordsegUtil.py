@@ -25,7 +25,7 @@ def words(l):
 # Make an n-gram model of words in text from a corpus.
 
 def makeLanguageModels(path):
-    unigrams = []
+    unigrams = set([])
     totalCounts = 0
     bigramCounts = collections.Counter()
     bitotalCounts = collections.Counter()
@@ -55,11 +55,23 @@ def makeLanguageModels(path):
                     bigramCounts.update(bigrams)
                     bitotalCounts.update([x[0] for x in bigrams])
 
+    # takes in list of words in corpus and returns a search tree 
+    def makePossFills(wordList): 
+        possFills = collections.defaultdict(dict)
+        for word in wordList:
+            key = word.find('*')
+            if key != -1: 
+                char = word[key]
+                possFills[str(key)][char].append(word)
+
+        return possFills
+
+
 
     def bigramModel(a, b):
         return math.log(bitotalCounts[a] + VOCAB_SIZE) - math.log(bigramCounts[(a, b)] + 1)
 
-    return bigramModel, set(sorted(unigrams))
+    return bigramModel, makePossFills(sorted(unigrams))
 
 def logSumExp(x, y):
     lo = min(x, y)

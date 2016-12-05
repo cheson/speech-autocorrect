@@ -24,8 +24,6 @@ def getRealCosts():
 	        sys.stdout.flush()
 
 	        _realBigramCost, _possibleFills = wordsegUtil.makeLanguageModels(CORPUS)
-	        # smoothCost = wordsegUtil.smoothUnigramAndBigram(unigramCost, bigramCost, 0.2)
-	        # _possibleFills = wordsegUtil.makeInverseRemovalDictionary(_realBigramCost)
 
 	        print 'Done!'
 	        print ''
