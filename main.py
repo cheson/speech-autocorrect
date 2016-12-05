@@ -1,12 +1,15 @@
-import cutWavFiles, newBigram 
+import newBigram 
+from cutWavFiles import ProcessAlignments
+from reconstruct import Reconstruct
+from cutWavFiles import ALPHABET
 
 # gets bigramCost, possibleFills based on corpus
 CORPUS_PATH = 'corpus/'
 bigramCost, possibleFills = newBigram.getRealCosts(CORPUS_PATH)
 
 # processes wav files as classes
-toReconstruct = cutWavFiles.Reconstruct()
-alignment = cutWavFiles.ProcessAlignments()
+toReconstruct = Reconstruct()
+alignment = ProcessAlignments()
 monologueAllCutTimes = alignment.getCutTimes('monologue', ALPHABET)
 
 queries = alignment.produceStrings(monologueAllCutTimes) # output for Gloria in string format, list of strings
@@ -17,4 +20,4 @@ for filePrefix in queries:
     vowelsToFill = newBigram.run(query, bigramCost, possibleFills) # need to edit run to return list of vowels
     
     finalConcatWavFile = 'data/finalOutput/' + filePrefix + 'reconstructed.wav'
-    toReconstruct.fullReconstruct(filePrefix, 'monologue', vowelsToFill, finalConcatWav)
+    toReconstruct.fullReconstruct(filePrefix, 'monologue', vowelsToFill, finalConcatWavFile)

@@ -52,7 +52,7 @@ class UniformCostSearch(SearchAlgorithm):
             if state == None: break
             self.numStatesExplored += 1
             if self.verbose >= 2:
-                print "Exploring %s with pastCost %s" % (state, pastCost)
+                print ("Exploring %s with pastCost %s", (state, pastCost))
 
             # Check if we've reached an end state; if so, extract solution.
             if problem.isEnd(state):

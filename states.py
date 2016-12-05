@@ -61,23 +61,23 @@ class VowelInsertionProblem(searchProblem.SearchProblem):
 
 def findPossibleFills(query, possibleFills): 
     index = query.find('*')
-    possibleFills = []
+    result = []
     if index == -1: 
-        return None
+        return result
     else:
         key = str(index)
         for word in possibleFills[key]: 
             if removeVowels(word) == query:
-                possibleFills.add(word)
+                result.add(word)
 
-    return possibleFills
+    return result
 
 def removeVowels(word): 
     return word.translate('aeiouy')
 
 def insertVowels(queryWords, bigramCost, possibleFills):
     # BEGIN_YOUR_CODE (our solution is 3 lines of code, but don't worry if you deviate from this)
-    ucs = searchProblem.UniformCostSearch(verbose=1)
+    ucs = searchProblem.UniformCostSearch(verbose=0)
     ucs.solve(VowelInsertionProblem(queryWords, bigramCost, possibleFills))
     #print ' '.join(ucs.actions)
     return ucs.actions
