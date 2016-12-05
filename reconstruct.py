@@ -28,6 +28,8 @@ class Reconstruct():
         
     def getReplacementWav(vowel):
         ## FILL THIS IN!!! ##
+        perfectVowel = '/data/perfect_vowels/' + vowel +'.wav'
+        
         # look at all the files in the directory 
         
     
