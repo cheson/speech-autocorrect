@@ -19,7 +19,7 @@ for filePrefix in queries:
     # vowelsToFill is a list of vowels in sequence
     print query
     vowelsToFill = newBigram.run(query, bigramCost, possibleFills) # need to edit run to return list of vowels
-    print vowelsToFill
+    # print vowelsToFill
     break
     finalConcatWavFile = 'data/finalOutput/' + filePrefix + 'reconstructed.wav'
     toReconstruct.fullReconstruct(filePrefix, 'monologue', vowelsToFill, finalConcatWavFile)
