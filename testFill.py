@@ -1,12 +1,17 @@
-import newBigram 
+import newBigram, states, wordsegUtil
 
 # gets bigramCost, possibleFills based on corpus
 CORPUS_PATH = 'corpus/'
 bigramCost, possibleFills = newBigram.getRealCosts(CORPUS_PATH)	
 
 
-query = "s* p**d*"#for each query == for each monologue
+query = "YO TODOS LOS D\xc3\x8dAS , EH , ME LEVANTO A LAS CINCO O SEIS DE LA MA\xc3\x91ANA . EH , ME BA\xc3\x91O , EH , ME VISTO , A VECES HAGO DESAYUNO ,  A VECES NO LO HAGO . EH , ME VOY PARA LA UNIVERSIDAD ,  CUANDO LLEGO A LA UNIVERSIDAD SIEMPRE INICIO EL D\xc3\x8dA TOM\xc3\x81NDOME UN CAF\xc3\x89 .  EH , REVISO EL CORREO ELECTR\xc3\x93NICO . EH , ME PONGO A TRABAJAR EN ASUNTOS QUE  HAYAN QUEDADO PEDIENTES DEL D\xc3\x8dA ANTERIOR .  EH , O COMIENZO CON LO QUE TENGA QUE REALIZAR ESE D\xc3\x8dA . ASISTO ALGUNAS REUNIONES , EH , QUE TENGA QUE , EH ,   REALIZAR POR ASUNTOS DE INVESTIGACI\xc3\x93N O EH , PROYECTOS  QUE TENGAMOS EN EXTENSION .  EH , AL MEDIO D\xc3\x8dA ALMUERZO SIEMPRE EN LA OFICINA , EH ,   EL ALMUERZO QUE LLEVO EH , O A VECES LOS VIERNES , EH ,  COMPRO EL ALMUERZO EN ALG\xc3\x9aN RESTAURANTE DE LA ZONA .  HM , A LA UNA Y MEDIA O DOS DE LA TARDE INICIO OTRA VEZ A TRABAJAR , EH , LA JORNADA DE LA TARDE . A LAS TRES O CUATRO DE LA TARDE  ME TOMO OTRO CAF\xc3\x89 , Y A LAS , EH , SEIS DE LA TARDE O SEIS Y MEDIA SALGO A  COMER ALGO PARA SEGUIR TRABAJANDO APROXIMADAMENTE HASTA LAS OCHO O NUEVE DE LA NOCHE . EH , LOS FINES DE SEMANA NORMALMENTE TAMBI\xc3\x89N ESTOY TRABAJANDO Y EN LA NOCHE , EH , SALGO CON MI NOVIA O LOS AMIGOS . "#for each query == for each monologue
+query = wordsegUtil.cleanLine(query)
+newQ = ""
+for word in query: 
+	newQ += states.replaceVowels(word)
+
 # vowelsToFill is a list of vowels in sequence
-print query
-vowelsToFill = newBigram.run(query, bigramCost, possibleFills) # need to edit run to return list of vowels
+print query, newQ
+vowelsToFill = newBigram.run(newQ, bigramCost, possibleFills) # need to edit run to return list of vowels
 # print vowelsToFill

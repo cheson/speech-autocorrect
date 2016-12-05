@@ -65,12 +65,13 @@ class UniformCostSearch(SearchAlgorithm):
                 self.actions = []
                 for word in words: 
                     for ch in word: 
-                        if ch in 'aeiouy':
+                        if ch in 'aeiouy*':
                             self.actions.append(ch)
                 self.totalCost = pastCost
                 if self.verbose >= 1:
                     print "numStatesExplored = %d" % self.numStatesExplored
                     print "totalCost = %s" % self.totalCost
+                    print "words = %s" % words
                     print "actions = %s" % self.actions
                 return
 
