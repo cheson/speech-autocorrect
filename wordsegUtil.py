@@ -1,6 +1,5 @@
 
-import collections
-import math
+import collections, os, math, string
 
 SENTENCE_BEGIN = '-BEGIN-'
 
@@ -11,12 +10,14 @@ def sliding(xs, windowSize):
 def removeAll(s, chars):
     return ''.join(filter(lambda c: c not in chars, s))
 
-def alphaOnly(s):
+def notNumberOrPunctuation(s):
     s = s.replace('-', ' ')
-    return filter(lambda c: c.isalpha() or c == ' ', s)
+    s = s.translate(None, string.punctuation)
+    s = s.translate(None, string.digits)
+    return s
 
 def cleanLine(l):
-    return alphaOnly(l.strip().lower())
+    return notNumberOrPunctuation(l.strip().lower())
 
 def words(l):
     return l.split()
@@ -48,30 +49,54 @@ def makeLanguageModels(path):
             with open(filePath, 'r') as f:
                 for l in f:
                     ws = words(cleanLine(l))
-                    unigrams.append(x[0] for x in sliding(ws, 1))
+                    unigrams.update(x[0] for x in sliding(ws, 1))
                     bigrams = [bigramWindow(x) for x in sliding(ws, 2)]
                     # totalCounts += len(unigrams)
                     # unigramCounts.update(unigrams)
                     bigramCounts.update(bigrams)
                     bitotalCounts.update([x[0] for x in bigrams])
 
+    # print sorted(unigrams), len(unigrams)
+    # print "unigrams printed"
+    # print bigramCounts, len(bigramCounts)
+    # print "bigramCounts printed"
+    # print sorted(bitotalCounts), len(bitotalCounts)
+    # print "bitotalCounts printed"
+
+    def unvowel(word): 
+        for ch in word:
+            if ch in "aeiou":
+                word = word.replace(ch,'*')
+        return word
+
     # takes in list of words in corpus and returns a search tree 
     def makePossFills(wordList): 
-        possFills = collections.defaultdict(dict)
+        possFills = collections.defaultdict(list)
+        # print wordList
         for word in wordList:
-            key = word.find('*')
-            if key != -1: 
-                char = word[key]
-                possFills[str(key)][char].append(word)
-
+            word = unvowel(word)
+            # print word, len(word)
+            index = word.find('*')
+            # print len(word), key
+            if index != -1:
+                key = str(index) 
+                possFills[key].append(word)
+                # char = word[key]
+                # possFills[str(key)][char].append(word)
+        # print len(possFills)
+        print len(possFills)
         return possFills
 
-
+    possFills = makePossFills(unigrams)
+    # print possFills 
 
     def bigramModel(a, b):
         return math.log(bitotalCounts[a] + VOCAB_SIZE) - math.log(bigramCounts[(a, b)] + 1)
 
-    return bigramModel, makePossFills(sorted(unigrams))
+    return bigramModel, possFills
+
+path = 'corpus/'
+makeLanguageModels(path)
 
 def logSumExp(x, y):
     lo = min(x, y)
