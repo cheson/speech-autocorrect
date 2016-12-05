@@ -66,20 +66,29 @@ def findPossibleFills(query, possibleFills):
         return result
     else:
         key = str(index)
-        for word in possibleFills[key]: 
-            if removeVowels(word) == query:
-                result.add(word)
+        for word in possibleFills[key]:
+            # print word 
+            if replaceVowels(word) == query:
+                # print word
+                result.append(word)
+
+
+    print result
 
     return result
 
-def removeVowels(word): 
-    return word.translate('aeiouy')
+def replaceVowels(word): 
+    for ch in word: 
+        if ch in 'aeiouy':
+            word = word.replace(ch, '*')
+    return word
 
 def insertVowels(queryWords, bigramCost, possibleFills):
+    # print queryWords
     # BEGIN_YOUR_CODE (our solution is 3 lines of code, but don't worry if you deviate from this)
-    ucs = searchProblem.UniformCostSearch(verbose=0)
+    ucs = searchProblem.UniformCostSearch(verbose=1)
     ucs.solve(VowelInsertionProblem(queryWords, bigramCost, possibleFills))
-    #print ' '.join(ucs.actions)
+    # print ' '.join(ucs.actions)
     return ucs.actions
     #raise Exception("Not implemented yet")
     # END_YOUR_CODE

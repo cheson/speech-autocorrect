@@ -74,9 +74,9 @@ def makeLanguageModels(path):
         possFills = collections.defaultdict(list)
         # print wordList
         for word in wordList:
-            word = unvowel(word)
+            test = unvowel(word)
             # print word, len(word)
-            index = word.find('*')
+            index = test.find('*')
             # print len(word), key
             if index != -1:
                 key = str(index) 

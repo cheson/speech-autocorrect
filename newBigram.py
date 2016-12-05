@@ -25,9 +25,3 @@ def run(query, bigramCost, possibleFills):
 	queryList = query.split()
 	pred = states.insertVowels(queryList, bigramCost, possibleFills)
 	return pred	
-
-# query = sys.argv[1]
-# print run(query)
-
-
-
