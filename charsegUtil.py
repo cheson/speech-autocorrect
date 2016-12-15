@@ -22,7 +22,7 @@ def cleanLine(l):
 # Creates character n-grams. of form ['a', 'b', 'c', 'd']. and ['BEGIN', 'a', 'b', 'c']
 # Note that the other cases (e.g. ['BEGIN', 'BEGIN', 'a', 'b']) are handled by earlier n-grams
 
-def make_char_nGrams(path, numChars): 
+def make_nGramCost(path, numChars): 
     ngramCounts = collections.Counter()
     ntotalCounts = collections.Counter()
     VOCAB_SIZE = 600000
@@ -31,14 +31,6 @@ def make_char_nGrams(path, numChars):
 
     def ngramWindow(win, numChars):
         
-        # if len(win) == 1:
-        #     print "len(win) == 1", win
-        #     lst = [SENTENCE_BEGIN] 
-        #     for i in range(numChars-2):
-        #         lst.append(SENTENCE_BEGIN)
-        #     lst.append(win[0])
-        #     return tuple(lst)
-        # else:
         if len(win) == (numChars-1): 
             lst = [SENTENCE_BEGIN]
             for i in range(numChars-1):
@@ -50,7 +42,7 @@ def make_char_nGrams(path, numChars):
             return tuple(win)
 
         else:
-            return None
+            return ('\x00', '\x00', '\x00')
 
     for subdir, dirs, files in os.walk(path):
         for filename in files:
@@ -61,14 +53,67 @@ def make_char_nGrams(path, numChars):
                     words = line.split()
                     for word in words: 
                         ngrams = [ngramWindow(x, numChars) for x in sliding(word, numChars)]
-                        # print ngrams
                         ngramCounts.update(ngrams)
+                        ntotalCounts.update([x[0] for x in ngrams])
                 
 
-    
-    print ngramCounts
+    def ngramModel(word, index):
+        assert index < len(word)
 
-def make_ngramCosts(ngrams): 
+        ngrams = [ngramWindow(x, numChars) for x in sliding(word[index-2:index+2], numChars)]
+        char = word[index]
+
+
+        ngramScore = 0
+        for item in ngrams: 
+            ngramScore += ngramCounts[item]
+
+        return math.log(ntotalCounts[char] + VOCAB_SIZE) / 2 + math.log(ngramScore + 1)
+
+
+    # do something with ntotal counts 
+    return ngramModel
+
+
+# make bigram
+def make_bigramCost(path):
+    unigrams = set([])
+    totalCounts = 0
+    bigramCounts = collections.Counter()
+    bitotalCounts = collections.Counter()
+    VOCAB_SIZE = 600000
+    LONG_WORD_THRESHOLD = 5
+    LENGTH_DISCOUNT = 0.15
+
+    def bigramWindow(win):
+        assert len(win) in [1, 2]
+        if len(win) == 1:
+            return (SENTENCE_BEGIN, win[0])
+        else:
+            return tuple(win)
+
+    # bigramCost = collections.defaultdict(list)
+
+    for subdir, dirs, files in os.walk(path):
+        for filename in files:
+            filePath = subdir + '/' + filename
+            with open(filePath, 'r') as f:
+                for l in f:
+                    ws = cleanLine(l).split()
+                    unigrams.update(x[0] for x in sliding(ws, 1))
+                    bigrams = [bigramWindow(x) for x in sliding(ws, 2)]
+                    # totalCounts += len(unigrams)
+                    # unigramCounts.update(unigrams)
+                    bigramCounts.update(bigrams)
+                    bitotalCounts.update([x[0] for x in bigrams])
+
+
+    def bigramModel(a, b):
+        return math.log(bitotalCounts[a] + VOCAB_SIZE) - math.log(bigramCounts[(a, b)] + 1)
+
+    return bigramModel
+
+# def make_ngramCosts(ngrams): 
     # to figure out how to cost the ngram
 
 def make_corpus(path):
@@ -97,9 +142,6 @@ def make_possibleFills(word, corpus):
                 numVowels += 1
         return word, numVowels
 
-
-    
-
     def fillHelper(word, wordIndex, corpus, result):
         if wordIndex == len(word): 
             if word in corpus:
@@ -120,23 +162,43 @@ def make_possibleFills(word, corpus):
     word, numVowels = unvowel(word)
     fillHelper(word, 0, corpus, result)
 
+    print "possFills: ", result
     return result
 
-    
+### Vowel removal to make inverse dictionary  
+
+def removeAll(s, chars):
+    return ''.join(filter(lambda c: c not in chars, s))
 
 
+def makeInverseRemovalDictionary(corpus, removeChars):
+    wordsRemovedToFull = collections.defaultdict(set)
+
+    for word in corpus: 
+        wordsRemovedToFull[removeAll(word, removeChars)].add(word)
+
+    wordsRemovedToFull = dict(wordsRemovedToFull)
+    empty = set()
+
+    def possibleFills(short):
+        return wordsRemovedToFull.get(short, empty)
+
+    return possibleFills
 
 
-
-    # combine all characters 
-    # if combination is valid, add to list
-            
-
-path = "corpus/"
-# make_char_nGrams(path, 3)
-corpus = make_corpus(path)
+# path = "corpus/"
+# ngramCost = make_nGramCost(path, 3)
+# print ngramCost("nosotros", 0)
+# print ngramCost("nosotros", 1)
+# print ngramCost("nosotros", 2)
+# print ngramCost("nosotros", 3)
+# print ngramCost("nosotros", 4)
+# print ngramCost("nosotros", 5)
+# print ngramCost("nosotros", 6)
+# print ngramCost("nosotros", 7)
+# corpus = make_corpus(path)
 # print corpus, len(corpus)
-make_possibleFills('enferma', corpus)
+# make_possibleFills('enferma', corpus)
 
 
 
