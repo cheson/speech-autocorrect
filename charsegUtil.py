@@ -3,6 +3,7 @@ import collections, os, math, string
 
 SENTENCE_BEGIN = '-BEGIN-'
 VOWELS = 'aeiou'
+MAX_WORDLENGTH = 12
 
 def sliding(xs, windowSize):
     for i in xrange(1, len(xs) + 1):
@@ -159,10 +160,12 @@ def make_possibleFills(word, corpus):
 
 
     result = []
+    if len(word) > MAX_WORDLENGTH: 
+        return result
     word, numVowels = unvowel(word)
     fillHelper(word, 0, corpus, result)
 
-    print "possFills: ", result
+    # print "possFills: ", result
     return result
 
 ### Vowel removal to make inverse dictionary  
