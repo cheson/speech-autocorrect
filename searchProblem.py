@@ -65,7 +65,7 @@ class UniformCostSearch(SearchAlgorithm):
                 self.actions = []
                 for word in words: 
                     for ch in word: 
-                        if ch in 'aeiouy*':
+                        if ch in 'aeiou':
                             self.actions.append(ch)
                 self.totalCost = pastCost
                 if self.verbose >= 1:
