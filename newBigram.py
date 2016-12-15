@@ -14,7 +14,6 @@ This file returns BigramCost and PossibleFills as global variables
 ######################
 
 def getRealCosts(path):
-    print 'Done!'
     return wordsegUtil.makeLanguageModels(path)
 
 # bigramCost, possibleFills = getRealCosts()
@@ -26,9 +25,3 @@ def run(query, bigramCost, possibleFills):
 	queryList = query.split()
 	pred = states.insertVowels(queryList, bigramCost, possibleFills)
 	return pred	
-
-# query = sys.argv[1]
-# print run(query)
-
-
-

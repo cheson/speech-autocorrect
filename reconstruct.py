@@ -1,4 +1,6 @@
 import subprocess
+import os
+from cutWavFiles import ProcessAlignments
 
 
 class Reconstruct():
@@ -9,7 +11,7 @@ class Reconstruct():
         self.temporaryWav = self.temporaryOutput + 'temp.wav'
         self.tempConcatWav = self.temporaryOutput + 'concat.wav'
         
-        self.replacementVowelLocation = os.getcwd() + ## FILL THIS IN!! ##
+        self.replacementVowelLocation = os.getcwd() + '/data/perfect_vowels/'
         self.vowels = ['a', 'e', 'i', 'o', 'u', 'y']
     
     
@@ -26,9 +28,9 @@ class Reconstruct():
         subprocess.call(concatCommand)
         
         
-    def getReplacementWav(vowel):
-        ## FILL THIS IN!!! ##
-        perfectVowel = '/data/perfect_vowels/' + vowel +'.wav'
+    def getReplacementWav(self, vowel):
+        # FILL THIS IN!!!
+        perfectVowel = self.replacementVowelLocation + vowel +'.wav'
         
         # look at all the files in the directory 
         
@@ -47,7 +49,7 @@ class Reconstruct():
         
         for i in range(len(replacements)):
             vowel = replacements[i]
-            replacementWav = getReplacementWav(vowel)
+            replacementWav = self.getReplacementWav(vowel)
             
             startEnd = vowelsStartEnd[i]
             start = startEnd[1]*0.001 # to seconds
@@ -55,6 +57,6 @@ class Reconstruct():
             
             originalWavFile = '/data/audio/' + filePrefix + 'PCGITA.wav'
 
-            reconstruct(originalWavFile, currEnd, start, replacement, finalConcatWav)
+            self.reconstruct(originalWavFile, currEnd, start, vowel, finalConcatWav)
             
             currEnd = end

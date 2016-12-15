@@ -56,16 +56,22 @@ class UniformCostSearch(SearchAlgorithm):
 
             # Check if we've reached an end state; if so, extract solution.
             if problem.isEnd(state):
-                self.actions = []
+                words = []
                 while state != startState:
                     action, prevState = backpointers[state]
-                    self.actions.append(action)
+                    words.append(action)
                     state = prevState
-                self.actions.reverse()
+                words.reverse()
+                self.actions = []
+                for word in words: 
+                    for ch in word: 
+                        if ch in 'aeiouy*':
+                            self.actions.append(ch)
                 self.totalCost = pastCost
                 if self.verbose >= 1:
                     print "numStatesExplored = %d" % self.numStatesExplored
                     print "totalCost = %s" % self.totalCost
+                    print "words = %s" % words
                     print "actions = %s" % self.actions
                 return
 

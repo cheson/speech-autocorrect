@@ -100,7 +100,7 @@ class ProcessAlignments():
                 soxCommand = ['sox', os.getcwd()+'/data/audio/'+inputWavName , os.getcwd()+'/data/cut/'+outputWavName, 'trim', str(start), str(abs(start-end))]
                 subprocess.call(soxCommand)
 
-        print 'Done cutting wav files'
+        print ('Done cutting wav files')
 
 
     # Produce strings with all the vowels as '*'s
@@ -120,7 +120,7 @@ class ProcessAlignments():
             stringsToProcess[filePrefix] = toProcess
 
         return stringsToProcess
-        print 'Done outputting strings'
+        print ('Done outputting strings')
 
 
 

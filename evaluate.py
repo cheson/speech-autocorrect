@@ -49,9 +49,11 @@ def text_to_vector(text):
 
 def main(wavFile, transcript, monologueName):
     """Transcribe the given audio file.
-
     Args:
         speech_file: the name of the audio file.
+        wavFile: wav file
+        transcript: original text 
+        monologueName: filePrefix
     """
         ##############################################
     transcriptOne = ''
@@ -119,6 +121,8 @@ def main(wavFile, transcript, monologueName):
     f.write('resulting text: ' + transcriptOne + '\n')
     f.write('Cosine similarity: ' + cosine)
     f.write('\n')
+
+    return cosine
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
