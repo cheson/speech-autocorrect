@@ -1,0 +1,702 @@
+/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/alyssa/Desktop/CS221/speech-autocorrect/reconstruct.py
+ascii
+made bigramCost
+made corpus
+working on  022_monologue_
+ p**s j*m*l**nt*m**t*mpr*n* p*rc* j* p**s*st*jb*j*nd*c*nm*m*m* *l* c******s*n*p*rs*n*d* n**nt**d*s**s **nt*n*s p**s**l*s*f*j*sl*m*sr*p**t*c*p*** p*rc* j* c*s**nm*c*s* **nt*n*s m*d**d**f*n*rm*t* p*rl*c*c*m* m*r*nd*m*n*s j* **r m*sl**r*sc**j* pr*m*r* *nt*n*s xm t*g*c* p**sm*r**m*t* *tr**x**st*m**t*r* p*rc*st*j*ns*nd*l*c*s**d*ltr**x* t***ld** r*** b*st*nt* c*n g*st*
+segmented and inserted in time:  112.189559937
+['i', 'e', 'e', 'u', 'o', 'a', 'o', 'e', 'a', 'e', 'a', 'a', 'a', 'o', 'a', 'u', 'e', 'e', 'o', 'a', 'a', 'o', 'o', 'i', 'a', 'a', 'a', 'a', 'i', 'a', 'e', 'e', 'e', 'e', 'u', 'a', 'e', 'o', 'a', 'o', 'o', 'e', 'i', 'a', 'o', 'e', 'a', 'a', 'e', 'a', 'o', 'i', 'e', 'a', 'u', 'a', 'u', 'i', 'o', 'o', 'o', 'a', 'o', 'e', 'e', 'a', 'i', 'e', 'a', 'a', 'o', 'a', 'e', 'a', 'i', 'a', 'a', 'a', 'a', 'e', 'a', 'o', 'e', 'i', 'a', 'a', 'a', 'i', 'a', 'a', 'a', 'e', 'u', 'e', 'o', 'o', 'i', 'a', 'o', 'i', 'a', 'a', 'o', 'i', 'u', 'o', 'a', 'o', 'i', 'a', 'a', 'e', 'u', 'a', 'a', 'e', 'a', 'e', 'o', 'a', 'u', 'e', 'i', 'a', 'a', 'i', 'a', 'o', 'a', 'e', 'a', 'e', 'i', 'a', 'o', 'e', 'o', 'o', 'o', 'a', 'a', 'o', 'a', 'a', 'a', 'a', 'i', 'u', 'a', 'e', 'a', 'e', 'a', 'a', 'e', 'a', 'i', 'a', 'u', 'a', 'a', 'e', 'e', 'a', 'a']
+165
+165
+done reconstructing  022_monologue_
+working on  068_monologue_
+*j b**t*g*m*sp**st*sc**nb*s b*s b*j*c**tr*c*s**rj*tr*c*s*tr**x*c*n**sd* d*l*c** *nt*n*st*g*m* m*tj*mp*m**c*p** j*s*j j*t**l*b**j*j*s*j x**l** f****s*lj*rd***nt*l*x**x*nj*st* *m*d**c**l*s*r*s*j*l*s *nt*n*st*g* j*t*g*m*s*x*s j* bj*n*nd*p*ndj*nt*s * *nt*n*sb**s*l**nt*n*s m* d**c**l*s*r*s s*j*l*s gr*j*s**st* 
+segmented and inserted in time:  73.4821329117
+['i', 'o', 'a', 'o', 'o', 'a', 'u', 'e', 'a', 'a', 'e', 'i', 'i', 'a', 'e', 'u', 'a', 'o', 'o', 'a', 'i', 'e', 'a', 'a', 'o', 'a', 'e', 'a', 'o', 'o', 'e', 'e', 'e', 'i', 'i', 'a', 'o', 'e', 'i', 'a', 'a', 'a', 'a', 'u', 'o', 'o', 'o', 'u', 'e', 'a', 'o', 'e', 'o', 'a', 'e', 'o', 'o', 'e', 'e', 'o', 'e', 'e', 'e', 'i', 'o', 'u', 'e', 'e', 'e', 'i', 'o', 'i', 'u', 'a', 'e', 'e', 'a', 'i', 'i', 'u', 'a', 'a', 'a', 'e', 'o', 'i', 'e', 'o', 'i', 'u', 'o', 'a', 'a', 'e', 'o', 'i', 'e', 'o', 'e', 'a', 'e', 'a', 'e', 'i', 'a', 'a', 'a', 'a', 'o', 'u', 'a', 'a', 'a', 'e', 'a', 'e', 'u', 'o', 'e', 'a', 'e', 'a', 'a', 'a', 'o', 'i', 'e', 'o', 'a', 'o', 'o', 'a', 'a', 'a', 'a', 'i', 'e', 'a']
+138
+138
+done reconstructing  068_monologue_
+working on  002_monologue_
+ * p**sj*m*l**nt* m*b** ***lt*nt* d*sp**sm*d*s*j*n* *d*sp**sm*p*g***rm*s*f*j*s *r*l*rl*c*s**r*l *lm**r* *j* **b*j*l**m*nsj* b*j*l* *l**rd*l*sr*c**r*s s*s* s* s* j* b*j** p*rc*j*m**m**m*t* * n*sb*n**r*np*s***lb*jnt**s m*n*c*n* n* l*c*mbj*r*nj* s*m*sm*t*s *j*tr*s pr*f*s*r*sm*sn***s *j* m**m**m*t* * *pj*p*rc*j*b*****rc*t* b***lfr*nt*d*l *l*f*nd*j*nd*lp*l** j***l*sm*rt*sp*r***r*l*pr*f*s*r**st*p*s**nd* *n*t* 
+segmented and inserted in time:  90.3344180584
+['a', 'i', 'e', 'e', 'u', 'o', 'a', 'e', 'a', 'e', 'a', 'a', 'i', 'a', 'a', 'o', 'e', 'u', 'e', 'i', 'e', 'a', 'e', 'a', 'i', 'e', 'u', 'e', 'e', 'e', 'a', 'o', 'i', 'e', 'u', 'i', 'o', 'e', 'o', 'e', 'o', 'e', 'a', 'o', 'a', 'o', 'o', 'e', 'a', 'a', 'o', 'a', 'i', 'a', 'o', 'a', 'a', 'a', 'a', 'a', 'o', 'a', 'a', 'e', 'e', 'a', 'a', 'e', 'i', 'a', 'a', 'o', 'a', 'a', 'a', 'a', 'a', 'o', 'o', 'a', 'o', 'o', 'e', 'a', 'o', 'a', 'i', 'a', 'a', 'o', 'o', 'o', 'e', 'a', 'a', 'a', 'o', 'a', 'o', 'i', 'e', 'o', 'i', 'a', 'a', 'o', 'u', 'a', 'u', 'a', 'a', 'e', 'o', 'a', 'a', 'a', 'o', 'a', 'o', 'e', 'e', 'a', 'u', 'e', 'o', 'a', 'a', 'o', 'e', 'a', 'a', 'a', 'i', 'a', 'a', 'u', 'u', 'e', 'e', 'a', 'e', 'a', 'a', 'o', 'i', 'a', 'a', 'e', 'u', 'a', 'e', 'e', 'e', 'o', 'o', 'e', 'e', 'a', 'o', 'e', 'e', 'a', 'e', 'a', 'u', 'a', 'a', 'e', 'a', 'e', 'a', 'a', 'e', 'a', 'o', 'e', 'u', 'o', 'e', 'e', 'a', 'e', 'a', 'o', 'a', 'i', 'a']
+187
+187
+done reconstructing  002_monologue_
+working on  044_monologue_
+ j*m*l**nt*t*p*d*sd*l*m**n* **t*r*pj*st*l*sc**tr**c*d*l*m**n*m*s*m*n*s l***m*b*jm*t*m*l*dr** *r*l**ld*s*j*n* *m**m**sp*s* p*r*c*s*b*j*tr**x*r l*d*sp*t*c*n l*l*nt*r* l***m*c**r*n**nd*l*c*s* l*** *r**ln**j* tr**x**nr*t**st*c* l*sf**r*sm**j**n l***j*r* m*b*j*lm*r*r* d*nd*m*m*m**l***t*r*pj* *m*p*p* c* *s *mb*l** l*****l*sj*st* *r*r*s**m*c*s**r *l*n*sc*s*t*s * * r*p*rl*l*c*m** m*s**r*p*r*c**nd*** *l*st**j*c**nd***n*s*c*st*m*s*d*rm*r *tr*b* c*m** l*d*p*rl*n*t* *s* m**s*n** *n*nd*t* *n*r*p*c*n c*n*** g**t*s c*s*s*n**s s*m*c*nt**r*c*t*fr*x*l*s s***d* p** p**sm*s**r*l*c*nt*n 
+segmented and inserted in time:  186.413691044
+['e', 'u', 'o', 'a', 'o', 'a', 'a', 'a', 'i', 'e', 'a', 'a', 'a', 'a', 'u', 'o', 'a', 'u', 'o', 'o', 'u', 'a', 'o', 'a', 'u', 'o', 'a', 'i', 'a', 'e', 'a', 'e', 'a', 'a', 'e', 'u', 'a', 'a', 'a', 'e', 'e', 'o', 'i', 'e', 'o', 'a', 'e', 'a', 'e', 'o', 'a', 'e', 'a', 'a', 'o', 'a', 'o', 'e', 'a', 'a', 'a', 'e', 'e', 'a', 'a', 'o', 'a', 'e', 'a', 'i', 'e', 'a', 'o', 'o', 'a', 'e', 'e', 'a', 'e', 'u', 'a', 'o', 'a', 'e', 'u', 'i', 'e', 'o', 'a', 'a', 'a', 'e', 'a', 'a', 'e', 'i', 'a', 'i', 'a', 'o', 'a', 'e', 'e', 'e', 'i', 'i', 'e', 'o', 'a', 'a', 'i', 'e', 'a', 'e', 'a', 'a', 'e', 'e', 'u', 'a', 'u', 'a', 'a', 'u', 'o', 'i', 'a', 'a', 'a', 'o', 'e', 'o', 'u', 'e', 'a', 'a', 'u', 'o', 'a', 'a', 'a', 'o', 'a', 'a', 'a', 'a', 'u', 'o', 'e', 'a', 'e', 'a', 'a', 'a', 'u', 'a', 'u', 'a', 'a', 'a', 'e', 'e', 'o', 'a', 'a', 'a', 'a', 'i', 'o', 'e', 'o', 'o', 'a', 'a', 'a', 'u', 'e', 'o', 'o', 'o', 'o', 'a', 'e', 'e', 'i', 'u', 'a', 'e', 'i', 'e', 'o', 'a', 'a', 'i', 'o', 'i', 'a', 'a', 'a', 'i', 'i', 'o', 'u', 'a', 'i', 'e', 'a', 'o', 'a', 'o', 'i', 'e', 'a', 'o', 'o', 'o', 'a', 'a', 'o', 'e', 'a', 'a', 'a', 'a', 'i', 'e', 'a', 'e', 'e', 'a', 'u', 'a', 'a', 'e', 'e', 'e', 'o', 'i', 'a', 'e', 'o', 'i', 'a', 'a', 'i', 'a', 'o', 'a', 'u', 'a', 'e', 'i', 'a', 'e', 'u', 'a', 'a', 'a', 'o', 'i', 'a', 'a', 'e', 'u', 'a', 'a', 'i', 'e', 'i', 'e', 'e', 'e', 'a', 'e', 'a', 'a', 'a']
+277
+277
+done reconstructing  044_monologue_
+working on  055_monologue_
+ *jm* **nt**n*g*t*c*m*d*spj*rt*p*rl*m**n*t**sl*sd**sc*n*m*d*x**rl* bj*n *l*s*c*d*l*m**n***c*m**nr*l*x j*d*sp**sm*b*x**l*r*lp*rj**c* d*s*j*n* d*s*j*n* m*b*jm**r*n** p**sm*b***j*m**r*n**c*m*p*r**rm* *l*x*mn*sj*b*x**l**n**rs***pj* d*sp**sj*m*s** b***c**npr***c*d*s **r*t*sd**c* j*d*sp**s m**c**st*t*p*n**m*j*d**d*l*n*t* m*p*g*m*m*t**nr*t*c***nt*rn** c*mb*rs*c*n*n**rm*n*c*n**st*m*t***nt*n*sc*mb*rs*m*s*nr*t*p*rl*n*t* **cr*t**b**t*l**sj*np*r*x**j*c**nd*m*d*s***m**c**st* n*s*tr*sb*m*s *st*pr*r*m***rt**l*s*m*n* p*r*j*p*rl*x*n*r*lb*jtr*sd**s*l tr*s d**s*l*s*m*n* *j*rl*sl*n*s**n*n*ct***l*sm*rt*s*tr*sp**s*nb*rj**s j*b*jm*sc*t**l*s mj*rc*l*s m*rt*s mj*rc*l*s*bj*rn*sc* *sl*ct****n*l*** p**sl*sb*c*j*n*sl*m*zm**d*pr*nt*m*b*jc*m***n* *c*t* j* c*m**p*s*rn*s *l tj*mp*** 
+segmented and inserted in time:  478.345734119
+['i', 'a', 'a', 'e', 'a', 'u', 'a', 'a', 'a', 'o', 'i', 'a', 'e', 'a', 'a', 'e', 'a', 'e', 'o', 'e', 'i', 'a', 'i', 'o', 'o', 'a', 'o', 'i', 'i', 'i', 'o', 'a', 'e', 'e', 'o', 'a', 'i', 'e', 'a', 'e', 'e', 'a', 'o', 'o', 'o', 'u', 'e', 'a', 'o', 'e', 'u', 'e', 'e', 'o', 'e', 'o', 'o', 'o', 'e', 'e', 'e', 'o', 'e', 'e', 'u', 'o', 'e', 'e', 'u', 'o', 'a', 'a', 'u', 'e', 'a', 'a', 'a', 'u', 'e', 'e', 'e', 'u', 'a', 'o', 'u', 'e', 'a', 'a', 'i', 'o', 'o', 'a', 'a', 'a', 'a', 'a', 'e', 'u', 'o', 'e', 'o', 'e', 'o', 'e', 'o', 'a', 'i', 'e', 'a', 'u', 'a', 'e', 'u', 'e', 'e', 'u', 'e', 'o', 'e', 'a', 'a', 'i', 'e', 'e', 'o', 'a', 'u', 'e', 'a', 'i', 'a', 'a', 'e', 'e', 'o', 'o', 'e', 'i', 'e', 'a', 'i', 'a', 'e', 'e', 'i', 'o', 'e', 'o', 'o', 'a', 'o', 'o', 'i', 'a', 'i', 'a', 'a', 'a', 'e', 'a', 'e', 'e', 'e', 'a', 'i', 'o', 'u', 'a', 'o', 'e', 'o', 'o', 'a', 'a', 'a', 'u', 'o', 'i', 'a', 'a', 'e', 'u', 'e', 'a', 'u', 'u', 'a', 'a', 'e', 'a', 'o', 'a', 'e', 'o', 'e', 'i', 'a', 'a', 'e', 'a', 'a', 'a', 'i', 'e', 'a', 'o', 'o', 'e', 'u', 'i', 'o', 'a', 'e', 'i', 'a', 'o', 'o', 'u', 'a', 'o', 'e', 'e', 'e', 'e', 'a', 'o', 'a', 'u', 'e', 'a', 'o', 'o', 'a', 'a', 'a', 'e', 'o', 'e', 'o', 'e', 'o', 'i', 'e', 'a', 'a', 'e', 'a', 'a', 'a', 'e', 'i', 'e', 'a', 'u', 'i', 'a', 'o', 'a', 'i', 'o', 'a', 'a', 'i', 'o', 'a', 'a', 'e', 'a', 'a', 'i', 'i', 'o', 'i', 'a', 'u', 'e', 'e', 'a', 'a', 'a', 'u', 'a', 'a', 'e', 'o', 'o', 'u', 'e', 'u', 'a', 'o', 'e', 'e', 'a', 'a', 'o', 'a', 'a', 'a', 'e', 'a', 'a', 'a', 'e', 'e', 'o', 'o', 'o', 'i', 'o', 'a', 'i', 'a', 'a', 'a', 'i', 'a', 'u', 'a', 'a', 'a', 'u', 'e', 'o', 'a', 'o', 'o', 'a', 'i', 'o', 'i', 'e', 'o', 'o', 'o', 'e', 'a', 'o', 'o', 'a', 'u', 'a', 'a', 'a', 'o', 'a', 'a', 'i', 'o', 'e', 'i', 'o', 'a', 'u', 'i', 'e', 'a']
+357
+357
+done reconstructing  055_monologue_
+working on  016_monologue_
+ m n**n*nd**c*m*n*c*rj*nt*n**st*j*nl*c*s*m*l**nt*p*r***l*s*t**m*j*d*l*m**n* * m*t*m*m*t*nt* * * c*mj*n* m*b***c*mj*n*m*sl**r*sd*b* d* d*ld** m*p*g**j**r*r*l*rl*c*s*tr*p**rb*r*r *j* j*n*m*s ***rm*nd**sc**nd*p*** 
+segmented and inserted in time:  99.3403959274
+['o', 'e', 'i', 'i', 'a', 'o', 'u', 'i', 'a', 'u', 'a', 'o', 'e', 'e', 'a', 'o', 'a', 'a', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'e', 'e', 'a', 'e', 'a', 'o', 'a', 'i', 'e', 'a', 'a', 'a', 'a', 'a', 'e', 'e', 'o', 'a', 'a', 'a', 'a', 'o', 'u', 'o', 'a', 'e', 'a', 'a', 'o', 'u', 'o', 'u', 'o', 'a', 'o', 'a', 'a', 'a', 'a', 'e', 'a', 'e', 'e', 'a', 'o', 'e', 'a', 'e', 'o', 'e', 'o', 'e', 'a', 'a', 'a', 'o', 'e', 'a', 'a', 'o', 'a', 'a', 'a', 'a', 'i', 'a', 'a', 'o', 'a', 'i', 'e', 'e', 'i', 'e', 'a']
+100
+100
+done reconstructing  016_monologue_
+working on  076_monologue_
+ p*r* p*r** c*nt*m*c*l*c* **st*nt**nl*c*s* * j* **p*r* p*r** xm g*n*l* g*n*l*m* xm g*n*l*m* r**l* tr*m*nd* tr*m*nd*r*l*xm xm p*r**c*m* *nt*p***n*r* s* * l* c*rn* s* n* m*r**n*s*p***p*rc*n*t*g*dj*nt*s * n* xm xm * * s* l* l*t*p* m*g*st* m* g*st* m*t* xm 
+segmented and inserted in time:  37.6499462128
+['a', 'a', 'a', 'e', 'a', 'a', 'a', 'e', 'e', 'i', 'a', 'i', 'o', 'e', 'o', 'e', 'a', 'e', 'a', 'a', 'a', 'a', 'i', 'a', 'a', 'a', 'e', 'a', 'a', 'o', 'o', 'a', 'o', 'e', 'a', 'a', 'o', 'e', 'a', 'e', 'a', 'o', 'e', 'e', 'a', 'e', 'e', 'a', 'e', 'a', 'a', 'e', 'a', 'a', 'a', 'a', 'o', 'u', 'e', 'e', 'e', 'o', 'a', 'a', 'a', 'a', 'e', 'a', 'o', 'a', 'i', 'a', 'o', 'u', 'i', 'e', 'a', 'a', 'a', 'a', 'o', 'a', 'u', 'o', 'a', 'o', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'e', 'u', 'a', 'a', 'a', 'a', 'a', 'a']
+101
+101
+done reconstructing  076_monologue_
+working on  035_monologue_
+ p**s**r**st**c*p** *lt*m*m*nt*p*rc* m*nt*m*s*n**j*d*r*p*s*nt*n*sm* l*p*s*p*r*r***p*r**x* p**s *n m* m*c*r* j* p*r**r*n*p***m*n*x*rp**s p*r**r*n*p***m*n*x*r **m*s*st***j*nd**n* *t*c*p**sp*rl*sm**n*s*p*rl*st*r*s*st*jm***c*p**p*rc* m*t*c**rm*c*n*tr*s*r*n**n*tr* **r*tr*s *tr*s*n*sd*m**lj*s * tr**x*m*t*c*tr**x*r*nl*n*t*nt*n*s *n*ld**m*l*p*s**nl*c**st*j*nl*c***lt*m*m*nt* t***ld** n*s*jm***m*nt*d*l*t*l**sj*n p*r*s**nb**sc**nd*p***b**d*sc**r* m*g*st*nm*t*l*sd*c*m*nt*l*s m*g*st*m*t**ld*p*rt* d* d*nd*c*n**c*d* d*nd*c*n***m**sp*s* * *c**nm***n** *sd**np**l**m**t*rs*c*n*sm*nt*m*sp*r** pj*ns*p**s ***m*sm*t*p*r**t*mbj*n c**c**j*p*rt*n**n*sb*m*sp*r***n*f*c*c**j c** n* d*s*r*t*s*m*j* d**c*p**sp*rl*sl**sd*p**l*r*c* t**r**np**l*t*p*c**m**t*r*st*c* m*t*sf*c*s p**sj* **c*l*r *m*m*p*r*j*p**sp*r*m***c*l*r m*p*r**p**sm**t**r**np**l*t* p*c**m**t**r* 
+segmented and inserted in time:  437.602553844
+['u', 'u', 'u', 'a', 'i', 'a', 'e', 'a', 'a', 'a', 'e', 'u', 'i', 'a', 'e', 'e', 'a', 'o', 'o', 'a', 'o', 'i', 'o', 'o', 'e', 'a', 'o', 'a', 'a', 'e', 'a', 'a', 'o', 'e', 'e', 'a', 'e', 'e', 'o', 'o', 'e', 'a', 'e', 'a', 'i', 'e', 'e', 'a', 'i', 'a', 'a', 'a', 'a', 'a', 'i', 'i', 'o', 'i', 'a', 'a', 'e', 'e', 'a', 'u', 'e', 'a', 'a', 'i', 'i', 'o', 'i', 'a', 'a', 'e', 'i', 'a', 'a', 'i', 'u', 'i', 'e', 'e', 'e', 'a', 'i', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'e', 'a', 'e', 'u', 'e', 'o', 'o', 'i', 'o', 'e', 'i', 'o', 'e', 'a', 'o', 'u', 'e', 'a', 'a', 'a', 'a', 'i', 'e', 'i', 'a', 'a', 'a', 'a', 'e', 'o', 'e', 'o', 'i', 'a', 'o', 'i', 'o', 'a', 'a', 'a', 'o', 'o', 'a', 'i', 'e', 'e', 'a', 'a', 'e', 'a', 'i', 'a', 'e', 'o', 'e', 'a', 'o', 'i', 'a', 'a', 'o', 'o', 'a', 'a', 'a', 'o', 'u', 'o', 'o', 'e', 'e', 'e', 'u', 'e', 'a', 'a', 'e', 'a', 'e', 'u', 'i', 'a', 'e', 'e', 'e', 'a', 'a', 'e', 'a', 'i', 'a', 'a', 'a', 'u', 'e', 'a', 'o', 'a', 'u', 'i', 'o', 'a', 'e', 'a', 'u', 'a', 'a', 'a', 'i', 'e', 'e', 'u', 'e', 'o', 'o', 'e', 'e', 'a', 'i', 'o', 'e', 'u', 'a', 'e', 'a', 'e', 'o', 'u', 'e', 'a', 'e', 'i', 'a', 'o', 'a', 'e', 'e', 'e', 'o', 'e', 'a', 'e', 'e', 'e', 'i', 'o', 'a', 'a', 'e', 'e', 'e', 'i', 'o', 'a', 'o', 'e', 'a', 'a', 'a', 'a', 'i', 'e', 'e', 'a', 'e', 'e', 'a', 'e', 'e', 'u', 'a', 'o', 'o', 'a', 'o', 'a', 'a', 'e', 'i', 'e', 'o', 'a', 'o', 'a', 'e', 'a', 'a', 'a', 'o', 'e', 'e', 'e', 'e', 'i', 'i', 'o', 'i', 'u', 'e', 'a', 'a', 'u', 'e', 'e', 'a', 'o', 'o', 'e', 'a', 'u', 'o', 'a', 'u', 'a', 'e', 'a', 'i', 'e', 'i', 'a', 'i', 'a', 'a', 'e', 'o', 'e', 'e', 'e', 'a', 'e', 'e', 'a', 'a', 'o', 'a', 'e', 'a', 'e', 'a', 'u', 'i', 'e', 'i', 'e', 'a', 'o', 'a', 'u', 'e', 'o', 'e', 'i', 'e', 'e', 'i', 'a', 'a', 'u', 'a', 'u', 'o', 'a', 'a', 'o', 'u', 'i', 'i', 'u', 'i', 'e', 'a', 'a', 'i', 'a', 'o', 'a', 'o', 'i', 'a', 'e', 'a', 'u', 'e', 'a', 'a', 'e', 'a', 'o', 'u', 'a', 'a', 'a', 'e', 'a', 'i', 'e', 'a', 'i', 'e', 'e', 'a', 'u', 'i', 'e', 'a', 'a', 'o', 'o', 'a', 'e', 'a', 'a', 'u', 'o']
+406
+406
+done reconstructing  035_monologue_
+working on  100_monologue_
+ tr**x* *s***f*j* b**n***f*j* * c*nt* m*c*nt*c*nt*rm*c*nt*b*jl*r r*sp*r*j*n*r*n**c*s* **d*c*m*r b*s*t*m*m*m* d*sc*ns*b**t*l**sj*n d*t** d*t** m*c**m*x* t** t** r*sp*r*j*nfr*x*l*s c*ng*st* 
+segmented and inserted in time:  14.1205031872
+['a', 'e', 'e', 'e', 'e', 'o', 'a', 'i', 'o', 'u', 'e', 'o', 'a', 'a', 'i', 'o', 'a', 'a', 'a', 'a', 'e', 'a', 'o', 'a', 'e', 'a', 'a', 'a', 'a', 'e', 'i', 'o', 'a', 'o', 'i', 'a', 'a', 'a', 'o', 'a', 'e', 'o', 'o', 'e', 'e', 'o', 'e', 'e', 'o', 'a', 'e', 'a', 'a', 'e', 'u', 'u', 'i', 'o', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'a', 'a', 'u', 'e', 'a', 'e', 'a', 'e', 'a', 'e', 'i', 'o', 'a', 'i', 'a', 'a', 'o', 'u', 'o']
+84
+84
+done reconstructing  100_monologue_
+working on  028_monologue_
+ m*l**nt*m**t*mpr*n*s*c*m*p*r**l*l* **rs*sn**s***sb**l**m*p*g**p*nt*r*l*l** **m*d*s*j*n*b**l**p*nt**l*l** s*c**lp*r* *lm**r* * ***n*sj*st* s**p*nt*nd**l*l****m*sb**lt*s*m*sd*l*x*nj*s * p*rl*t*r*s*c**lp*r****j*m**c**st* t*r*t*mbj*n*m* p*rl*n*t**s*m*t**nt*rn* l** *str*ct* *c*l*m**str**ns*** 
+segmented and inserted in time:  321.428339005
+['u', 'o', 'a', 'o', 'e', 'a', 'e', 'a', 'o', 'e', 'o', 'e', 'a', 'a', 'e', 'a', 'a', 'o', 'i', 'u', 'e', 'o', 'e', 'a', 'e', 'a', 'i', 'a', 'u', 'a', 'o', 'e', 'o', 'a', 'e', 'a', 'o', 'e', 'e', 'a', 'i', 'e', 'u', 'a', 'a', 'a', 'u', 'e', 'o', 'o', 'u', 'u', 'a', 'e', 'i', 'o', 'o', 'i', 'a', 'e', 'o', 'o', 'o', 'e', 'a', 'a', 'a', 'i', 'u', 'a', 'u', 'a', 'e', 'u', 'i', 'a', 'o', 'e', 'e', 'e', 'e', 'e', 'a', 'e', 'a', 'a', 'a', 'i', 'e', 'e', 'e', 'o', 'e', 'a', 'e', 'a', 'a', 'a', 'o', 'i', 'a', 'e', 'o', 'e', 'e', 'e', 'o', 'e', 'a', 'u', 'e', 'o', 'a', 'o', 'u', 'a', 'a', 'a', 'e', 'a', 'o', 'a', 'o', 'o', 'e', 'e', 'e', 'o', 'o', 'e', 'a', 'e', 'i', 'a', 'o', 'a', 'a', 'u', 'e', 'a', 'a', 'i', 'a', 'a']
+144
+144
+done reconstructing  028_monologue_
+working on  092_monologue_
+ n* c****n*nd** n*rm*lc*m*n*r * *r *l*b*lj*t*c**st*j*r*r*r*r *l*nt*rn* c*ns*lt*r * f*n*sd*s*m*n* * b**n*f*n*sd*s*m*n* s*m*d**c*c*nm**sp*s* *c*m*n*r*r *r* *mf*m* * *r*lp*rc*d*l*s***s * b*r*s* b*j*l*st*j* c*m*n*m*t**n*lp*rc* r* t**r* b**n*
+segmented and inserted in time:  18.0770201683
+['o', 'i', 'a', 'u', 'a', 'i', 'i', 'a', 'o', 'a', 'a', 'i', 'a', 'a', 'a', 'a', 'e', 'o', 'e', 'a', 'u', 'e', 'e', 'u', 'a', 'a', 'a', 'e', 'e', 'o', 'o', 'o', 'u', 'a', 'a', 'i', 'e', 'e', 'e', 'a', 'a', 'a', 'u', 'e', 'o', 'i', 'e', 'e', 'e', 'a', 'a', 'u', 'a', 'o', 'o', 'a', 'o', 'i', 'e', 'a', 'a', 'o', 'a', 'a', 'a', 'a', 'a', 'e', 'u', 'a', 'a', 'a', 'o', 'a', 'a', 'o', 'e', 'a', 'e', 'a', 'e', 'a', 'a', 'e', 'o', 'a', 'o', 'a', 'a', 'o', 'a', 'i', 'a', 'u', 'u', 'a', 'u', 'a', 'o', 'a', 'a', 'u', 'o', 'a', 'e', 'a']
+106
+106
+done reconstructing  092_monologue_
+working on  014_monologue_
+ d*sp**s c* *st**mf*rm** j* tr*p** l**tr*st*s **c*m** *c*m*n*t*r*l*m*nt* ** * ** x**s*nd** d*st*sl**mb*t** *lm*r*r**r*s*l*s *r* s***s c*ld*d*p*sc** 
+segmented and inserted in time:  5.73122000694
+['e', 'u', 'e', 'a', 'o', 'i', 'a', 'o', 'a', 'a', 'a', 'o', 'a', 'a', 'e', 'u', 'a', 'o', 'a', 'i', 'o', 'o', 'a', 'o', 'a', 'o', 'i', 'o', 'a', 'i', 'e', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'i', 'o', 'e', 'o', 'e', 'a', 'o', 'u', 'o', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'o', 'a', 'e', 'a', 'e', 'e', 'a', 'e', 'a', 'o', 'e', 'a', 'u', 'a']
+68
+68
+done reconstructing  014_monologue_
+working on  025_monologue_
+ j* m*l**nt* p*r***l*s*c* *l*s*c**mpj***t*m*rm*d*sp*st**s *n* *n* d* *n*d* *r**p* **tr*d*d*m*nt*cs *l*s*js m*t*m**n*m* t*m**n*m*t*m**n* p*st** p*r* p*r*l* p*l*pr*sj*n * j* f*f l*pr*n*p*l c*j*cr** c* j* cr** j*p*m*l*p* l*pr*sj*nt*mbj*nj*p*m*l * *l**p* j*m*nt*s * **r* n* *c**ntr*l*b*t** m**c**st*p*r*** l*s*n* s* j*b**t*l**sj*n j*p*r***st*l*s d*z*c**nd**mpj**n*d*rl*sn*t*j*s c*mj*n*n*l*sj*t* * j*m*c**p*r***st* *st*l*sdj* *dj** m*j*d***l* l* *r*c*j*t*g*p*d*rm*r *sd*l*s*n*n**l*nt* **st*m*x***st*m* 
+segmented and inserted in time:  52.9994699955
+['a', 'u', 'o', 'a', 'e', 'a', 'e', 'a', 'i', 'u', 'o', 'a', 'e', 'e', 'o', 'a', 'u', 'e', 'a', 'u', 'o', 'e', 'a', 'a', 'o', 'a', 'e', 'u', 'a', 'u', 'a', 'a', 'u', 'i', 'a', 'i', 'u', 'a', 'e', 'a', 'o', 'o', 'u', 'a', 'a', 'a', 'i', 'u', 'o', 'e', 'e', 'o', 'a', 'i', 'a', 'i', 'o', 'a', 'i', 'e', 'o', 'a', 'u', 'a', 'i', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'o', 'a', 'a', 'a', 'u', 'e', 'e', 'a', 'a', 'e', 'a', 'e', 'a', 'a', 'a', 'e', 'a', 'e', 'o', 'o', 'e', 'e', 'u', 'o', 'u', 'o', 'a', 'e', 'o', 'o', 'a', 'a', 'e', 'a', 'e', 'e', 'a', 'a', 'a', 'a', 'i', 'e', 'o', 'o', 'a', 'e', 'o', 'o', 'a', 'o', 'a', 'a', 'i', 'a', 'e', 'o', 'a', 'i', 'a', 'u', 'o', 'a', 'o', 'a', 'e', 'e', 'u', 'u', 'i', 'o', 'a', 'u', 'e', 'a', 'i', 'e', 'i', 'o', 'i', 'o', 'u', 'a', 'o', 'u', 'u', 'a', 'a', 'a', 'a', 'e', 'e', 'a', 'o', 'u', 'o', 'u', 'o', 'e', 'a', 'a', 'e', 'a', 'a', 'o', 'e', 'a', 'o', 'e', 'e', 'e', 'i', 'o', 'a', 'i', 'o', 'e', 'o', 'a', 'o', 'a', 'u', 'a', 'a', 'a', 'o', 'a', 'e', 'e', 'o', 'o', 'a', 'a', 'i', 'a', 'a', 'e', 'a', 'a', 'a', 'a', 'e', 'o', 'e', 'e', 'a', 'a', 'i', 'e', 'i', 'a']
+224
+224
+done reconstructing  025_monologue_
+working on  050_monologue_
+ j* c*** *n*nd** c*m*n*c*rj*nt* *m* l**nt*m* *t* p**sl*b*nd*j*nm**r*n** xm m*p*g** **rb*st**s*nl* c*s* *l* l**r*n**l* c*m* n*s*c*r*m*s *n*d*l*c**n***tr**l*d***ntr* *nt*n*sj*r*n**l*c*s* p* **ntr* *tj*n*c**r*l*rl*c**n**j***r*rs* * p**s n*sn*s s*nt*m*s x*nt*s *lm*r*m*s x*nt*s n*sr*jm*s*nr*st*d*ld**p*rc*n*s r*jm*st***ld** *b**n**t*rm*n*m*s*ld** ***j*nd* *r*j*n 
+segmented and inserted in time:  134.283958912
+['a', 'i', 'a', 'a', 'e', 'i', 'i', 'a', 'o', 'u', 'i', 'a', 'u', 'a', 'a', 'a', 'e', 'a', 'e', 'a', 'a', 'a', 'u', 'e', 'a', 'e', 'i', 'o', 'u', 'e', 'a', 'a', 'a', 'e', 'e', 'u', 'e', 'o', 'i', 'e', 'i', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'i', 'i', 'a', 'o', 'a', 'u', 'a', 'e', 'i', 'i', 'a', 'e', 'o', 'a', 'a', 'e', 'i', 'i', 'a', 'e', 'a', 'a', 'e', 'a', 'u', 'a', 'a', 'u', 'a', 'a', 'a', 'a', 'o', 'e', 'e', 'e', 'i', 'i', 'i', 'a', 'o', 'e', 'u', 'i', 'a', 'o', 'o', 'e', 'a', 'e', 'i', 'e', 'a', 'i', 'e', 'o', 'o', 'e', 'a', 'o', 'a', 'e', 'i', 'i', 'a', 'o', 'a', 'e', 'o', 'a', 'e', 'u', 'e', 'o', 'e', 'e', 'u', 'a', 'o', 'e', 'a', 'u', 'e', 'a', 'a', 'e', 'a', 'o', 'o', 'e', 'e', 'o', 'e', 'i', 'e', 'o', 'a', 'e', 'a', 'e', 'e', 'e', 'a', 'a', 'i', 'u', 'a']
+163
+163
+done reconstructing  050_monologue_
+working on  078_monologue_
+ b**n* p*rl*m**n*m*l**nt*d*sp***m**sp*s*c*s*b*p*r**ltr**x* * d*sp**s * p*r***l*s s*js *m*j* m*l**nt* ***ld*s*j*n* d*s*j*n* *n*r*lm*nr* *nx***lpr*n*pj* m*s *r**t* *nc*f*c*nl*t*c*n *n*sg**t*s c*n c*sc*s*p*n * c*s*t* d*sp**s *r*l**np*c*t*l*c*s* * * m*b** ****l *l*n*sc*s*sc*st*np*ndj*nt*s b*j**b**lt*s*n*lb*c* * p*r** *mc* m*s** l*st* b**n* c*nm*t*g*st* 
+segmented and inserted in time:  40.8945770264
+['a', 'e', 'a', 'e', 'a', 'e', 'a', 'i', 'a', 'e', 'a', 'o', 'a', 'u', 'e', 'a', 'o', 'e', 'a', 'a', 'e', 'u', 'o', 'e', 'a', 'u', 'a', 'e', 'a', 'a', 'e', 'u', 'e', 'a', 'a', 'e', 'a', 'a', 'a', 'a', 'u', 'a', 'o', 'u', 'o', 'a', 'e', 'a', 'i', 'e', 'o', 'a', 'e', 'a', 'e', 'e', 'u', 'o', 'u', 'a', 'i', 'a', 'a', 'o', 'a', 'i', 'i', 'e', 'a', 'a', 'a', 'i', 'u', 'a', 'a', 'i', 'a', 'u', 'o', 'a', 'o', 'a', 'u', 'a', 'a', 'i', 'a', 'e', 'o', 'o', 'e', 'a', 'a', 'a', 'e', 'a', 'e', 'u', 'e', 'a', 'e', 'a', 'u', 'o', 'o', 'a', 'a', 'a', 'o', 'a', 'a', 'a', 'e', 'a', 'e', 'e', 'e', 'a', 'a', 'a', 'e', 'a', 'a', 'e', 'o', 'a', 'u', 'a', 'a', 'e', 'i', 'a', 'a', 'o', 'a', 'a', 'a', 'a', 'a', 'a', 'e', 'a', 'u', 'a', 'u', 'e', 'o', 'i', 'a', 'a', 'e', 'a', 'e', 'a', 'e', 'a', 'a']
+157
+157
+done reconstructing  078_monologue_
+working on  045_monologue_
+ c*n*lc* p**s ***rm*sb**lt*s*l***rm*s*x*r*j*s xm m*sl**r*sd*m*st*c*s b**t*l**sj*n c*ns*lt*m*sc*r**s*l*ctr*n*c*s *l*c*nm*sp*r*sp*rt*l*f*n* * **tj*nd* * *tj*nd**ct****sl*sc*m*c*mpr*m*t**b*s*c*m*nt*s**sl*c***t**sl*sd**s *s**st** *j n*d*lj*n** 
+segmented and inserted in time:  83.351359129
+['a', 'a', 'a', 'i', 'e', 'a', 'i', 'a', 'a', 'a', 'a', 'e', 'e', 'a', 'o', 'i', 'e', 'e', 'o', 'e', 'a', 'u', 'o', 'a', 'o', 'a', 'a', 'a', 'o', 'e', 'u', 'u', 'i', 'o', 'a', 'e', 'o', 'a', 'o', 'a', 'i', 'e', 'o', 'a', 'i', 'a', 'e', 'a', 'e', 'u', 'e', 'e', 'a', 'o', 'a', 'a', 'i', 'o', 'a', 'o', 'e', 'a', 'a', 'a', 'e', 'a', 'e', 'a', 'a', 'a', 'i', 'i', 'a', 'i', 'a', 'o', 'o', 'e', 'o', 'a', 'u', 'a', 'o', 'e', 'o', 'i', 'e', 'u', 'a', 'a', 'u', 'o', 'i', 'a', 'a', 'i', 'a', 'e', 'o', 'e', 'a', 'i', 'a', 'a', 'u', 'i', 'o']
+107
+107
+done reconstructing  045_monologue_
+working on  057_monologue_
+ *j*p*rl*m**n*m*l**nt**l**c* p*rc*j*n*t*g*m*s*** m*t*sb**s m*p*g* * *d*sp*t**l*n** p*r*l**n**rs**n* pr*m*r*c*t** m*l**nt**l**c* n* m*t*m**nc*f* * m*p*g**c*s*r c**nd*t*g*c*st*r* d*sp*t**l*n**c*s*b*p*r*l**n**rs** *l*s*jsd*l*m**n* l*st*js*rj*nd**ld*s*j*n*l***j*m**r*l**m*b*jp*r* **r*x*r*j* **s*d*l*sdj**m*j*r*r*s**l*c*s* * m*p*g***r*n**r*l*lm**r* b**l*sn*t*j*s *j*d*sp**sm*p*g*c*m**r*l*rl*c*s* *l**r **r*n**rl*c*s* *j*p*rl*t*r**tr*b*b**l**m*sj*nt**c*s*r *st* j*c*m*d*s***p*rl*t*r*n*m*g*st*s*l*rm*t* *st*jbj*n*s* b***npr***ntr* p*rl*cl*n*c*p*rl*cl*n*c**lr*s*rj* fr*nt**m*rj*r*jn*d*l*s*x*l*s m*x**st*j**nl*b*l*n l*p*nt*f*j* *st*j**n *rc*t*ct*r**s*l**rj*n* pr*m*rs*m*str* m**sp*s*p*r**lbj*x* p*rm*n**m*s**sd*sn*s*tr*s*l* m*t*tj*mp* j*s*jd* c*r**d* *t*l**n*c*r** **b*jnt***s *m*g*st*m*t**lcl*m* l*st* 
+segmented and inserted in time:  263.138771057
+['a', 'o', 'e', 'a', 'e', 'a', 'i', 'a', 'e', 'a', 'e', 'a', 'a', 'i', 'a', 'a', 'o', 'a', 'e', 'a', 'o', 'a', 'e', 'e', 'e', 'u', 'i', 'o', 'a', 'e', 'e', 'a', 'a', 'i', 'i', 'u', 'e', 'e', 'e', 'a', 'a', 'i', 'a', 'e', 'o', 'a', 'i', 'e', 'u', 'a', 'i', 'e', 'a', 'i', 'a', 'a', 'a', 'a', 'e', 'e', 'a', 'a', 'i', 'a', 'o', 'e', 'e', 'o', 'i', 'a', 'e', 'a', 'e', 'e', 'a', 'a', 'o', 'a', 'u', 'a', 'o', 'e', 'e', 'o', 'e', 'a', 'i', 'u', 'e', 'a', 'e', 'a', 'a', 'u', 'a', 'a', 'i', 'a', 'e', 'o', 'a', 'i', 'e', 'a', 'i', 'u', 'o', 'i', 'e', 'a', 'a', 'a', 'i', 'o', 'o', 'a', 'i', 'a', 'e', 'e', 'a', 'e', 'i', 'o', 'a', 'o', 'u', 'e', 'e', 'a', 'a', 'a', 'a', 'a', 'a', 'o', 'i', 'i', 'e', 'i', 'a', 'a', 'e', 'e', 'a', 'a', 'a', 'u', 'e', 'u', 'a', 'u', 'u', 'a', 'a', 'a', 'o', 'a', 'e', 'e', 'u', 'e', 'o', 'i', 'a', 'o', 'a', 'o', 'o', 'e', 'a', 'a', 'a', 'a', 'o', 'e', 'a', 'a', 'o', 'e', 'u', 'e', 'e', 'e', 'a', 'o', 'o', 'i', 'o', 'e', 'o', 'a', 'a', 'a', 'e', 'e', 'a', 'i', 'e', 'e', 'i', 'o', 'a', 'a', 'a', 'o', 'e', 'a', 'o', 'e', 'a', 'a', 'a', 'a', 'i', 'a', 'a', 'e', 'u', 'o', 'a', 'o', 'a', 'e', 'a', 'a', 'a', 'e', 'u', 'a', 'a', 'i', 'e', 'a', 'i', 'a', 'o', 'e', 'u', 'a', 'a', 'i', 'a', 'a', 'e', 'o', 'a', 'a', 'i', 'a', 'u', 'a', 'e', 'o', 'e', 'a', 'e', 'a', 'a', 'o', 'u', 'a', 'a', 'a', 'a', 'e', 'e', 'o', 'a', 'a', 'e', 'e', 'e', 'i', 'u', 'a', 'a', 'a', 'o', 'e', 'a', 'a', 'a', 'o', 'e', 'e', 'a', 'e', 'o', 'a', 'e', 'e', 'a', 'o', 'a', 'a', 'e', 'o', 'a', 'e', 'a', 'e', 'a', 'o', 'i', 'o', 'e', 'i', 'a', 'u', 'o', 'i', 'e', 'i', 'o', 'a', 'a', 'e', 'a', 'a', 'a', 'a', 'e', 'e', 'a', 'e', 'u', 'i', 'a', 'u', 'e', 'o', 'e', 'o', 'o', 'a', 'a', 'a', 'a', 'e', 'u', 'a', 'o', 'e', 'a', 'a', 'i', 'a', 'a', 'i', 'a', 'i', 'a', 'a', 'a', 'i', 'e', 'o', 'i', 'a', 'e', 'a', 'a', 'a', 'i', 'a', 'o', 'a', 'e', 'e', 'i', 'a', 'i', 'a']
+374
+374
+done reconstructing  057_monologue_
+working on  034_monologue_
+ p**sm*l**nt* m*t*m*l*sp*st**s m*d*s*j*n* r*p*c*nc*s*t* * p*n *s*s*j m*sj*nt*bj*n p**sc*l**r**nl*c*s*r*l*r l*c**n* p*rc*n*p***tr*p**rp*rc*m* m***d** c*m**t*mbj*nm*g*st**rp*r* j*n**b**lt** c**n*r *js*m*p*sj*r*n**r*l*lm**r* **nt*n*s*l*s** *s* j*c**n**pr*m*r*m*t* j*n*p*c*st*jd*nd*m*m*m* 
+segmented and inserted in time:  37.1334798336
+['u', 'e', 'a', 'a', 'a', 'e', 'a', 'e', 'u', 'o', 'o', 'a', 'e', 'i', 'e', 'a', 'e', 'a', 'a', 'o', 'e', 'a', 'e', 'a', 'a', 'a', 'e', 'o', 'e', 'u', 'u', 'o', 'a', 'u', 'o', 'i', 'a', 'i', 'u', 'e', 'a', 'e', 'u', 'o', 'e', 'u', 'i', 'a', 'o', 'o', 'o', 'a', 'e', 'o', 'a', 'a', 'a', 'i', 'o', 'i', 'a', 'a', 'a', 'e', 'u', 'a', 'i', 'a', 'e', 'u', 'a', 'i', 'a', 'o', 'u', 'a', 'a', 'u', 'i', 'o', 'a', 'a', 'e', 'a', 'i', 'a', 'a', 'i', 'o', 'a', 'a', 'u', 'a', 'o', 'i', 'e', 'e', 'a', 'u', 'i', 'a', 'e', 'a', 'a', 'a', 'e', 'a', 'a', 'a', 'i', 'a', 'a', 'e', 'e', 'a', 'e', 'u', 'a', 'a', 'a', 'u', 'o', 'i', 'a', 'e', 'o', 'e', 'e', 'a', 'a']
+130
+130
+done reconstructing  034_monologue_
+working on  054_monologue_
+ b**n*j*m*l**nt* p*r***l*s sj*t*d*l*m**n* ** l*spr*m*r*s*r*j*n*s * l****ntr**lb** m**p**l*sdj*nt*sm*b** *d*sp**sm** m*p*g*l*r*p* b*j*l*c**n**m*pr*p*r*m*pr*pj*d*s*j*n* * c**nd*s*l*d*ld*d* d*l d*ld*s*j*n**ntr*d*n****lb** m*b**l**l*l**rl*sdj*nt*s *j*s*l*p*r* l*s*ct****sc*m*n*sd*d** *s*l**d*r*np*s**l*r* p*r*c*m*nd*j*nm**c* *l***m*ntr***nc*f*d*nd* m*c**ntr*c*n*m**sd*pr*nt*x****nt*c*d*b**r *t*m*s*mpl*m*nt* t*nt* *p*r***l*sd***m*j**n* d*l*t*r* m*s***l*c*s* * b*sc*r*l*lm**r* j*p*rl*t*r* *m*p*g**b*rt*l**sj*n*s*d*pr*nt*t*g**nl*r* c*m**j*npr*st**m*p*g**l*rl* * s*n*p**s s*mpl*m*nt*b**t*l**sj*n * d*pr*nt**st*x****n *n*n *n * c*rt*s*l*sc*rt*sc*nl*s**r* *nf*n p*s*l*t*r*l* c*m*x*rc*p*** l*l*t*r*t*r*c*m*sm*g*st**sl*l* l*d*l*sn**l*s *p*c*s *sd**r*c**s c* c**nt*n d* *r**s*nt***s*t*mbj*n * *t*sr**l*sp*r**nf*rm***l** 
+segmented and inserted in time:  184.984302998
+['u', 'e', 'o', 'e', 'u', 'o', 'a', 'e', 'a', 'e', 'a', 'a', 'a', 'e', 'a', 'i', 'e', 'a', 'a', 'a', 'a', 'a', 'o', 'i', 'e', 'o', 'e', 'i', 'a', 'o', 'a', 'e', 'a', 'a', 'e', 'e', 'e', 'e', 'a', 'i', 'o', 'e', 'e', 'e', 'u', 'a', 'a', 'e', 'a', 'i', 'e', 'u', 'e', 'a', 'o', 'a', 'a', 'a', 'e', 'a', 'a', 'a', 'e', 'u', 'i', 'a', 'o', 'a', 'o', 'e', 'a', 'e', 'a', 'e', 'o', 'e', 'a', 'e', 'a', 'a', 'u', 'a', 'o', 'a', 'e', 'e', 'u', 'a', 'e', 'e', 'o', 'a', 'e', 'o', 'e', 'o', 'e', 'i', 'a', 'o', 'e', 'e', 'a', 'a', 'a', 'i', 'a', 'a', 'e', 'e', 'e', 'a', 'u', 'a', 'e', 'e', 'o', 'o', 'a', 'a', 'e', 'i', 'e', 'a', 'o', 'e', 'a', 'i', 'o', 'u', 'a', 'o', 'a', 'i', 'e', 'u', 'a', 'i', 'a', 'a', 'o', 'o', 'o', 'a', 'a', 'e', 'e', 'a', 'a', 'a', 'i', 'a', 'e', 'i', 'o', 'a', 'e', 'a', 'e', 'i', 'a', 'u', 'a', 'o', 'a', 'a', 'e', 'o', 'a', 'a', 'e', 'a', 'e', 'o', 'o', 'a', 'i', 'a', 'e', 'a', 'e', 'u', 'o', 'i', 'e', 'a', 'a', 'i', 'e', 'e', 'e', 'a', 'a', 'o', 'e', 'a', 'a', 'u', 'a', 'a', 'o', 'a', 'o', 'u', 'a', 'a', 'e', 'i', 'e', 'a', 'u', 'e', 'o', 'e', 'a', 'a', 'o', 'a', 'u', 'a', 'e', 'e', 'a', 'u', 'i', 'u', 'e', 'i', 'e', 'a', 'u', 'a', 'o', 'e', 'o', 'a', 'o', 'o', 'i', 'a', 'a', 'a', 'a', 'o', 'i', 'o', 'e', 'u', 'o', 'o', 'o', 'o', 'a', 'a', 'e', 'e', 'a', 'o', 'e', 'o', 'o', 'e', 'o', 'a', 'i', 'o', 'u', 'e', 'i', 'e', 'e', 'e', 'e', 'u', 'u', 'i', 'o', 'a', 'a', 'e', 'o', 'o', 'i', 'a', 'i', 'a', 'a', 'u', 'e', 'e', 'e', 'a', 'o', 'a', 'e', 'e', 'o', 'a', 'o', 'a', 'e', 'i', 'a', 'o', 'i', 'a', 'a', 'o', 'i', 'a', 'a', 'o', 'i', 'a', 'e', 'i', 'e', 'a', 'a', 'i', 'e', 'a', 'u', 'a', 'o', 'a', 'e', 'u', 'a', 'e', 'a', 'a', 'o', 'e', 'a', 'o', 'a', 'a', 'o', 'o', 'a', 'o', 'i', 'e', 'a', 'a', 'e', 'a', 'u', 'e', 'a', 'a', 'a', 'i', 'e', 'u', 'i', 'o', 'a', 'i', 'o', 'a', 'a', 'a', 'a', 'e', 'a', 'e', 'e', 'o', 'e', 'e', 'o', 'o', 'e', 'i', 'o']
+377
+377
+done reconstructing  054_monologue_
+working on  023_monologue_
+ *b*r*n*d**n*rm*ld*m*b** p**s*b*rc*d**j* m*p*g**l*rl*r*s**st* *l*r l*r***r*x*r*j* s*l*rl*r* c*l*mbj*n* pr*ns*m* g*st*l*r c*l*mbj*n*sr**st*s l*r*s
+segmented and inserted in time:  15.2516601086
+['i', 'a', 'a', 'a', 'e', 'a', 'o', 'a', 'e', 'e', 'e', 'a', 'a', 'u', 'a', 'a', 'o', 'e', 'a', 'o', 'e', 'e', 'a', 'o', 'e', 'o', 'a', 'a', 'e', 'a', 'o', 'e', 'o', 'o', 'o', 'i', 'i', 'e', 'i', 'a', 'o', 'e', 'o', 'o', 'o', 'u', 'u', 'o', 'e', 'a', 'a', 'e', 'e', 'a', 'o', 'u', 'u', 'o', 'a', 'e', 'a', 'a', 'e']
+63
+63
+done reconstructing  023_monologue_
+working on  059_monologue_
+ c**nt*m*s**r*t*c*** *m*t*s*ct****s **m*t*sd*l*x*nj*s **t**sl*sb**lt*s d*m*c*s*c*n*j**d* d**nm*t*t*c* n*sc*l**r*p*r*l*sb**lt*s * t*mbj*nm*d**c*b*j*p*l*c*r** **m*rc** b*s*t* l*s*x*s *m*t*sc*s*sm*s *s*c*m**sp*s* s*c*m**sp*s* c*nm*t* g*st*gr*j*s 
+segmented and inserted in time:  43.1815540791
+['u', 'a', 'a', 'u', 'e', 'o', 'a', 'i', 'o', 'a', 'a', 'a', 'i', 'a', 'e', 'a', 'a', 'i', 'a', 'a', 'i', 'u', 'i', 'e', 'e', 'o', 'e', 'a', 'u', 'o', 'i', 'a', 'a', 'a', 'a', 'e', 'e', 'a', 'a', 'o', 'o', 'e', 'a', 'a', 'e', 'u', 'a', 'e', 'a', 'o', 'o', 'i', 'a', 'i', 'u', 'e', 'o', 'e', 'a', 'a', 'a', 'a', 'u', 'a', 'e', 'i', 'e', 'o', 'i', 'o', 'a', 'a', 'a', 'i', 'e', 'a', 'i', 'u', 'i', 'a', 'e', 'i', 'o', 'e', 'e', 'i', 'o', 'i', 'a', 'o', 'a', 'i', 'e', 'o', 'o', 'o', 'e', 'a', 'a', 'e', 'o', 'e', 'e', 'a', 'a', 'e', 'a', 'a', 'a', 'e', 'a', 'a']
+112
+112
+done reconstructing  059_monologue_
+working on  040_monologue_
+ j* *j***nl* c***r*sd*l*c*s* p**sp*r*x*mpl* p*rl*m**n*m*l**nt* *l****l*s**r* s* *t*p*r*l*sp*st**s *nt*sd*l**nt*rs** d*sp**sp*r* ** *ld*s*j*n* * * b**n* b*r**tr*p** *l*c**j*c***rd* *nd**t* b**n***st* 
+segmented and inserted in time:  32.6340210438
+['a', 'o', 'e', 'a', 'e', 'a', 'i', 'a', 'i', 'a', 'e', 'a', 'o', 'o', 'i', 'e', 'e', 'i', 'u', 'a', 'e', 'a', 'a', 'a', 'i', 'a', 'a', 'e', 'a', 'e', 'i', 'o', 'a', 'u', 'a', 'a', 'i', 'e', 'a', 'e', 'a', 'e', 'o', 'e', 'o', 'a', 'e', 'a', 'e', 'e', 'a', 'i', 'e', 'e', 'a', 'e', 'u', 'e', 'a', 'a', 'a', 'a', 'e', 'o', 'a', 'e', 'a', 'a', 'a', 'a', 'e', 'a', 'a', 'a', 'o', 'o', 'i', 'e', 'a', 'i', 'e', 'a', 'o', 'i', 'a', 'a', 'a', 'e', 'e', 'a', 'a', 'u', 'e', 'o', 'a', 'e', 'a']
+97
+97
+done reconstructing  040_monologue_
+working on  063_monologue_
+ *nd**c*m*n*c*rj*nt* m*l**nt*m*b**m*p*g***rl*s *f*j*s*t*g*c*s*l*r**t*s* c*s*sd*dr**m*b*j *s*n*m*p*g***r*l*lm**r* *l**r*p**nl*l***r* *d*l*r*p*s**jc*d*l*r j*d*sp**sm**c**st**nr*t*m*c**d*rm** m*l**nt**lm**r*m*p*g**b*rt*l**sj*n * *nt*sd*d*j*mbr* **d*sc*lt*sd*cr*t* p*r*d*j*mbr**m*l*s*ntr*n* *j* 
+segmented and inserted in time:  110.466299057
+['i', 'i', 'o', 'o', 'u', 'i', 'a', 'u', 'a', 'u', 'o', 'u', 'e', 'a', 'o', 'o', 'a', 'o', 'e', 'o', 'i', 'o', 'u', 'i', 'o', 'e', 'e', 'o', 'a', 'a', 'a', 'i', 'o', 'a', 'a', 'e', 'e', 'a', 'a', 'a', 'a', 'a', 'e', 'u', 'a', 'a', 'a', 'u', 'i', 'a', 'e', 'e', 'a', 'u', 'i', 'e', 'a', 'i', 'e', 'i', 'u', 'o', 'o', 'a', 'i', 'e', 'a', 'e', 'a', 'e', 'a', 'o', 'a', 'a', 'o', 'e', 'o', 'e', 'u', 'e', 'e', 'a', 'u', 'e', 'o', 'e', 'i', 'i', 'o', 'u', 'i', 'a', 'a', 'o', 'u', 'o', 'a', 'o', 'a', 'u', 'i', 'i', 'a', 'a', 'u', 'e', 'a', 'o', 'o', 'i', 'a', 'a', 'a', 'e', 'u', 'a', 'a', 'e', 'a', 'i', 'i', 'a', 'a', 'e', 'e', 'o', 'a', 'i', 'a', 'a', 'e', 'a', 'a', 'u', 'a', 'i', 'a', 'a', 'o']
+139
+139
+done reconstructing  063_monologue_
+working on  087_monologue_
+ b*rx**rb**r p**s** tr**x**l*t* *nb*nt*str**x**nb*nt*s b*nd** *f*nd*** x*x**t*r****n*ltr*nsc*rs*d*l**b*nd*pr**ct*sn*t*r*l*s * x*c*b*l** *m**tr*s x*ns* 
+segmented and inserted in time:  26.864166975
+['a', 'e', 'o', 'e', 'a', 'u', 'a', 'e', 'o', 'a', 'e', 'e', 'a', 'e', 'a', 'i', 'e', 'i', 'a', 'e', 'e', 'i', 'a', 'e', 'a', 'a', 'a', 'i', 'i', 'e', 'a', 'i', 'i', 'a', 'u', 'o', 'a', 'a', 'i', 'a', 'a', 'a', 'u', 'o', 'e', 'a', 'a', 'u', 'a', 'e', 'a', 'a', 'a', 'u', 'a', 'e', 'a', 'o', 'a', 'o', 'e', 'a', 'a', 'o', 'o', 'a', 'i', 'u']
+68
+68
+done reconstructing  087_monologue_
+working on  037_monologue_
+ * m*sc*m*sc*m*sc*n** *st*j*n*l*nt*rn* m* frj**p* xm n* * l** m*m*jl * n*m*s *j*tr**x**j*m*n*x* f*c*s*n*n*r*s tr**x***n *nm*m* m*m*m*m*m*m* m* m*scl*s*sd**gl*s p**s*nd** *nc*l*mb* * *n*f* 
+segmented and inserted in time:  10.2072339058
+['a', 'u', 'a', 'u', 'a', 'u', 'e', 'o', 'i', 'i', 'e', 'a', 'o', 'i', 'e', 'a', 'a', 'e', 'a', 'e', 'o', 'a', 'e', 'a', 'e', 'o', 'a', 'o', 'a', 'a', 'o', 'a', 'e', 'e', 'a', 'o', 'a', 'e', 'a', 'o', 'a', 'u', 'a', 'a', 'o', 'a', 'e', 'a', 'a', 'u', 'o', 'a', 'a', 'e', 'o', 'e', 'o', 'a', 'a', 'a', 'u', 'a', 'e', 'a', 'o', 'a', 'u', 'e', 'o', 'e', 'o', 'i', 'a', 'a', 'a', 'a', 'u', 'a', 'e']
+79
+79
+done reconstructing  037_monologue_
+working on  021_monologue_
+ *n*nd** m*l**nt* l*d*jgr*j*s*dj*sp*r*ld**t*n*rm*s*c*n*sd* *l*l*r**c*nc*n*sd*sp*rt*m*s *n*l*sc*s*sd*ld** * d*s*j*n* m*b** *b**t*l**sj*n d*sp**sl*sn*t*j*s*lm**r* *l***s*l**c*m*n*r*l*n*sb**s **p*s**r *m**l*sf*m*lj*r*s*d*rl*s l*sgr*j*s l*sgr*j*sp*r*ld**p**sn****b*rc*m*m*n*j*r*n p*rl*n*t*m**c**st**j**s**st**
+segmented and inserted in time:  133.868335962
+['e', 'i', 'i', 'a', 'u', 'o', 'a', 'e', 'a', 'o', 'a', 'a', 'e', 'a', 'a', 'a', 'e', 'a', 'e', 'e', 'e', 'a', 'a', 'e', 'e', 'e', 'i', 'i', 'i', 'o', 'i', 'u', 'o', 'o', 'a', 'a', 'o', 'a', 'a', 'e', 'a', 'a', 'a', 'e', 'a', 'a', 'e', 'e', 'u', 'o', 'a', 'e', 'a', 'o', 'o', 'e', 'u', 'i', 'o', 'a', 'e', 'u', 'e', 'o', 'o', 'e', 'o', 'o', 'o', 'e', 'a', 'e', 'i', 'o', 'a', 'i', 'e', 'u', 'a', 'i', 'e', 'o', 'a', 'a', 'o', 'a', 'a', 'i', 'a', 'e', 'a', 'u', 'a', 'u', 'a', 'u', 'e', 'e', 'a', 'a', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'e', 'a', 'i', 'e', 'e', 'o', 'e', 'i', 'a', 'i', 'a', 'o', 'i', 'u', 'a', 'e', 'a', 'a', 'a', 'e', 'a', 'u', 'e', 'o', 'o', 'e', 'a', 'a', 'e', 'e', 'o']
+141
+141
+done reconstructing  021_monologue_
+working on  088_monologue_
+ c*m*n*r c*l**r*s*nl*c*s* *nl*c**n* *r*x**rb**rd*b**nc**nd*n*t**sl*sd**sp*r* n*b**r* *nl*c*s*c*n*ls*r*n*m*** *x*r* * c*rt*s r*m*s *b*x*nd* 
+segmented and inserted in time:  18.9803929329
+['a', 'i', 'a', 'o', 'a', 'i', 'e', 'e', 'a', 'e', 'a', 'o', 'u', 'i', 'a', 'o', 'e', 'e', 'a', 'o', 'e', 'a', 'a', 'a', 'e', 'i', 'e', 'e', 'a', 'e', 'a', 'o', 'e', 'e', 'e', 'a', 'o', 'a', 'i', 'a', 'e', 'a', 'e', 'a', 'a', 'e', 'u', 'i', 'a', 'e', 'e', 'e', 'i', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'i', 'a', 'a', 'a']
+64
+64
+done reconstructing  088_monologue_
+working on  027_monologue_
+ l*st* * m*l**nt*bj*nt*mpr*n* m*pr*p*r**ld*s*j*n* s*l***r*n*c*m*n**d*m*s*m*n*s*n**r*t**sl*sd**s *r*r*r*s* d*sc*ns* * d*s*j*n* * *sp*r*c*s***lm*j*d**p*r**rm**c* *tr**x*rd*nd* *n*rm*n* t**sl*st*r*s c*m*c*x*r**n*n*c*rn**r** *nt** b**n*
+segmented and inserted in time:  110.784276962
+['i', 'a', 'a', 'u', 'o', 'a', 'o', 'a', 'e', 'a', 'a', 'a', 'e', 'a', 'e', 'e', 'o', 'a', 'e', 'a', 'a', 'e', 'a', 'i', 'e', 'e', 'a', 'i', 'a', 'a', 'e', 'a', 'e', 'a', 'a', 'e', 'i', 'o', 'a', 'e', 'a', 'e', 'a', 'i', 'a', 'a', 'a', 'e', 'e', 'e', 'a', 'a', 'a', 'e', 'e', 'u', 'o', 'a', 'a', 'i', 'a', 'a', 'a', 'o', 'e', 'o', 'a', 'o', 'o', 'e', 'a', 'i', 'a', 'e', 'o', 'a', 'a', 'e', 'o', 'e', 'e', 'e', 'o', 'e', 'o', 'o', 'i', 'a', 'i', 'a', 'a', 'a', 'a', 'e', 'a', 'u', 'u', 'i', 'o', 'i', 'o', 'e', 'o', 'u', 'i', 'o', 'a', 'e', 'a']
+109
+109
+done reconstructing  027_monologue_
+working on  029_monologue_
+ b*r*tr*p** **l*s*p* * b*r*r*s p*l*p*p* c*n *n*zr*n*l*r*rx* p*c*l**t**l* p*c*l**n**rj* l*p*g* t***c**n*r l*t**c*st** *p*p*crj** 
+segmented and inserted in time:  3.80919003487
+['a', 'o', 'o', 'i', 'e', 'a', 'u', 'a', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'e', 'u', 'a', 'e', 'a', 'a', 'a', 'e', 'o', 'o', 'a', 'e', 'a', 'u', 'a', 'a', 'a', 'e', 'o', 'a', 'e', 'a', 'a', 'a', 'a', 'e', 'a', 'o', 'a', 'u', 'i', 'e', 'i', 'a', 'o', 'a', 'a', 'o', 'e', 'e', 'o', 'e']
+60
+60
+done reconstructing  029_monologue_
+working on  085_monologue_
+ *n*nd**c*m*n*c*rj*nt* m*b*jtr**x* *st*jp*ndj*nt*d*l*c*s* x***b**r*nr*t* c*m*n*p*rl*sm**n*s *tr**x**nd*p*ndj*nt*l*c*sc*rt**d*l*d*l*m*n*m*t*l*c* 
+segmented and inserted in time:  20.6255309582
+['e', 'i', 'i', 'a', 'o', 'u', 'i', 'a', 'u', 'a', 'a', 'a', 'a', 'e', 'e', 'e', 'o', 'a', 'u', 'a', 'e', 'a', 'a', 'a', 'e', 'e', 'e', 'e', 'u', 'o', 'a', 'a', 'a', 'i', 'a', 'e', 'a', 'e', 'a', 'o', 'o', 'a', 'e', 'a', 'a', 'a', 'o', 'u', 'o', 'o', 'a', 'o', 'a', 'a', 'e', 'a', 'i', 'e', 'a', 'e', 'a', 'e', 'e', 'o']
+64
+64
+done reconstructing  085_monologue_
+working on  004_monologue_
+ m*l**nt* *l**c**m*j*d*l* m**n* *** * b*j *l b** *r*n* l***m*l** ***l***d*l*r*x*n* d*l*sm*n*s* m* *p**l*sdj*nt*s b*j*l*c**n**m* l** d*n***l*sm*n*s l**tr*st*s l*** *n* t*r*pj**c*p*j*n*l m** *mp*rt*nt*c**s**p*r*m* p*rc* l**nd* tr*st*s ***n*x*r*j* *nm*j*d**** * *s*m** **c*l*** *nt*sd*t*n*rp*rc*ns*n *s*jc*nj*nt***r*d*c* *s*n* t*r*pj* c* * t*n** p*r*f*ct* c* n*tj*mbl* n** n* t*m*c*ns**r*l*s l**s l**bj*n l*** l**l** l**l*l**bj*n c*n*nr*s*lt** *s*t*s* * l**n*c*c* sj*nt**sd*l*r*nl**nt*r*p*r*n*t*nsj*nc*t*g**nl*c*l*mn**n l*r*xj*nl*mb*r 
+segmented and inserted in time:  65.5863749981
+['u', 'o', 'a', 'e', 'e', 'i', 'o', 'i', 'a', 'o', 'a', 'a', 'e', 'i', 'u', 'a', 'e', 'e', 'e', 'a', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'e', 'u', 'a', 'a', 'i', 'a', 'e', 'e', 'e', 'e', 'a', 'a', 'o', 'e', 'i', 'a', 'a', 'a', 'a', 'e', 'o', 'a', 'a', 'u', 'a', 'u', 'a', 'u', 'a', 'a', 'e', 'u', 'i', 'a', 'o', 'a', 'a', 'e', 'a', 'e', 'i', 'a', 'e', 'e', 'a', 'o', 'e', 'u', 'a', 'o', 'e', 'a', 'a', 'u', 'a', 'e', 'u', 'e', 'o', 'u', 'e', 'a', 'a', 'a', 'o', 'i', 'o', 'a', 'e', 'u', 'a', 'i', 'u', 'a', 'o', 'a', 'a', 'o', 'a', 'o', 'a', 'a', 'o', 'a', 'i', 'u', 'i', 'e', 'i', 'a', 'o', 'o', 'a', 'o', 'e', 'e', 'e', 'a', 'a', 'o', 'o', 'a', 'a', 'i', 'o', 'e', 'e', 'e', 'e', 'i', 'e', 'o', 'a', 'o', 'a', 'a', 'a', 'i', 'o', 'u', 'a', 'o', 'i', 'a', 'o', 'a', 'e', 'u', 'a', 'e', 'u', 'a', 'a', 'a', 'a', 'i', 'a', 'e', 'a', 'e', 'a', 'a', 'o', 'u', 'a', 'e', 'o', 'o', 'i', 'o', 'a', 'e', 'o', 'a', 'e', 'a', 'o', 'e', 'u', 'a', 'e', 'a', 'a', 'e', 'o', 'e', 'o', 'e', 'a', 'e', 'i', 'o', 'a', 'a', 'o', 'e', 'u', 'a', 'a', 'o', 'i', 'o', 'a', 'a', 'e', 'o', 'a', 'a', 'a', 'u', 'o', 'i', 'o', 'o', 'e', 'a', 'i', 'e', 'a', 'u', 'a', 'a', 'e', 'u', 'o', 'e', 'u', 'i', 'a', 'o', 'u', 'a', 'e', 'o', 'o', 'a', 'u', 'a']
+245
+245
+done reconstructing  004_monologue_
+working on  056_monologue_
+ * m*b**ns***t*m*p*g**r*c*x*r*p*l***s**jm*p*g*l*d*l* *s*n*b*j*l*c**n*m****lc*f**t*c*lj*nt*l*r*p*d*s*j*n* *l***m**c**d**r*n**rp*r*s*l*rp*r*l**n**rs****r*x*r*j* * p*rl*t*r*c**nd*s*l*d*l**n**rs**m*b*j*nd*rl*c***tr*n***np*c*t*b*j*l*s*t*d*c*l*mbj* *b**s*lm**r*p*r***tr*sb**sm*b*jp*r*m*c*s* * s*m*nj*t**st*d*spj*rt*x***c*n***s*n*m*p*g**b*rt*l**sj*n *ld*ct*r s* s * b**c*nd*s*x*s * m**sp*s*t*mbj*n *n*d*m*s*x*s*s****l**tr**s*x*nj*r* *b**n* d*s*mpl***sc*m*c*s*r*r* l**n**s*x*nj*r*d**l*m*nt*s *l**tr**s*****sp*j*l****nd*r*t*d*f*m*lj* * t*n*m*s tr*jnt**s s* m*s*m*n*s c*nm*t*s*m*g*st*
+segmented and inserted in time:  915.427311182
+['a', 'i', 'i', 'e', 'e', 'a', 'a', 'i', 'o', 'a', 'u', 'e', 'e', 'e', 'i', 'u', 'o', 'e', 'a', 'e', 'e', 'o', 'a', 'a', 'a', 'a', 'e', 'a', 'e', 'u', 'a', 'a', 'e', 'u', 'i', 'a', 'o', 'i', 'a', 'u', 'e', 'a', 'u', 'e', 'u', 'o', 'u', 'o', 'o', 'o', 'e', 'o', 'a', 'e', 'a', 'e', 'i', 'o', 'a', 'o', 'a', 'u', 'e', 'o', 'o', 'i', 'a', 'i', 'a', 'a', 'a', 'i', 'a', 'a', 'e', 'o', 'a', 'i', 'e', 'a', 'o', 'i', 'i', 'e', 'i', 'a', 'a', 'e', 'a', 'i', 'o', 'u', 'a', 'o', 'o', 'a', 'o', 'e', 'o', 'a', 'i', 'e', 'a', 'a', 'a', 'a', 'a', 'o', 'a', 'a', 'i', 'i', 'e', 'o', 'u', 'o', 'o', 'u', 'a', 'u', 'i', 'e', 'a', 'i', 'e', 'a', 'a', 'i', 'a', 'i', 'o', 'o', 'e', 'a', 'a', 'e', 'a', 'o', 'a', 'o', 'a', 'a', 'a', 'a', 'a', 'i', 'a', 'a', 'a', 'u', 'e', 'e', 'a', 'e', 'a', 'o', 'e', 'a', 'i', 'a', 'a', 'o', 'a', 'a', 'i', 'o', 'o', 'a', 'a', 'u', 'e', 'a', 'o', 'o', 'i', 'a', 'e', 'o', 'o', 'a', 'a', 'e', 'u', 'a', 'i', 'e', 'i', 'a', 'e', 'a', 'a', 'i', 'o', 'a', 'u', 'a', 'a', 'a', 'e', 'i', 'e', 'e', 'o', 'a', 'u', 'a', 'a', 'a', 'e', 'e', 'o', 'a', 'a', 'o', 'u', 'e', 'o', 'e', 'e', 'e', 'o', 'e', 'o', 'o', 'o', 'a', 'a', 'a', 'e', 'u', 'e', 'u', 'i', 'u', 'u', 'a', 'o', 'a', 'i', 'e', 'o', 'e', 'i', 'o', 'a', 'e', 'o', 'u', 'e', 'a', 'e', 'o', 'u', 'i', 'o', 'a', 'a', 'a', 'a', 'a', 'a', 'u', 'e', 'a', 'a', 'e', 'e', 'o', 'a', 'i', 'e', 'a', 'u', 'a', 'e', 'a', 'e', 'u', 'i', 'u', 'a', 'o', 'o']
+283
+283
+done reconstructing  056_monologue_
+working on  041_monologue_
+ p**sl*s*f*j*sd*l*c*s*c*m*n*c*rj*nt*l*m**r* *r*l*rc*s* ***m*sj*nt**b*rt*l**sj*n**l*r d*t** r**st*sl*r*s l*c**j* t**t** l*st* 
+segmented and inserted in time:  14.892537117
+['u', 'e', 'a', 'u', 'i', 'o', 'e', 'a', 'o', 'o', 'o', 'u', 'i', 'a', 'u', 'a', 'o', 'a', 'u', 'i', 'o', 'a', 'i', 'a', 'i', 'a', 'i', 'a', 'e', 'u', 'o', 'a', 'e', 'o', 'a', 'o', 'u', 'o', 'o', 'e', 'a', 'e', 'a', 'e', 'i', 'o', 'a', 'e', 'u', 'a', 'a', 'o', 'e', 'a', 'e', 'a', 'i', 'a']
+58
+58
+done reconstructing  041_monologue_
+working on  033_monologue_
+ *j tr**x**nr*t*p*rl*m**n* **st**d*sc*ns*nd**nl*c*s* m*nt*n*mj*nt*d*pl*nt*d*d* t*l*f*n*s p*rl*n*t*sc*t**ln*t*j*r* *l*b***nl*r* t*l**sj*n * m** *sc*t* l**m*s*r* m*n*t*d*dj*s x*n*r*lm*nt*m*st*j*c*st*nd**ntr*l*sn****l*sdj*d*l*n*t* *l*str*sd*l*m**n*m*d*spj*rt* p*rc*n*t*g*s*** *t* 
+segmented and inserted in time:  28.848028183
+['i', 'a', 'e', 'e', 'e', 'i', 'a', 'a', 'e', 'i', 'u', 'a', 'o', 'e', 'e', 'o', 'e', 'a', 'a', 'o', 'e', 'a', 'e', 'a', 'o', 'a', 'a', 'u', 'a', 'e', 'a', 'a', 'a', 'a', 'e', 'a', 'i', 'e', 'e', 'a', 'a', 'o', 'a', 'a', 'e', 'o', 'i', 'e', 'a', 'e', 'o', 'o', 'e', 'u', 'o', 'o', 'u', 'i', 'o', 'a', 'a', 'a', 'o', 'e', 'o', 'e', 'a', 'e', 'i', 'o', 'a', 'a', 'i', 'a', 'a', 'e', 'o', 'o', 'a', 'e', 'e', 'o', 'o', 'e', 'a', 'a', 'a', 'e', 'e', 'o', 'e', 'o', 'a', 'u', 'a', 'u', 'o', 'a', 'o', 'a', 'i', 'u', 'e', 'i', 'e', 'a', 'a', 'i', 'a', 'o', 'a', 'e', 'a', 'o', 'a', 'o', 'a', 'a', 'a', 'a', 'a', 'a']
+122
+122
+done reconstructing  033_monologue_
+working on  020_monologue_
+ *n*ld** m*r*p**sb** p*rl* m**n*b*j*c*m*n*r * d*sp**sb**l**l*sdj*d*l*m**n* l*** m*d*sc*ns**nr*t* m**c**st*m*p***n*d*rm**t* m*l**nt** m*b*jp*r*m*s* *b*g*d*m*s**m*p*g**b*rt*l**sj*n p**s *s*s*s*ld*st*n*m** *n*st*m*m*nt* *b**b**n* l*st* l*c*t**st*d**c* s**n* l*s n*t*j*s *npr*m*rl**r *ns** p*l*c*l*s b**m*t*sn**l*s n* b**n* p*l*c*l*s **r* *n*l p*r*x*mpl**n p*rc*l* *l*c*l*n* *b**s p*r*l*c*l* * p*r *l*c*l* b**p*l*c*l*s *st*l*sd**d*l*n*t* m**c* b**n* n*t**sl*sd**s c*s*t**sl*s s*m*n*sl*sd**s***s n* m*r** *s* s* c*t* l*c*s* s*c** s*n** s*nt*cr* t*rm*n*l p*rt**lt* 
+segmented and inserted in time:  79.4847102165
+['a', 'a', 'a', 'o', 'i', 'a', 'u', 'e', 'e', 'a', 'a', 'a', 'i', 'u', 'a', 'a', 'a', 'a', 'i', 'a', 'a', 'e', 'u', 'e', 'a', 'i', 'a', 'e', 'e', 'u', 'o', 'i', 'o', 'a', 'a', 'e', 'a', 'a', 'i', 'e', 'a', 'e', 'u', 'a', 'o', 'e', 'a', 'u', 'e', 'a', 'e', 'i', 'e', 'a', 'a', 'a', 'a', 'i', 'e', 'a', 'a', 'e', 'e', 'a', 'a', 'a', 'a', 'a', 'o', 'a', 'a', 'o', 'a', 'a', 'u', 'e', 'o', 'e', 'e', 'a', 'a', 'e', 'o', 'a', 'o', 'a', 'i', 'e', 'e', 'a', 'e', 'e', 'e', 'i', 'o', 'a', 'o', 'e', 'e', 'e', 'o', 'e', 'o', 'o', 'o', 'e', 'a', 'e', 'a', 'i', 'a', 'a', 'i', 'o', 'e', 'i', 'o', 'e', 'o', 'a', 'u', 'a', 'a', 'o', 'e', 'a', 'e', 'i', 'e', 'e', 'e', 'a', 'i', 'a', 'a', 'a', 'a', 'a', 'e', 'u', 'a', 'a', 'i', 'a', 'a', 'o', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'a', 'i', 'e', 'a', 'a', 'e', 'i', 'e', 'e', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'e', 'a', 'i', 'a', 'i', 'a', 'a', 'a', 'o', 'a', 'a', 'a', 'a', 'e', 'a', 'a', 'e', 'u', 'a', 'a', 'a', 'a', 'e', 'i', 'o', 'e', 'u', 'a', 'a', 'o', 'a', 'a', 'i', 'a', 'a', 'e', 'a', 'a', 'o', 'i', 'a', 'a', 'i', 'a', 'e', 'a', 'i', 'a', 'e', 'a', 'a', 'o', 'e', 'a', 'i', 'a', 'a', 'o', 'a', 'e', 'a', 'a', 'i', 'a', 'a', 'a', 'a', 'a', 'a', 'o', 'i', 'a', 'o', 'i', 'a', 'a', 'i', 'a', 'e', 'i', 'a', 'a', 'e', 'a', 'a']
+254
+254
+done reconstructing  020_monologue_
+working on  074_monologue_
+ j* s*n*st* n*p**s*n d**n*rm*l *b*r*mbr* p**s m*l**nt* m*s*m*n*s*l*s sj*t* sj*t**m*j**sc*t**l*d*n*t*j*s * *s*s*r***nl*n*s n*t*j*s *s*s*nd**d*d*sc*ns*d*sc*ns*t**sl*s l*n*str**x* *n *n r*st**r*nt*c**j*c**nl* j**b**n*l*sl*n*sm*d**c**nt*n*s*d*sc*ns*rt***ls*nt*d** *st*r *st*j*rc*nm*nj*t* xm * b**sm*p*g***r*s***nl*c*s* l**rl*r*p* tr*p**r **r*s** *s* *sl*r*t*n*d*l*s l*n*s n*rm*lm*nt**p*rl*t*r* b*r*l*d*t*l**sj*n **sc*t*r*n *c*t*c*d*m*s*c* l*sl*n*s b**n* * l*r*t*n*d*l*sm*rt*s d*l*s x***s *l*s***s*r** *sl*s*j*nt* l**nt** *l*s *t*d*l*m**n* m*p*g*r*p*d*p*rt** * *lm*rt*s*l**tr*t*r *r* *r**m*j* d*sp**sd* 
+segmented and inserted in time:  103.942627192
+['a', 'o', 'e', 'o', 'a', 'a', 'u', 'a', 'e', 'a', 'o', 'a', 'i', 'a', 'a', 'a', 'i', 'e', 'u', 'o', 'a', 'e', 'i', 'e', 'a', 'a', 'a', 'a', 'e', 'a', 'o', 'a', 'o', 'o', 'a', 'e', 'o', 'e', 'a', 'u', 'a', 'e', 'e', 'a', 'a', 'a', 'e', 'o', 'e', 'u', 'a', 'a', 'a', 'o', 'e', 'a', 'u', 'a', 'e', 'e', 'u', 'a', 'o', 'a', 'e', 'e', 'a', 'i', 'o', 'i', 'a', 'e', 'o', 'a', 'e', 'a', 'e', 'e', 'e', 'a', 'u', 'a', 'o', 'i', 'o', 'a', 'a', 'e', 'a', 'o', 'e', 'u', 'e', 'o', 'o', 'u', 'e', 'e', 'i', 'e', 'u', 'e', 'e', 'a', 'a', 'o', 'o', 'o', 'e', 'o', 'e', 'e', 'i', 'o', 'a', 'e', 'a', 'i', 'e', 'e', 'e', 'a', 'e', 'a', 'a', 'o', 'a', 'a', 'a', 'u', 'i', 'a', 'a', 'i', 'a', 'e', 'a', 'a', 'a', 'e', 'e', 'e', 'a', 'o', 'o', 'a', 'a', 'o', 'i', 'a', 'e', 'o', 'a', 'i', 'e', 'a', 'e', 'e', 'i', 'a', 'a', 'a', 'a', 'o', 'a', 'e', 'e', 'o', 'o', 'i', 'e', 'a', 'a', 'a', 'u', 'a', 'u', 'i', 'o', 'a', 'o', 'e', 'i', 'a', 'o', 'a', 'a', 'o', 'a', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'a', 'e', 'a', 'a', 'o', 'o', 'e', 'i', 'o', 'o', 'a', 'e', 'a', 'a', 'a', 'i', 'a', 'a', 'i', 'i', 'o', 'a', 'i', 'i', 'a', 'i', 'a', 'a', 'u', 'o', 'e', 'a', 'e', 'a', 'a', 'a', 'e', 'a', 'i', 'e', 'a', 'a', 'a', 'a', 'a', 'a', 'e', 'e', 'o', 'a', 'e', 'o', 'a', 'e', 'a', 'e', 'e', 'i', 'o', 'a', 'a', 'a', 'e', 'a', 'e', 'a', 'a', 'a', 'e', 'u', 'e', 'a']
+268
+268
+done reconstructing  074_monologue_
+working on  003_monologue_
+ l** *l b** *l b** *l l**m*n*s r*c*r*l*s ***l*lm**r*c*n*l*sp*s* *lm*r*m*s * j*p*rl*t*r*m*p*g**l*r ***t*rm*n**l d** sj*mpr* c*x* c**lcj*rl*r*c**lcj*rp*rj**c* d* l**sc**l* j*nj*sn*t*r*l*s*sp**l rt*r*m* gr*m*t*c* m*t*m*t*c* c*m**r*c*n*n c*m**r* c*n*mbr*s tr**x**st*t*r*r* n* p*c*t* l*smj*rc*l*st**sl*smj*rc*l*s *nl*f*nd*j*np*nt*m*s ** *n*sd**s**m*s*n*s*st**m*s*j*nd**n*s *n*sp*rt**s*s *l*** l*st* 
+segmented and inserted in time:  40.6369390488
+['e', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'a', 'e', 'u', 'a', 'o', 'a', 'o', 'a', 'e', 'a', 'i', 'e', 'e', 'a', 'u', 'o', 'a', 'a', 'e', 'a', 'a', 'i', 'i', 'a', 'o', 'a', 'u', 'e', 'i', 'e', 'a', 'e', 'e', 'a', 'o', 'e', 'e', 'e', 'e', 'e', 'i', 'e', 'e', 'a', 'o', 'i', 'e', 'e', 'a', 'u', 'a', 'i', 'o', 'i', 'o', 'a', 'i', 'o', 'e', 'e', 'o', 'a', 'a', 'e', 'u', 'e', 'a', 'a', 'e', 'a', 'u', 'a', 'u', 'a', 'a', 'u', 'e', 'a', 'a', 'u', 'o', 'a', 'o', 'a', 'e', 'a', 'i', 'e', 'o', 'o', 'e', 'a', 'a', 'o', 'o', 'o', 'e', 'a', 'a', 'o', 'e', 'a', 'e', 'o', 'e', 'e', 'i', 'a', 'a', 'o', 'a', 'a', 'a', 'e', 'e', 'e', 'e', 'e', 'i', 'a', 'e', 'a', 'a', 'o', 'a', 'i', 'e', 'e', 'i', 'a', 'o', 'a', 'a', 'u', 'o', 'e', 'a', 'i', 'a', 'e', 'o', 'e', 'o', 'i', 'a', 'e', 'e', 'a', 'e', 'u', 'o', 'u', 'a', 'a', 'e', 'e', 'o', 'e', 'i', 'o', 'a', 'i', 'a']
+171
+171
+done reconstructing  003_monologue_
+working on  038_monologue_
+ xm b*sc*r p*c*m*r *j d*ct*r *b**sl*m*nd***n*bj*n* c*n*r*p*s d*ct*rj*br***b*r c*m* s****l*n*b**lt*d*pr*nt*c*n*n*m** d*pr*nt*m* m*p***s*rt*r p*r* j*c*m* c*s*n*p****st*r*l*nd*t*nt* n***l**rm*c*n n* p*r*r*l*rm*c*m* *n*d**s*r p*r* *st*rb*lt**nd**nl*lp*x*r**t** m* * *str*j*m*t*d*st*f*nj*n * *b**sm* m*r**l* *n*m***l* p*rc*t*mbj*n*jc**p*rt*r*l*c*s***s**n*tj*n*n m*x*rd*t* l*f**l**d*m*t*sc*s*sp*r*s*r***r *mp**nd*c*p*r*l* l* l*c*s*p*rl* p*r*n**p*t*c* c*c** d*l*rt*r*l*m*nt* m*d*x*r*ntr*s**s tr*sm**n*sd**p*t*c* m*m*t*r*n*ln**d*d****s *n*n*tj*nd* s*lj*nd*c*n*n*x*d*crj*n*c* l**c*x**l*sd** *tr**x**d*p*rt*r* l*sm*t*r*n*m*j*c**r*d*l*c*s* *n*l n**nt** d*s **s* m**n*c*l* m*nt*lm*nt* p*r**l*f*rm*d*l*s d*l*sr*str*s d*l*sp*rs*n*s p*r*s**r c* cj*n*r*n *l*m*m*rj**t**** m* m*d*sc*ntr*l* tr*t*d* d*r*c*p*r*r*np*c*c*m*l* l* m*m*rj**br** c*m** *x*r*t*rl* p*r*n*m*d*t*mp*c*m*t**l*sn*rj*st*mbj*nm*m*t*r*nm*t* 
+segmented and inserted in time:  221.736981869
+['u', 'a', 'a', 'a', 'a', 'i', 'i', 'a', 'i', 'a', 'i', 'i', 'a', 'o', 'a', 'u', 'a', 'u', 'o', 'a', 'a', 'o', 'a', 'i', 'a', 'o', 'e', 'e', 'i', 'a', 'a', 'a', 'e', 'u', 'a', 'u', 'a', 'u', 'e', 'a', 'o', 'e', 'o', 'o', 'o', 'u', 'a', 'a', 'o', 'e', 'o', 'o', 'e', 'a', 'a', 'a', 'u', 'a', 'e', 'a', 'a', 'e', 'a', 'a', 'a', 'i', 'o', 'i', 'e', 'a', 'e', 'a', 'a', 'a', 'e', 'e', 'e', 'o', 'a', 'u', 'a', 'i', 'a', 'e', 'o', 'a', 'i', 'a', 'a', 'o', 'a', 'a', 'u', 'i', 'o', 'a', 'a', 'a', 'a', 'e', 'e', 'u', 'o', 'o', 'a', 'e', 'a', 'i', 'i', 'a', 'a', 'e', 'a', 'a', 'a', 'i', 'e', 'a', 'i', 'a', 'e', 'a', 'i', 'a', 'a', 'i', 'a', 'i', 'a', 'a', 'e', 'o', 'o', 'a', 'i', 'e', 'a', 'u', 'a', 'a', 'o', 'u', 'u', 'o', 'i', 'a', 'o', 'e', 'e', 'u', 'e', 'e', 'u', 'a', 'u', 'e', 'e', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'e', 'e', 'i', 'o', 'i', 'i', 'a', 'o', 'a', 'e', 'o', 'a', 'o', 'o', 'i', 'u', 'i', 'u', 'i', 'e', 'e', 'o', 'o', 'a', 'a', 'a', 'a', 'a', 'a', 'e', 'o', 'a', 'a', 'e', 'e', 'e', 'a', 'a', 'o', 'a', 'e', 'a', 'a', 'i', 'e', 'a', 'o', 'i', 'e', 'e', 'a', 'e', 'a', 'a', 'e', 'a', 'o', 'a', 'a', 'e', 'e', 'e', 'e', 'e', 'o', 'e', 'a', 'e', 'o', 'u', 'a', 'o', 'o', 'e', 'u', 'a', 'e', 'a', 'a', 'i', 'a', 'e', 'a', 'o', 'e', 'o', 'e', 'u', 'o', 'a', 'a', 'i', 'a', 'a', 'u', 'a', 'a', 'o', 'a', 'a', 'e', 'a', 'e', 'o', 'a', 'a', 'e', 'e', 'a', 'u', 'a', 'a', 'o', 'a', 'a', 'i', 'o', 'e', 'a', 'o', 'o', 'a', 'a', 'o', 'e', 'e', 'a', 'a', 'a', 'e', 'e', 'i', 'u', 'a', 'o', 'a', 'e', 'a', 'e', 'e', 'a', 'a', 'e', 'a', 'i', 'o', 'a', 'a', 'a', 'a', 'o', 'o', 'a', 'a', 'e', 'o', 'a', 'e', 'a', 'o', 'i', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'e', 'a', 'a', 'a', 'a', 'i', 'e', 'o', 'o', 'a', 'a', 'a', 'a', 'o', 'e', 'u', 'e', 'a', 'o', 'a', 'a', 'a', 'e', 'o', 'a', 'a', 'a', 'a', 'u', 'i', 'o', 'o', 'o', 'a', 'i', 'i', 'u', 'e', 'a', 'e', 'o', 'a', 'i', 'o', 'a', 'o', 'o', 'a', 'e', 'e', 'e', 'a', 'u', 'a', 'a', 'e', 'o', 'i', 'e', 'a', 'a']
+396
+396
+done reconstructing  038_monologue_
+working on  036_monologue_
+*n*ld**n***n** b**t*l**sj*n p*rc**m*m*g*st*m*t*l*sm*n**l***s*n*l*sp*****r m*g*st**rt**sl*sm*n**l***sp*r*n*s*jc*p*d***rl*s n*s*jc*p*d***rl*s l*sm*n**l***s s* c*s*t**sl*sd*d*sc**r* * l*sd*l*sc*n*l*sd*d*sc**r* m*g*st*n l*s*p*rn**r* *n*sd*m** s* t*g*d*st*tj*n**x**n*st**n tr*jnt**d*s*b*jntj*t* *st*j*n t*tj*n**st*t*rm*n*nd**np*zr** *x**n*st**n*st*j* *nl**n**rs***st**n*l*lt*m***d*d*r*t* 
+segmented and inserted in time:  196.895516872
+['e', 'o', 'e', 'e', 'e', 'a', 'e', 'e', 'a', 'e', 'u', 'u', 'i', 'o', 'a', 'a', 'o', 'a', 'o', 'e', 'u', 'a', 'e', 'a', 'e', 'a', 'u', 'e', 'a', 'a', 'e', 'e', 'u', 'o', 'i', 'e', 'a', 'o', 'i', 'i', 'a', 'u', 'e', 'o', 'i', 'a', 'a', 'u', 'e', 'a', 'a', 'e', 'e', 'a', 'i', 'a', 'e', 'e', 'a', 'o', 'i', 'o', 'i', 'a', 'e', 'e', 'a', 'o', 'i', 'o', 'e', 'a', 'u', 'e', 'a', 'o', 'e', 'a', 'a', 'e', 'a', 'i', 'a', 'a', 'a', 'a', 'i', 'o', 'a', 'e', 'a', 'a', 'a', 'a', 'e', 'a', 'a', 'a', 'i', 'o', 'e', 'u', 'a', 'a', 'u', 'e', 'u', 'e', 'a', 'u', 'o', 'e', 'a', 'o', 'a', 'a', 'u', 'o', 'e', 'u', 'o', 'e', 'a', 'e', 'e', 'e', 'e', 'a', 'e', 'i', 'e', 'a', 'o', 'e', 'a', 'e', 'o', 'a', 'e', 'e', 'u', 'e', 'a', 'e', 'i', 'a', 'o', 'e', 'a', 'e', 'o', 'e', 'a', 'u', 'a', 'i', 'e', 'e', 'a', 'o', 'e', 'i', 'a', 'a', 'i', 'e', 'o', 'e', 'e', 'a', 'a', 'u', 'i', 'a', 'a', 'e', 'o', 'o', 'i', 'a']
+180
+180
+done reconstructing  036_monologue_
+working on  017_monologue_
+*nd**c*m*n*c*rj*nt*m pr*m*r*m*l**nt*t*p*t*d*l*m**n* * m*t*m*l*sp*st*s n*t*mpr*n*m*t*m*l*sp*st*sp*r*n m*t*m*l*sp*st*sm*s*m*n*sp*r*l*t*r*j*s*l*s s*js*sj*t*d*l*m**n* l*** xm *l*s*t*d*l*m**n*m*s*m*n*sm*t*m*l* ***p* * d*s*j*n*p*r***l*m*j**r* l*** n**nt*sm*b** p*r*n n* m*b** *nt*sd*d*s*j*n*r 
+segmented and inserted in time:  103.201160908
+['i', 'i', 'o', 'o', 'u', 'i', 'a', 'u', 'o', 'e', 'u', 'a', 'u', 'o', 'a', 'o', 'a', 'e', 'e', 'i', 'e', 'a', 'a', 'a', 'a', 'a', 'e', 'u', 'o', 'a', 'a', 'o', 'e', 'a', 'a', 'a', 'e', 'u', 'o', 'a', 'a', 'a', 'a', 'a', 'e', 'u', 'o', 'a', 'a', 'u', 'a', 'e', 'a', 'i', 'u', 'e', 'a', 'e', 'a', 'a', 'a', 'a', 'u', 'e', 'a', 'i', 'e', 'a', 'a', 'a', 'e', 'a', 'a', 'i', 'a', 'i', 'o', 'i', 'e', 'a', 'u', 'i', 'o', 'a', 'e', 'a', 'a', 'e', 'a', 'a', 'a', 'i', 'a', 'e', 'a', 'e', 'e', 'u', 'o', 'a', 'e', 'a', 'a', 'e', 'o', 'a', 'a', 'e', 'e', 'a', 'a', 'o', 'a', 'e', 'e', 'e', 'a', 'a', 'a', 'o', 'a', 'e', 'a', 'a', 'e', 'u', 'a', 'o', 'a', 'a']
+130
+130
+done reconstructing  017_monologue_
+working on  031_monologue_
+ d*s*j*n**c**d*s*c*p** n*rm*l *l*n*s *l*n*sb**sl*r* m*p*g** **r*x*r*j*n** * m*nt*g*p**s *c**n*spr*pj***sl*sd*j b**lt*sc* c*r**n*s*rj*nd*s * b*jd*nd*m*m*m* *lm**r* c*n** xm *nl*f*c*t*mbj*n c*m*n* m*r**b*rc*m* * n* *c*n* *n **c*sj* b*f*l*s b**n* 
+segmented and inserted in time:  34.4617021084
+['e', 'a', 'o', 'i', 'a', 'i', 'a', 'e', 'e', 'a', 'a', 'e', 'o', 'a', 'a', 'a', 'a', 'a', 'a', 'i', 'o', 'a', 'o', 'o', 'e', 'e', 'u', 'e', 'o', 'i', 'e', 'a', 'e', 'a', 'e', 'o', 'a', 'a', 'o', 'e', 'i', 'e', 'o', 'i', 'o', 'o', 'e', 'o', 'e', 'i', 'a', 'o', 'a', 'a', 'a', 'a', 'a', 'i', 'e', 'o', 'e', 'a', 'a', 'a', 'a', 'o', 'e', 'e', 'a', 'a', 'o', 'o', 'e', 'a', 'e', 'o', 'i', 'e', 'a', 'a', 'e', 'a', 'a', 'a', 'i', 'a', 'a', 'e', 'e', 'a', 'o', 'o', 'a', 'o', 'a', 'o', 'a', 'e', 'a', 'i', 'e', 'a', 'a', 'i', 'a', 'a', 'e', 'a']
+108
+108
+done reconstructing  031_monologue_
+working on  083_monologue_
+ *n*nd** c*m*n*c*rj*nt* l*st* d** *s x**rb**rp*rl*m**n* d*sp**s***l*c*s* * *lm**r* **l*sj*st* c*x*l*g*t*r* m*p*g* * * pr*ct*c*r** ntr*t*rm*c*n** b**n* *p*s* d*sp**sm*spr*r*m*sd*t*l**sj*n l*st* * j* d*sp**sl*sn*t*j*s c*m*rl*sn*t*j*s **d*rm*rs*d*x*b**n* c*nm*t* g*st* 
+segmented and inserted in time:  18.5065250397
+['e', 'i', 'i', 'a', 'o', 'u', 'i', 'a', 'u', 'a', 'i', 'a', 'a', 'o', 'a', 'e', 'o', 'e', 'i', 'o', 'i', 'o', 'a', 'a', 'e', 'u', 'e', 'e', 'e', 'e', 'a', 'a', 'a', 'a', 'o', 'o', 'e', 'a', 'a', 'u', 'a', 'u', 'a', 'a', 'a', 'e', 'a', 'a', 'a', 'e', 'e', 'a', 'a', 'a', 'a', 'i', 'o', 'e', 'o', 'a', 'a', 'a', 'e', 'o', 'i', 'a', 'e', 'a', 'a', 'a', 'o', 'e', 'u', 'e', 'u', 'e', 'a', 'a', 'o', 'e', 'a', 'o', 'a', 'i', 'a', 'a', 'a', 'e', 'u', 'e', 'o', 'o', 'e', 'a', 'o', 'e', 'a', 'e', 'e', 'a', 'a', 'i', 'o', 'i', 'e', 'i', 'i', 'a', 'e', 'a', 'e', 'a', 'a', 'a', 'a']
+115
+115
+done reconstructing  083_monologue_
+working on  073_monologue_
+ b**n*j* *nt*sd*l**nt*rm* t*m*m*p*st** * m**sp*s*m***c*f**l*c*m* b*m*sl*sn*t*j*s p*r***l*s*t*n*sl**nt*m*stj*nd*m*c*m**r*n***lc**rt* d*s*j*n*m*sm*b*****l*lm**r* d*sp**s * lm**rm*s*nl*t*r*c*s* j*s*jm**st* **m*n**l***s s*l*m*s*c*m*n*r **m*sb**lt*sn*rm*l*s b*j*b*r*m*m*m*c*l*c*mp**d*s*tr*sb**st*mbj*n*l*s*m*n*p*rc*j**st*m**bj*x*t* 
+segmented and inserted in time:  198.650341988
+['u', 'e', 'o', 'e', 'a', 'e', 'e', 'e', 'a', 'e', 'o', 'i', 'o', 'a', 'a', 'e', 'a', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'o', 'a', 'u', 'e', 'a', 'a', 'a', 'a', 'u', 'o', 'e', 'e', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'a', 'e', 'e', 'a', 'e', 'e', 'a', 'e', 'e', 'o', 'i', 'e', 'a', 'a', 'i', 'e', 'u', 'a', 'o', 'e', 'e', 'u', 'o', 'i', 'a', 'e', 'u', 'a', 'i', 'e', 'e', 'a', 'u', 'i', 'e', 'u', 'e', 'a', 'u', 'e', 'o', 'u', 'e', 'i', 'o', 'o', 'o', 'o', 'e', 'i', 'e', 'o', 'a', 'i', 'a', 'u', 'e', 'a', 'o', 'e', 'a', 'i', 'o', 'a', 'a', 'i', 'a', 'a', 'i', 'u', 'a', 'a', 'a', 'o', 'a', 'e', 'a', 'a', 'a', 'a', 'o', 'e', 'o', 'o', 'e', 'o', 'i', 'a', 'o', 'o', 'e', 'e', 'i', 'u', 'u', 'o', 'a', 'e', 'a', 'a', 'o', 'e', 'a', 'e', 'i', 'a', 'a', 'i', 'a', 'a']
+153
+153
+done reconstructing  073_monologue_
+working on  084_monologue_
+ *n*nd**c*m*n*c*rj*nt*b**n*m*l**nt* t*p* *t*d*l*m**n* m* p**sm*b**m**f*jt* b*x**j* mbj**c*j*b***nl*p*rt**lt*d*mbj** * **l*s *ct****sd*ld**c* sj*mpr*** *nd**n*rm*l 
+segmented and inserted in time:  29.2777450085
+['e', 'i', 'i', 'a', 'o', 'u', 'i', 'a', 'u', 'a', 'a', 'a', 'i', 'a', 'a', 'e', 'a', 'a', 'a', 'e', 'a', 'i', 'e', 'a', 'a', 'a', 'a', 'u', 'e', 'e', 'o', 'o', 'u', 'e', 'a', 'a', 'o', 'e', 'o', 'a', 'e', 'a', 'o', 'a', 'e', 'u', 'e', 'a', 'a', 'e', 'e', 'o', 'o', 'o', 'e', 'a', 'a', 'u', 'a', 'a', 'a', 'a', 'i', 'e', 'e', 'e', 'e', 'o', 'i', 'e', 'a', 'a', 'e', 'e', 'a', 'o', 'a']
+77
+77
+done reconstructing  084_monologue_
+working on  032_monologue_
+ *jr l*r*j* b*r l*sn*t*j*s s*l*r* *c*m*n*r *s*m*s*m*n*s *lr*st* p*r**s*nt** n* tr**x**r*c*t* m*n*x**c*r* m*n*x**c*r** t**s *t**sp*rt*s *t**s p*rt*s
+segmented and inserted in time:  4.71928787231
+['i', 'a', 'o', 'a', 'a', 'o', 'o', 'e', 'a', 'o', 'e', 'a', 'o', 'a', 'e', 'o', 'a', 'o', 'a', 'a', 'e', 'a', 'e', 'e', 'o', 'i', 'a', 'a', 'u', 'o', 'a', 'o', 'a', 'e', 'o', 'i', 'a', 'a', 'o', 'a', 'e', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'o', 'i', 'e', 'a', 'e', 'a', 'a', 'e', 'a', 'e', 'a', 'a', 'e']
+64
+64
+done reconstructing  032_monologue_
+working on  072_monologue_
+ * * * *f*j*s*nl*c*s* * **l*sb**lt*sc**jc***r p**l*sc**nt*s *rc*c**n* t*x* b**n*t*j*sb**t*l**sj*n**l*s b*s*t**l*f*m*lj* n*m*s 
+segmented and inserted in time:  20.2161028385
+['a', 'a', 'a', 'a', 'i', 'o', 'o', 'a', 'a', 'a', 'a', 'a', 'u', 'a', 'a', 'a', 'a', 'i', 'a', 'i', 'a', 'a', 'i', 'e', 'e', 'i', 'e', 'a', 'a', 'e', 'i', 'e', 'o', 'a', 'i', 'a', 'e', 'a', 'e', 'o', 'e', 'u', 'u', 'i', 'o', 'u', 'i', 'o', 'o', 'e', 'o', 'e', 'o', 'o', 'a', 'a', 'a', 'o', 'a']
+59
+59
+done reconstructing  072_monologue_
+working on  005_monologue_
+ *ld**d**jm*l**nt* m*b** f** * d*sp*t*r*m*snj*t*s*lc**rt*p*s* p*r**lc*l*xj* s** b*sc*l*c*l*lm**r* d*s*j*n* * t*rm*n*d***r*l*lm**r* l*s*r*p*r*m*nj*t**s*l*b*x**lc**rt*p*s* *m**n* p*r*l*cl*n*c*d*l* *m*r*c*s b*x* c*x* d*sb*s *nb*s**nt*s*s f***l*cl*n*c*d*l*s*m*r*c*s*nt***n*s*cj*nd* f*sj*t*r*pj* d*br**s*c*r* * c* p*s*l*c** s*l*d*f*sj*t*r*pj*p*s*l*c**c*x**lb*s*rc*l*r m**n**st*l**rj*nt*l d*l**rj*nt*lc*x**nt*s*m**n*p*r*c* 
+segmented and inserted in time:  113.97231698
+['a', 'e', 'a', 'a', 'o', 'u', 'o', 'a', 'e', 'a', 'e', 'a', 'e', 'a', 'a', 'i', 'u', 'a', 'a', 'e', 'e', 'a', 'i', 'u', 'a', 'o', 'a', 'o', 'a', 'a', 'e', 'o', 'i', 'a', 'e', 'a', 'a', 'a', 'o', 'a', 'o', 'o', 'e', 'a', 'e', 'e', 'u', 'o', 'a', 'e', 'i', 'a', 'a', 'o', 'i', 'e', 'e', 'a', 'u', 'i', 'o', 'a', 'e', 'e', 'a', 'a', 'e', 'a', 'a', 'i', 'a', 'o', 'e', 'o', 'u', 'a', 'o', 'a', 'o', 'a', 'o', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'i', 'a', 'a', 'u', 'a', 'o', 'u', 'e', 'a', 'e', 'a', 'e', 'i', 'i', 'a', 'u', 'e', 'a', 'a', 'e', 'o', 'a', 'e', 'i', 'a', 'e', 'o', 'a', 'u', 'a', 'a', 'u', 'a', 'e', 'a', 'u', 'a', 'i', 'a', 'a', 'o', 'e', 'e', 'u', 'a', 'o', 'e', 'e', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'i', 'i', 'a', 'o', 'a', 'o', 'o', 'e', 'e', 'u', 'e', 'a', 'a', 'i', 'i', 'a', 'e', 'a', 'i', 'a', 'a', 'a', 'o', 'e', 'a', 'u', 'e', 'a', 'i', 'a', 'a', 'a', 'e', 'e', 'e', 'a', 'e', 'a', 'a', 'e', 'a', 'i', 'u', 'a', 'a', 'a', 'e', 'e']
+191
+191
+done reconstructing  005_monologue_
+working on  007_monologue_
+ p*rl*m**n*m*l**nt* l***lb** m*b* m*b** * m**r*n**m*sj*nt**n*lc*mp*t**rtr**x* p*g*l*sn*t*j*sl***m*sj*nt**n*lc*mp*t**r* tr**x*r *p*rl*n*t*b**t*l**sj*n c**nd*n*s*l*tr**x*r d*t**sl*spr*r*m*s*sc*s* b**p*rl*m**n*d**d** b*c* b** b**l*sn*t*j*s b***lpr*j**sc*r*ct* b**d*r*m**n*s *st*jbj*nd**sc*l*r*lj*l* *p*rl*sn*t*sb**l*sn**l*sd*p*rl*n*t* 
+segmented and inserted in time:  59.9275870323
+['e', 'a', 'a', 'a', 'i', 'a', 'a', 'e', 'a', 'e', 'e', 'e', 'e', 'a', 'a', 'a', 'a', 'e', 'a', 'a', 'u', 'e', 'e', 'o', 'a', 'e', 'u', 'a', 'e', 'a', 'a', 'o', 'o', 'u', 'a', 'e', 'e', 'a', 'a', 'o', 'o', 'e', 'o', 'e', 'u', 'a', 'e', 'u', 'a', 'e', 'a', 'a', 'o', 'a', 'u', 'o', 'a', 'e', 'a', 'o', 'o', 'i', 'a', 'i', 'i', 'a', 'u', 'i', 'o', 'a', 'a', 'e', 'o', 'o', 'a', 'i', 'o', 'i', 'a', 'o', 'e', 'i', 'a', 'e', 'a', 'a', 'e', 'a', 'a', 'e', 'u', 'e', 'a', 'a', 'u', 'e', 'a', 'e', 'u', 'a', 'a', 'a', 'e', 'a', 'a', 'a', 'a', 'o', 'e', 'a', 'e', 'u', 'o', 'e', 'a', 'i', 'a', 'a', 'a', 'e', 'u', 'e', 'o', 'a', 'u', 'a', 'e', 'o', 'a', 'a', 'o', 'a', 'o', 'a', 'u', 'i', 'u', 'i', 'o', 'a', 'o', 'a', 'a', 'a', 'o', 'a', 'a', 'e', 'a', 'a', 'a', 'a']
+152
+152
+done reconstructing  007_monologue_
+working on  062_monologue_
+ tr**x*rm*t* tr**x**nl***st*rj* tr**x* t*t*b*j*x*mn*sj*b**p*rm***rm*s*x*sm**sp*s* m*snj*t*s *tr**x*m*t*c*m*n*m*t* *m*nt*g*m***ct** * * r*p* r*p*l*c*s**l*sb**n*s p*r*j*n* j*n*p**sp*r* c*s* m*t*tr**x*m*t* **r*t**st*j*nm*t* x*mn*sj* *nm*t*c*m*n*r**nm*t* *nm*t*s* c*m*n***s*t**s*s*sc*s*s *j sj*mpr*m*d*lj* 
+segmented and inserted in time:  85.7151529789
+['a', 'e', 'e', 'i', 'a', 'a', 'e', 'u', 'a', 'e', 'u', 'e', 'e', 'a', 'a', 'e', 'e', 'e', 'a', 'a', 'e', 'u', 'o', 'e', 'e', 'u', 'o', 'i', 'o', 'i', 'e', 'e', 'i', 'a', 'e', 'a', 'a', 'u', 'e', 'a', 'a', 'a', 'e', 'a', 'i', 'a', 'a', 'i', 'a', 'a', 'a', 'a', 'a', 'e', 'e', 'a', 'i', 'a', 'a', 'a', 'a', 'a', 'a', 'o', 'a', 'a', 'a', 'a', 'u', 'a', 'e', 'i', 'e', 'e', 'a', 'e', 'a', 'o', 'u', 'o', 'u', 'e', 'a', 'a', 'a', 'a', 'a', 'e', 'o', 'i', 'a', 'i', 'a', 'a', 'i', 'e', 'i', 'e', 'o', 'a', 'a', 'a', 'u', 'o', 'a', 'o', 'a', 'i', 'e', 'a', 'e', 'a', 'e', 'o', 'a', 'i', 'a', 'a', 'a', 'a', 'i', 'a', 'a', 'i', 'i', 'i', 'o', 'e', 'a', 'o', 'a', 'i', 'i', 'e', 'o', 'a', 'a']
+137
+137
+done reconstructing  062_monologue_
+working on  010_monologue_
+j**n*nd**c*m*n*c*rj*nt* m*l**nt* ** *l *l d*s*j*n* d*sp**sp*ns*rc***rp*r**l*lm**r* s**jc***r*n*b**lt*p**s s*l* **rl***n**t*m**c* * j* c**nd* **d*b**nc**nd*b*jd*nd**l*n*m** *b*j**n*ntr*c*m*rj*lc*nm*s*x*s *j*p*rl*n*t* * *r*n**rc*m** *b*r t*l**sj*n *nr*t* 
+segmented and inserted in time:  63.6359369755
+['a', 'e', 'i', 'i', 'o', 'o', 'u', 'i', 'a', 'u', 'a', 'u', 'o', 'a', 'e', 'a', 'a', 'a', 'a', 'e', 'e', 'u', 'o', 'e', 'u', 'e', 'o', 'a', 'e', 'o', 'i', 'a', 'a', 'e', 'o', 'o', 'e', 'a', 'e', 'u', 'i', 'a', 'o', 'i', 'a', 'a', 'a', 'i', 'o', 'e', 'a', 'a', 'o', 'i', 'e', 'o', 'u', 'a', 'e', 'a', 'a', 'i', 'a', 'a', 'a', 'u', 'a', 'o', 'a', 'e', 'o', 'i', 'e', 'u', 'a', 'o', 'a', 'o', 'e', 'e', 'a', 'i', 'a', 'a', 'a', 'a', 'o', 'e', 'e', 'e', 'o', 'e', 'e', 'o', 'i', 'e', 'i', 'a', 'o', 'e', 'a', 'a', 'a', 'a', 'o', 'i', 'a', 'a', 'e', 'a', 'o', 'i', 'a', 'u', 'i', 'o', 'a', 'u', 'a', 'o']
+120
+120
+done reconstructing  010_monologue_
+working on  001_monologue_
+ n*rm*lm*nt* p**s*ct**lm*nt* * c*m**st*jr**j*nd* m*n**l***s**d*l*f*nd*j*np*rc*ns*n d*p*rc*ns*n m*st*jd**c*nd**lt*m*m*nt* **rm*n**l***s*n*s*n*str**x*s*n *np*n *n *nt**zm* c*s*n*nm**r* **s*m*st*jd**c*nd**lt*m*m*nt* f**r*d*p**sd* d* t*mbj*nb*j*lx*mn*sj** l*n*smj*rc*l*s*bj*rn*s *n**r* p**s ***nl*c*l*c*l**r**l*s**r**nl*sc***r*sd*l*c*s* c*m*n* n*m*s m*j*n*rm*lm*nt* m*d*spj*rt*c**tr**m*j*d*l*m**n* c**tr**m*j*d*l* c**tr*n*n* *st** d*spj*rt**n*s*jc*p*d*d*rm*rm*s p*r*m*l**nt* s*js*m*j*sj*t* 
+segmented and inserted in time:  237.168083906
+['o', 'a', 'e', 'e', 'i', 'e', 'a', 'u', 'a', 'e', 'e', 'a', 'o', 'o', 'e', 'a', 'a', 'i', 'a', 'a', 'a', 'u', 'e', 'a', 'a', 'e', 'e', 'a', 'a', 'a', 'i', 'e', 'a', 'o', 'a', 'a', 'e', 'o', 'a', 'a', 'o', 'o', 'a', 'o', 'a', 'i', 'u', 'i', 'a', 'e', 'e', 'o', 'i', 'a', 'u', 'e', 'a', 'a', 'e', 'o', 'o', 'o', 'o', 'a', 'e', 'a', 'a', 'u', 'a', 'e', 'u', 'i', 'o', 'a', 'e', 'a', 'e', 'a', 'u', 'i', 'a', 'e', 'e', 'o', 'o', 'a', 'o', 'a', 'i', 'u', 'i', 'a', 'e', 'e', 'u', 'e', 'a', 'e', 'u', 'e', 'e', 'a', 'u', 'a', 'u', 'o', 'u', 'o', 'o', 'e', 'a', 'a', 'e', 'o', 'o', 'o', 'i', 'o', 'u', 'a', 'i', 'e', 'i', 'e', 'a', 'i', 'e', 'a', 'e', 'u', 'a', 'a', 'u', 'a', 'i', 'u', 'o', 'e', 'a', 'e', 'o', 'i', 'a', 'i', 'a', 'e', 'a', 'o', 'o', 'a', 'i', 'a', 'o', 'a', 'o', 'a', 'o', 'a', 'e', 'e', 'i', 'e', 'i', 'e', 'u', 'a', 'o', 'o', 'o', 'a', 'i', 'e', 'a', 'a', 'a', 'u', 'a', 'o', 'o', 'o', 'a', 'a', 'e', 'u', 'a', 'o', 'a', 'a', 'e', 'e', 'o', 'o', 'a', 'e', 'e', 'e', 'e', 'e', 'e', 'a', 'o', 'i', 'a', 'a', 'a', 'a', 'a', 'e', 'a', 'a', 'i', 'a', 'o', 'e', 'a']
+215
+215
+done reconstructing  001_monologue_
+working on  093_monologue_
+ c*m* *j*tr**x*d*c**nt*m**p*rc* *n**rm*n*l*c*p*s**sp**sj* pr*ct*c*m*nt*st*j p*nsj*n***nt*n*s l*c****sp*c*t* j**nt*n*sj*t*rm*n*m*s*c* 
+segmented and inserted in time:  23.2094490528
+['a', 'a', 'a', 'o', 'a', 'e', 'a', 'e', 'u', 'e', 'i', 'o', 'a', 'a', 'a', 'u', 'a', 'a', 'a', 'o', 'o', 'u', 'e', 'e', 'i', 'i', 'e', 'a', 'a', 'i', 'o', 'a', 'e', 'a', 'o', 'u', 'i', 'o', 'a', 'e', 'a', 'u', 'a', 'a', 'i', 'e', 'o', 'a', 'a', 'e', 'a', 'e', 'a', 'e', 'e', 'i', 'e', 'o', 'e', 'o']
+60
+60
+done reconstructing  093_monologue_
+working on  030_monologue_
+ p*r**t***ld** * tr**x***n*str* f*r*c*d*x**n*s*n*str*d*l**j**l *p*r*rj*d*pl*nt* m*n*x**l*pl*nt*c*s*c*c*s*c***l*l x**n *p*rn*c*r * **l *p*rn*c*rs*pr*m* d*t*rx*nt*s*rj*l *p*r*rj*d*pl*nt* s* m*n*x*rl*pl*nt* s*c*r*l x**n*nl*c**d*l*sd*l*sd*l*s*p*s*t*sd*l*st*c*s *s*c*rl*s*mp*st**l*tr*l** 
+segmented and inserted in time:  49.7581648827
+['i', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'a', 'a', 'e', 'e', 'u', 'a', 'o', 'a', 'o', 'o', 'a', 'i', 'i', 'u', 'a', 'u', 'a', 'a', 'a', 'i', 'e', 'a', 'a', 'a', 'u', 'a', 'u', 'o', 'a', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'o', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'u', 'a', 'a', 'u', 'o', 'o', 'a', 'e', 'a', 'o', 'e', 'o', 'o', 'a', 'e', 'u', 'e', 'a', 'o', 'a', 'e', 'i', 'e', 'e', 'a', 'u', 'a', 'u', 'o', 'a', 'a', 'a', 'a', 'i', 'i', 'o', 'a', 'a', 'a', 'a', 'e', 'u', 'a', 'e', 'a', 'e', 'i', 'o', 'o', 'e', 'o', 'e', 'a', 'o', 'a', 'i', 'o', 'a', 'a', 'a', 'o', 'i', 'o', 'i', 'o', 'e', 'a', 'a', 'e', 'o', 'o', 'e', 'a']
+125
+125
+done reconstructing  030_monologue_
+working on  039_monologue_
+ xm b*l* xm p**sp*nt* ** d*s**s*r *rc*t*ct*n*c*sc**nd*m*s*l*n *b** t*l**sj*n *j*r*j* l** l** p*nt*r*str*sd*x*s*s * *s*n*s c*m* r*l*xj*s*s *n* *lt*m**n* *c*m**n*sd*p*s*s *x *r**nm*r*lc*m*d*c**tr*p*r tr*s gr*nd* n**s**s*n* *s*nm*l*r* m**c*rj*s*p*rc* f***l*m*t*l* d*l* *mf*rm**c**nd*m*sm*l*st**c*mp***p*nt*r b*sc*nd**nc**r*p*r*m* n*m*l**c*ntr**l* p*nt*j*m*zm**c***rm*s* *d*sp**sl* x*nt*mp***p**rm**p**rm**p**rm**p**rm**p**rm** p**rm**p**rm**p**rm**p**rm* *m***f*m*s**t** p**sj*l*x*nt*m*r*c*n**m*t**m* s**cj*np*nt*l*sc*s*sd*x*s*sm*sl*nd*sd*m***n *s**nb*nd***n *n**r*p* *n*st**s*n**s**n**nd*p*r*m*x*c*p*r*t*l*p*r*rx*nt*n*p*r*b*n***l* s* *m*x*n*t* b**n*p**sc*ng*st*
+segmented and inserted in time:  274.366159916
+['a', 'a', 'u', 'e', 'u', 'o', 'a', 'a', 'e', 'e', 'a', 'a', 'a', 'e', 'a', 'o', 'a', 'e', 'u', 'a', 'o', 'e', 'a', 'e', 'o', 'o', 'e', 'u', 'i', 'o', 'a', 'a', 'u', 'a', 'a', 'e', 'a', 'e', 'a', 'e', 'e', 'o', 'o', 'i', 'i', 'u', 'a', 'e', 'o', 'o', 'a', 'a', 'e', 'a', 'e', 'u', 'u', 'a', 'u', 'i', 'a', 'a', 'a', 'i', 'a', 'i', 'o', 'e', 'e', 'a', 'o', 'e', 'e', 'a', 'u', 'o', 'a', 'o', 'o', 'i', 'e', 'a', 'a', 'a', 'a', 'a', 'e', 'o', 'e', 'o', 'e', 'u', 'a', 'u', 'a', 'a', 'o', 'o', 'a', 'i', 'a', 'u', 'e', 'a', 'a', 'u', 'e', 'e', 'a', 'a', 'e', 'a', 'a', 'e', 'u', 'i', 'o', 'o', 'a', 'a', 'a', 'o', 'o', 'e', 'i', 'a', 'a', 'o', 'a', 'a', 'u', 'a', 'u', 'a', 'o', 'i', 'a', 'e', 'a', 'a', 'a', 'i', 'e', 'a', 'e', 'u', 'e', 'a', 'a', 'a', 'a', 'o', 'a', 'a', 'a', 'i', 'a', 'o', 'i', 'a', 'a', 'a', 'o', 'u', 'e', 'a', 'a', 'o', 'u', 'e', 'a', 'e', 'a', 'i', 'o', 'e', 'i', 'a', 'a', 'e', 'a', 'i', 'o', 'e', 'i', 'a', 'a', 'e', 'a', 'a', 'o', 'e', 'o', 'i', 'o', 'e', 'i', 'a', 'a', 'e', 'a', 'i', 'o', 'e', 'a', 'a', 'u', 'e', 'e', 'e', 'u', 'e', 'i', 'e', 'e', 'e', 'i', 'e', 'i', 'e', 'e', 'a', 'e', 'e', 'e', 'o', 'e', 'i', 'e', 'a', 'a', 'e', 'u', 'a', 'u', 'o', 'a', 'o', 'a', 'i', 'i', 'u', 'u', 'i', 'a', 'e', 'e', 'a', 'u', 'a', 'u', 'e', 'a', 'o', 'a', 'u', 'e', 'e', 'u', 'o', 'a', 'e', 'e', 'e', 'e', 'u', 'a', 'a', 'u', 'e', 'u', 'a', 'e', 'a', 'a', 'e', 'i', 'a', 'e', 'o', 'a', 'a', 'u', 'a', 'a', 'e', 'a', 'o', 'a', 'o', 'a', 'a', 'u', 'a', 'a', 'u', 'i', 'a', 'i', 'a', 'u', 'e', 'o', 'u', 'e', 'o', 'u', 'o']
+308
+308
+done reconstructing  039_monologue_
+working on  008_monologue_
+p**s m*l**nt* m* *rs*n*l*d*jgr*j*s*dj*s d*sp**s t* b*j*l*c**n* t*m**l* c*f** t*c*l*t* *c*n*l*nc*n*l*n c*n*l*n c*n*l*n*t*st** * l*c**j**p*n d*sp**s*mpj****rl*s*f*j*sd*l*c*s* l*st*rm*n**d*sc*ns* t*mbj*n*st*j**n*l s* p*rl*st*r*sc**nd*p*r l*st*r*s *st*j* *lb*t**r*t*p*r b*rt**l p*nt* **b**s t*rl*m*sc*nl* *nd*sc*ns*s*l* c*n*l d*j *c*nl* c*nl*sb*s*t*sc***n*l*c*s* * ** *l *tr*sb**sb*j*l*f*nd*j*n *sp*r *n *n *mp*rc* c*r p*rc*mp*t**r *st*j*nl**n**s**c*t*l*c*d*ln*rt* *s m**b**n*p*rc**n**pr*nd*m*t* **c*n* **c* s*nj*r**n*m*t* p*r*b**n*t*mbj*n *pr*nd*r *nl*stj*mp*sl*r*s *m m*sj*nt**nt*n*s*pr*nd* c*s*sc*n**p c**nt*sn*p** *n*l c*m*n*t*rm*n*lb*t**r*t* *nt*n*sm* m* m*dj*r*nl**p*rt*n**d*p*d* *rt** d* d*ntr*r *l b*t**r*t*b*rt**lc*s* *m* *n**rs**c*t*l*c*d*ln*rt* b**n*s**r 
+segmented and inserted in time:  99.0545749664
+['i', 'e', 'u', 'o', 'a', 'e', 'a', 'i', 'i', 'a', 'u', 'a', 'a', 'a', 'e', 'e', 'e', 'u', 'e', 'a', 'a', 'e', 'u', 'i', 'a', 'o', 'u', 'u', 'e', 'a', 'a', 'e', 'a', 'a', 'a', 'e', 'a', 'a', 'o', 'a', 'e', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'e', 'a', 'a', 'o', 'e', 'a', 'a', 'u', 'a', 'o', 'e', 'a', 'a', 'e', 'u', 'e', 'u', 'o', 'e', 'o', 'i', 'o', 'o', 'o', 'o', 'e', 'a', 'a', 'a', 'e', 'e', 'i', 'a', 'a', 'e', 'a', 'a', 'u', 'a', 'i', 'o', 'e', 'a', 'u', 'a', 'e', 'a', 'i', 'e', 'u', 'a', 'o', 'o', 'o', 'o', 'o', 'i', 'a', 'o', 'a', 'o', 'u', 'e', 'o', 'a', 'a', 'a', 'i', 'e', 'e', 'e', 'a', 'i', 'o', 'a', 'e', 'o', 'o', 'o', 'a', 'u', 'e', 'e', 'o', 'a', 'a', 'a', 'a', 'o', 'o', 'o', 'a', 'o', 'o', 'e', 'i', 'o', 'i', 'a', 'a', 'u', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'o', 'a', 'o', 'a', 'a', 'e', 'a', 'i', 'e', 'a', 'a', 'a', 'e', 'e', 'u', 'a', 'o', 'a', 'e', 'o', 'e', 'a', 'a', 'e', 'o', 'a', 'e', 'o', 'a', 'i', 'a', 'a', 'u', 'i', 'i', 'e', 'e', 'o', 'e', 'a', 'e', 'a', 'a', 'e', 'a', 'a', 'o', 'i', 'o', 'a', 'e', 'o', 'a', 'a', 'a', 'i', 'a', 'a', 'a', 'i', 'a', 'u', 'u', 'a', 'u', 'a', 'o', 'o', 'a', 'a', 'a', 'e', 'o', 'e', 'a', 'a', 'e', 'e', 'e', 'o', 'u', 'a', 'a', 'e', 'e', 'u', 'u', 'o', 'a', 'e', 'a', 'a', 'e', 'a', 'e', 'e', 'e', 'o', 'i', 'i', 'e', 'a', 'e', 'i', 'e', 'a', 'a', 'a', 'i', 'a', 'e', 'i', 'a', 'a', 'e', 'e', 'a', 'u', 'a', 'e', 'a', 'a', 'a', 'o', 'u', 'a', 'e', 'u', 'o', 'e', 'a', 'e', 'o', 'e', 'o', 'i', 'e', 'a', 'a', 'e', 'a', 'a', 'a', 'e', 'i', 'u', 'a', 'e', 'o', 'e', 'a', 'o', 'a', 'a', 'u', 'a', 'e', 'u', 'e', 'a', 'e', 'e', 'o', 'e', 'o', 'e', 'a', 'e', 'a', 'a', 'a']
+327
+327
+done reconstructing  008_monologue_
+working on  090_monologue_
+ c****nd** c*m*n*c*rj*nt* xm m*l**nt*d*pr*nt*c*m*n**np*c*t*c**nd*l*spj*sm*d*x*np*rc**l*n*s* *n*l****d*s**st***n*c**nt*n*l *m*d**lpj*d*r*t* *n*st**s*n**s * **r**lt*m*m*nt*m*r*s*lt**nd*l*r*n*lpj**cj*r* * n*m*d*x*c*m*n*rm*t*s*m* b*x**lp*rc*t*m*t*nt**st*jd*nd*m*m*m*s***l*p*rt*m*nt*l***st*j*n*l*nt*rn* *s**sm**ct*** *st*j *s*m*tj*n*pr**c*p* * p*r*n n* j* m* j*m*d*x*d*lb**r** b*jnt***c***str*jnt**s l*pj*rn*d*r*t* *l *lt***d*r*t*m*j*m**c**nt* *n*n* m*c**p*r*nlc*nt*l***n *r** d*b*st*n*n*ln*rt*st**m*sp*sc*nd* *nt*n*s*st**m*sp*sc*nd**n*nlc*nt*l** b*st*nt**lt*j*l*d*x**m*x*c*n*m*g*st***rp*rc*r*nc*m*tr***c*t*r*m*tr*s *n*sb*x*m*s**n*p*r**d**c*s*jsm*tr*s *lc**nd*j*t*r*l *l*n**l* m*m*r* *m* s*l*r**nd**nt*n*sb*x* p*r*l*c*nt*l**s*jsm*tr*s**ns***c***l****lm*r*st**m**p*c** *nt*n*sc*s*m*d** *l t***d*r*t* m*d**l*r****cj*r* m*d**d*sc*st**s * t***n**r**c**nl**sp*n** *s*d**l* p*sc* cl*r* * p*r* t**** t**** sj*nt*r*s*nt***lt*** p*r***r*m*r*s*lt* *nd*l*r*lpj*nl*pl*nt*d*lpj**cj*r*c*m*tj*n*x*** b**n*m*x* 
+segmented and inserted in time:  795.034224033
+['i', 'a', 'u', 'a', 'a', 'o', 'o', 'u', 'i', 'a', 'u', 'a', 'a', 'a', 'e', 'o', 'o', 'o', 'o', 'a', 'i', 'o', 'u', 'o', 'o', 'u', 'o', 'a', 'a', 'u', 'e', 'i', 'i', 'i', 'a', 'i', 'a', 'e', 'e', 'e', 'a', 'u', 'a', 'e', 'e', 'e', 'e', 'e', 'o', 'i', 'a', 'i', 'i', 'i', 'e', 'o', 'e', 'a', 'e', 'o', 'o', 'u', 'o', 'a', 'a', 'e', 'e', 'e', 'e', 'e', 'e', 'u', 'a', 'a', 'i', 'e', 'u', 'i', 'a', 'e', 'e', 'a', 'i', 'o', 'i', 'e', 'e', 'o', 'e', 'o', 'o', 'e', 'a', 'a', 'a', 'e', 'a', 'i', 'i', 'a', 'i', 'a', 'u', 'i', 'a', 'a', 'o', 'e', 'o', 'a', 'o', 'i', 'o', 'a', 'o', 'e', 'a', 'a', 'o', 'e', 'o', 'u', 'e', 'o', 'e', 'a', 'a', 'a', 'e', 'o', 'e', 'u', 'i', 'e', 'a', 'o', 'i', 'e', 'a', 'a', 'e', 'o', 'a', 'a', 'a', 'a', 'a', 'e', 'o', 'a', 'o', 'a', 'u', 'o', 'e', 'o', 'u', 'a', 'a', 'a', 'a', 'o', 'a', 'a', 'o', 'e', 'i', 'i', 'a', 'o', 'a', 'e', 'a', 'a', 'e', 'a', 'o', 'i', 'o', 'o', 'a', 'i', 'e', 'u', 'o', 'a', 'a', 'a', 'a', 'a', 'a', 'o', 'a', 'i', 'o', 'i', 'a', 'o', 'a', 'e', 'a', 'i', 'e', 'o', 'e', 'a', 'a', 'a', 'a', 'a', 'u', 'a', 'a', 'a', 'a', 'a', 'u', 'a', 'e', 'a', 'a', 'a', 'o', 'e', 'e', 'a', 'e', 'e', 'a', 'u', 'e', 'a', 'o', 'a', 'e', 'a', 'o', 'i', 'a', 'u', 'e', 'a', 'o', 'u', 'a', 'e', 'a', 'e', 'a', 'a', 'a', 'e', 'a', 'o', 'u', 'i', 'i', 'i', 'i', 'e', 'i', 'a', 'o', 'e', 'u', 'a', 'o', 'i', 'o', 'a', 'e', 'i', 'a', 'a', 'e', 'a', 'a', 'a', 'a', 'e', 'o', 'u', 'a', 'e', 'i', 'e', 'a', 'u', 'a', 'e', 'i', 'o', 'o', 'a', 'u', 'e', 'e', 'o', 'e', 'u', 'a', 'o', 'e', 'a', 'i', 'a', 'e', 'a', 'a', 'a', 'e', 'i', 'a', 'a', 'a', 'i', 'i', 'i', 'e', 'o', 'a', 'e', 'a', 'e', 'a', 'e', 'a', 'i', 'a', 'e', 'o', 'e', 'o', 'e', 'o', 'o', 'a', 'i', 'a', 'o', 'i', 'o', 'e', 'i', 'o', 'o', 'e', 'a', 'o', 'i', 'a', 'i', 'o', 'e', 'a', 'e', 'a', 'e', 'a', 'a', 'i', 'e', 'i', 'a', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'i', 'o', 'i', 'i', 'i', 'o', 'i', 'u', 'a', 'a', 'e', 'i', 'a', 'o', 'o', 'o', 'e', 'a', 'e', 'a', 'e', 'e', 'a', 'u', 'e', 'a', 'e', 'a', 'e', 'o', 'e', 'o', 'a', 'a', 'a', 'a', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'a', 'e', 'a', 'a', 'a', 'e', 'a', 'a', 'a', 'u', 'a', 'a', 'u', 'o', 'a', 'a', 'o', 'a', 'a', 'a', 'e', 'a', 'i', 'i', 'a', 'e', 'a', 'e', 'u', 'o', 'o', 'o', 'a', 'a', 'a', 'a', 'e', 'o', 'e', 'e', 'a', 'i', 'o', 'a', 'e', 'a', 'a', 'a', 'a', 'e', 'a', 'e', 'a']
+467
+467
+done reconstructing  090_monologue_
+working on  019_monologue_
+ m*l**nt* **d*p*rt* m*n*m**n**r* mxc*m*n*nd* **j*nd**st*r*mj*nt* p*rc*j*t*g* *rc*s*n * str*s* *rtr*s*s t*mbj*nm*l*sd*sc*rj*r*n l*m*zm*f*t* *lm*zm*m*s d*l *rc*s*n *m*l**nt* **rx*mn*sj* b*j*lp**l*t* *js* c*m*n*nd* r*sp*r*nd* b*x*gr*t*nd* * ****st*r*mj*nt* b*g*d*s*j*n* xm *n*b*nd*x*d*fr*t* fr*t* **l*m*j**r**ld*s*j*n*mx *s*l*n*rm*lm*nt*p*r*l*b*lj*t*c*l*r d*n*** **n*d*l*t*r* l*t*nd*c*ntr**ls*** 
+segmented and inserted in time:  23.964979887
+['u', 'o', 'a', 'e', 'a', 'i', 'e', 'o', 'e', 'o', 'i', 'e', 'a', 'u', 'e', 'a', 'a', 'i', 'a', 'o', 'a', 'i', 'a', 'e', 'e', 'a', 'u', 'u', 'a', 'a', 'o', 'e', 'a', 'e', 'a', 'e', 'a', 'a', 'e', 'o', 'a', 'o', 'i', 'u', 'a', 'u', 'o', 'i', 'a', 'u', 'a', 'i', 'o', 'i', 'o', 'o', 'a', 'u', 'a', 'a', 'e', 'a', 'e', 'a', 'a', 'a', 'a', 'e', 'a', 'o', 'i', 'u', 'o', 'a', 'u', 'o', 'a', 'u', 'a', 'a', 'i', 'a', 'a', 'i', 'a', 'o', 'e', 'i', 'a', 'o', 'e', 'a', 'i', 'a', 'o', 'a', 'e', 'e', 'e', 'e', 'e', 'u', 'u', 'a', 'a', 'a', 'e', 'a', 'e', 'a', 'u', 'a', 'a', 'a', 'a', 'a', 'i', 'a', 'i', 'a', 'a', 'u', 'a', 'o', 'a', 'e', 'i', 'a', 'e', 'e', 'a', 'u', 'a', 'i', 'a', 'o', 'a', 'e', 'e', 'o', 'e', 'a', 'e', 'e', 'a', 'a', 'o', 'i', 'a', 'a', 'a', 'u', 'a', 'a', 'a', 'i', 'e', 'a', 'a', 'a', 'o', 'e', 'a', 'a', 'o', 'a', 'a']
+167
+167
+done reconstructing  019_monologue_
+working on  097_monologue_
+ *b**n*m*d***n*j*l*s*c**c**rt*d*l*m**n*c*m*l**nt* n*sb**m*sm**sp*s**j* l**nt*m*s*t*m*s *s*b** xmj*l*b*st**ld*s*j*n* *n*sb*m*s*l*s*js*c**rt* p*r**lc*l*xj*p*rc*l*ntr**st*j*r*l*s*js*m*j**** m*c**d*s*j*n*nd**nl*c*s* m*b*g*p*r*l*cl*n*c*c*ntr**l*s*t*d*l*m**n* *tr**x**st*l*sc**tr*d*l*t*r*m*s*m*n*s*t*ndj*nd*p*j*nt*s** *t*c*sm*c**c*n l*l*c*d*r*f**l*r*c**j*nd**mb*st**j*n 
+segmented and inserted in time:  168.720148087
+['i', 'a', 'a', 'i', 'a', 'a', 'u', 'a', 'a', 'o', 'a', 'e', 'a', 'a', 'i', 'e', 'e', 'i', 'e', 'a', 'u', 'a', 'u', 'u', 'o', 'a', 'e', 'o', 'e', 'u', 'i', 'a', 'e', 'a', 'a', 'a', 'o', 'e', 'a', 'o', 'a', 'i', 'a', 'a', 'a', 'i', 'e', 'a', 'u', 'i', 'a', 'o', 'e', 'o', 'a', 'e', 'a', 'u', 'a', 'a', 'u', 'i', 'u', 'o', 'u', 'u', 'a', 'o', 'a', 'a', 'e', 'o', 'i', 'u', 'e', 'o', 'o', 'a', 'e', 'e', 'e', 'i', 'u', 'o', 'e', 'e', 'a', 'e', 'e', 'e', 'e', 'u', 'i', 'o', 'o', 'a', 'a', 'o', 'e', 'a', 'e', 'a', 'a', 'e', 'o', 'a', 'a', 'a', 'a', 'a', 'e', 'o', 'a', 'e', 'a', 'i', 'o', 'i', 'e', 'a', 'a', 'a', 'o', 'a', 'e', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'e', 'a', 'e', 'o', 'a', 'a', 'e', 'a', 'e', 'a', 'a', 'e', 'e', 'u', 'a', 'a', 'a', 'a', 'i', 'i', 'o', 'u', 'e', 'e', 'o', 'o', 'e', 'e', 'a', 'a', 'e', 'a', 'e', 'i', 'a', 'a', 'e', 'a', 'o', 'e', 'a', 'a']
+174
+174
+done reconstructing  097_monologue_
+working on  095_monologue_
+ m*r** **rd*p*rt* m*b** d*s*j*n*m*b*jp*r*m*s* *l**** x**rb**r l****b*rl*sn*t*j*s*lm*r*r **rl*sj*st* l***m*b**l*p*lb**r l***m*st*r* p*r*l*c*s*d*n*** **sc*t*rl*sn*t*c*s*c*m*r**d*rm*r c*nm*t*g*st* 
+segmented and inserted in time:  33.2551701069
+['a', 'e', 'a', 'o', 'i', 'e', 'o', 'e', 'a', 'e', 'a', 'e', 'e', 'a', 'a', 'a', 'a', 'a', 'a', 'o', 'a', 'e', 'i', 'o', 'a', 'a', 'e', 'o', 'e', 'a', 'e', 'u', 'e', 'i', 'a', 'o', 'o', 'e', 'o', 'a', 'o', 'i', 'o', 'i', 'o', 'u', 'a', 'e', 'u', 'a', 'a', 'a', 'a', 'a', 'o', 'o', 'i', 'e', 'u', 'a', 'e', 'a', 'a', 'u', 'e', 'u', 'e', 'u', 'a', 'e', 'e', 'e', 'o', 'e', 'i', 'a', 'a', 'a', 'i', 'a', 'a', 'a', 'a', 'e', 'e', 'o', 'i', 'e', 'a', 'e', 'a', 'a']
+92
+92
+done reconstructing  095_monologue_
+working on  047_monologue_
+ p**sm*l**nt* ***np*c*d*m**mj*nt* xm d**d*p*rm*j*c*m*n* **b**sm*g*st**nt*r*rm**l*sl**r*sd* d*l*c**n*d*l*m*zm*c*s* j*pr*m*r* f***p*r*rj*d*x*l*r*s*n *lt*x*rd*x*c*nd**t*rm*n* m*str**x*sc*m*p*nc*m* *n*nt**rd*p*n**r**c* t*n***nl*m*zm*c*s* n*s*l*l*d*l*c*s*n*m*s s*l*l*sl*s l*s l*p*n* l*sp*n*sp*r*l*c*s* *n*ls*n***n *mf*m* p**s*f*rt*n**m*nt*m*f**s*m**bj*nc*nd*r*nt* m*sd*c*n***sc*b*s*t*l*s l*s*mpl***sd*ltr*ns*t*d*c*r*l s* f**lgr*j*s 
+segmented and inserted in time:  74.8246369362
+['u', 'e', 'a', 'a', 'a', 'e', 'a', 'a', 'u', 'o', 'o', 'e', 'e', 'u', 'u', 'a', 'e', 'u', 'a', 'e', 'o', 'a', 'a', 'i', 'a', 'a', 'i', 'o', 'a', 'e', 'u', 'a', 'e', 'e', 'a', 'e', 'e', 'e', 'e', 'e', 'e', 'e', 'e', 'i', 'i', 'a', 'e', 'i', 'e', 'a', 'i', 'a', 'a', 'e', 'e', 'u', 'a', 'e', 'o', 'a', 'u', 'a', 'e', 'i', 'i', 'o', 'o', 'a', 'a', 'a', 'i', 'i', 'i', 'o', 'e', 'a', 'e', 'i', 'a', 'u', 'a', 'e', 'e', 'o', 'o', 'o', 'e', 'a', 'u', 'a', 'o', 'u', 'e', 'e', 'a', 'o', 'u', 'e', 'a', 'a', 'i', 'a', 'u', 'e', 'a', 'i', 'a', 'a', 'a', 'a', 'a', 'u', 'a', 'o', 'a', 'u', 'i', 'o', 'o', 'o', 'a', 'a', 'a', 'a', 'e', 'a', 'e', 'i', 'e', 'i', 'a', 'a', 'a', 'o', 'a', 'a', 'e', 'a', 'a', 'u', 'u', 'a', 'a', 'a', 'u', 'a', 'o', 'u', 'a', 'a', 'a', 'e', 'a', 'i', 'o', 'o', 'e', 'a', 'a', 'e', 'u', 'a', 'e', 'u', 'e', 'e', 'i', 'o', 'e', 'o', 'a', 'u', 'i', 'e', 'e', 'a', 'i', 'a', 'e', 'e', 'a', 'a', 'a', 'a', 'a', 'o', 'a', 'u', 'e', 'a', 'a']
+191
+191
+done reconstructing  047_monologue_
+working on  006_monologue_
+ n*p**s*st*j*nl*c*s* **f*j*s s*l***r c*mpr*sc**nd*p*** c*m p*r**c*mp*** * n** *j* m*st*j*nl*c*s* n* *nl*c*s*l**j***m**rm*n*c*tj*n*l **r*t*d*c*mf*cj*n l**j** *c*s*r n* n*m*s*l*d*b**nc**nd* 
+segmented and inserted in time:  106.010775089
+['a', 'a', 'a', 'u', 'e', 'a', 'a', 'a', 'a', 'a', 'i', 'a', 'a', 'o', 'e', 'o', 'i', 'o', 'a', 'u', 'a', 'o', 'i', 'e', 'a', 'o', 'a', 'e', 'a', 'a', 'e', 'e', 'e', 'a', 'e', 'o', 'a', 'o', 'o', 'o', 'a', 'a', 'a', 'a', 'o', 'e', 'a', 'e', 'a', 'e', 'o', 'e', 'a', 'u', 'o', 'i', 'e', 'a', 'e', 'a', 'a', 'o', 'i', 'a', 'a', 'a', 'o', 'u', 'a', 'i', 'e', 'a', 'a', 'a', 'o', 'a', 'o', 'e', 'a', 'a', 'u', 'a', 'a', 'e', 'i', 'e', 'a']
+87
+87
+done reconstructing  006_monologue_
+working on  058_monologue_
+c*m* * x*n*r*lm*nt* m*l**nt**l*s*jsd*l*m**n* p*rc* f***n*p*rs*n*c*tr**x*tr*jnt**tr*s**s * t*g**s***t*m*l**nt* d*sp*t**m*str*s*x*s * l***m*b*j**r*x*r*j*dj*rj**l**n**rs**d**ntj*cj* l***r*r*s**lm**r*c*nm*s*x*s * x*n*r*lm*nt*b*j*cl*s*s *nl* *r*sd*l*t*r**l*nt**r * m*s*x*s*nj*tr*s* *lm*j*r*spr*f*sj*n*l tr**x**nl**n**rs**d**ntj*cj**n*st*m*m*nt* tr**x**n*n**f**n**n*l*st*j* b*n**l*n*sd* l*sx***sd*lm*ndj*ld* d*l*sx***s*l*mp*c*s b**m**c*nt*nt*c*n*l **spr*f*s*r*n*lp*l*t*n*c* *l*s *m *st*j****j*nf*s*c**tj*n*lp*zr***ns*l*d*p*rt** * m*s**nd**x* n* t*rm*n*l*c*r*r* * n*sdj*tr*st**p*rc*p*s**l**n**s**d**ntj*cj*ntr*p*l*x** p*r* *n*tj*n*c*s*r**l*st*t*t**sn*s*np*r**l*st*j* b**m**c*nt*nt*c*n*lp*rc* *str**x**r*nd*p*ndj*nt* * l*r**nc*r****r*tj*n**tr*c*r**nc*mp*j*c*n*n*m** d*c*m**sr*p**s *b*p*r**l*nt***s*m*n*r**s**m* m*x*m*n*r*s*x*nj*r*d*s*st*m*s tr**x**n*n**f**n**n*l**l*sc* c*n*nc*l*mbj*n*c*tj*n*l**mpr*s**n*sp** b**m***r**s*d**s 
+segmented and inserted in time:  693.893118143
+['a', 'a', 'a', 'o', 'o', 'a', 'e', 'e', 'u', 'o', 'a', 'o', 'i', 'u', 'o', 'i', 'e', 'a', 'a', 'a', 'a', 'o', 'u', 'e', 'u', 'a', 'e', 'o', 'a', 'e', 'o', 'i', 'o', 'a', 'e', 'a', 'o', 'e', 'a', 'a', 'o', 'u', 'i', 'o', 'a', 'u', 'o', 'u', 'o', 'a', 'e', 'i', 'u', 'e', 'u', 'o', 'a', 'e', 'i', 'a', 'e', 'u', 'a', 'a', 'a', 'e', 'e', 'e', 'a', 'e', 'a', 'e', 'a', 'u', 'a', 'i', 'o', 'i', 'e', 'i', 'o', 'u', 'e', 'a', 'a', 'a', 'u', 'o', 'a', 'o', 'u', 'u', 'e', 'e', 'o', 'i', 'e', 'i', 'a', 'o', 'o', 'a', 'e', 'e', 'a', 'e', 'a', 'e', 'e', 'a', 'e', 'e', 'e', 'i', 'e', 'a', 'a', 'a', 'o', 'u', 'a', 'a', 'e', 'o', 'e', 'e', 'a', 'a', 'a', 'e', 'a', 'o', 'o', 'e', 'a', 'a', 'a', 'e', 'u', 'a', 'e', 'o', 'a', 'i', 'e', 'i', 'o', 'u', 'e', 'a', 'e', 'e', 'e', 'o', 'e', 'o', 'a', 'e', 'u', 'a', 'e', 'e', 'a', 'a', 'e', 'a', 'a', 'a', 'i', 'a', 'a', 'o', 'o', 'a', 'a', 'e', 'e', 'e', 'a', 'i', 'e', 'e', 'a', 'e', 'e', 'a', 'a', 'a', 'i', 'a', 'i', 'u', 'o', 'e', 'e', 'u', 'e', 'a', 'o', 'e', 'e', 'a', 'a', 'o', 'e', 'o', 'e', 'o', 'a', 'a', 'i', 'o', 'a', 'e', 'o', 'a', 'a', 'e', 'i', 'o', 'e', 'a', 'a', 'i', 'a', 'o', 'o', 'a', 'e', 'a', 'e', 'e', 'e', 'o', 'i', 'a', 'u', 'a', 'a', 'a', 'o', 'a', 'e', 'e', 'e', 'e', 'e', 'a', 'o', 'e', 'i', 'a', 'o', 'a', 'a', 'a', 'a', 'o', 'e', 'a', 'o', 'a', 'a', 'a', 'a', 'a', 'o', 'e', 'o', 'a', 'e', 'e', 'o', 'e', 'u', 'e', 'e', 'o', 'o', 'u', 'a', 'a', 'a', 'a', 'u', 'a', 'u', 'o', 'a', 'a', 'a', 'e', 'e', 'a', 'u', 'o', 'a', 'o', 'o', 'a', 'a', 'e', 'e', 'a', 'o', 'e', 'u', 'e', 'a', 'o', 'e', 'e', 'a', 'a', 'a', 'o', 'o', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'u', 'a', 'a', 'o', 'o', 'e', 'a', 'a', 'a', 'o', 'i', 'e', 'u', 'o', 'a', 'a', 'a', 'u', 'a', 'a', 'o', 'a', 'a', 'i', 'i', 'a', 'o', 'a', 'a', 'e', 'a', 'o', 'a', 'e', 'i', 'a', 'a', 'a', 'a', 'a', 'e', 'a', 'i', 'e', 'a', 'a', 'i', 'o', 'e', 'a', 'e', 'e', 'a', 'i', 'e', 'o', 'i', 'u', 'u', 'a', 'o', 'i', 'e', 'a', 'a', 'e', 'a', 'u', 'e', 'u', 'e', 'a', 'u', 'a', 'u', 'a', 'e', 'a', 'a', 'o', 'a', 'o', 'o', 'u', 'a', 'o', 'a', 'a', 'a', 'e', 'i', 'e', 'i', 'o', 'e', 'i', 'e', 'e', 'u', 'i', 'a', 'u', 'e', 'i', 'a', 'i', 'o']
+431
+431
+done reconstructing  058_monologue_
+working on  075_monologue_
+ c****nd**n*rm*l s*nt***n*l*s*l* s*n*s*l* s*s*l*s*l**b*s*t*m*rt*nt**l*ntr* **b*r m*x*r*s**b*r *mb*s * b*r *mb*s *b*r s* *b*rm*x*r*s*t*m*rt*nt***c*mpr*rl*s *l*sc*m*g*st*n g*st*rm*pl*t**n*s* c*nm*t*g*st* 
+segmented and inserted in time:  39.3274199963
+['i', 'a', 'u', 'a', 'e', 'a', 'o', 'a', 'a', 'a', 'o', 'a', 'u', 'a', 'a', 'a', 'i', 'o', 'a', 'a', 'i', 'a', 'e', 'o', 'a', 'a', 'u', 'a', 'e', 'e', 'a', 'o', 'e', 'e', 'e', 'e', 'i', 'a', 'a', 'a', 'o', 'e', 'i', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'i', 'a', 'a', 'a', 'i', 'a', 'a', 'e', 'e', 'e', 'e', 'o', 'e', 'a', 'a', 'o', 'a', 'a', 'e', 'e', 'i', 'a', 'a', 'a', 'a', 'a', 'e', 'a', 'a', 'e', 'e', 'e', 'e', 'a', 'e', 'a', 'a']
+87
+87
+done reconstructing  075_monologue_
+working on  012_monologue_
+ *nd**c*m*n*c*rj*nt* *b*rc*** m*l**nt**l*s s*jsd* l*m**n* d*l**nt*rs** r**r*n x*r*n c*t*g**nl**ntr**m* c*s* n*rm*lm*nt**r*l*l*c*s* *r*l**lx*r*n * **t*g**n*lj*t*g**n*s m*c*n*sd*c*mf*cj*n m*p*g**c*s*rc**lcj*rc*s** j* c*n**sc*n*t*g* m*t**mp*rt*nj*p*rc* d*pr*nt*l*sd** *p*s**ld**p*r** n*rm*lm*nt* m*g*st*m*t*l*t*l**sj*n p*r**nt*n*sp*s*p*r***j*nd*c*s*s *j*nd*c*s*s p**s*nt**n*m*c** 
+segmented and inserted in time:  63.2256820202
+['i', 'i', 'o', 'o', 'u', 'i', 'a', 'u', 'a', 'a', 'a', 'a', 'a', 'a', 'u', 'o', 'a', 'o', 'a', 'a', 'a', 'e', 'i', 'o', 'a', 'a', 'e', 'a', 'i', 'e', 'e', 'a', 'a', 'e', 'a', 'e', 'a', 'a', 'e', 'u', 'i', 'e', 'a', 'a', 'u', 'a', 'a', 'a', 'o', 'a', 'e', 'e', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'e', 'a', 'i', 'e', 'a', 'a', 'a', 'u', 'o', 'a', 'i', 'u', 'e', 'e', 'u', 'i', 'a', 'a', 'a', 'o', 'i', 'e', 'u', 'a', 'e', 'e', 'a', 'a', 'o', 'a', 'u', 'a', 'a', 'e', 'e', 'a', 'a', 'o', 'o', 'e', 'o', 'a', 'o', 'e', 'a', 'e', 'i', 'o', 'a', 'u', 'e', 'a', 'e', 'o', 'o', 'e', 'i', 'o', 'a', 'a', 'o', 'a', 'e', 'a', 'a', 'e', 'a', 'o', 'a', 'e', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'o', 'a', 'a', 'i', 'e', 'a', 'o', 'a', 'a', 'o', 'e', 'e', 'e', 'i', 'e', 'i', 'o', 'i', 'i', 'e', 'i', 'o', 'u', 'e', 'a', 'i', 'a', 'i', 'e', 'a', 'e']
+169
+169
+done reconstructing  012_monologue_
+working on  060_monologue_
+ m*l**nt*t*mpr*n* *r* p*rm*j**r* s*p*** b*j*l***c*r*st** l*** c**n* * l*mpj*l* pl*nt*sl*s p**l*s*t**t* b*s*t**n*r*m**rm*n*b*rc*n**s*t* s*t*g**n**t*m**c*c*n** *r*cl*m*rl*m**c*m*nt*s l***r*r*s**l*c*s**b*s*t**m*s*rm*n*s p*rl*n*t*b**l*sn*t*c*s c*mp*rt*c*nm*s*rm*n*sc*c*mb**c*n**s *l****d*rm*r 
+segmented and inserted in time:  125.640861034
+['u', 'o', 'a', 'o', 'e', 'a', 'a', 'a', 'e', 'e', 'o', 'a', 'a', 'e', 'u', 'e', 'a', 'a', 'u', 'o', 'e', 'e', 'e', 'e', 'a', 'e', 'a', 'e', 'a', 'a', 'i', 'e', 'o', 'a', 'a', 'u', 'i', 'a', 'a', 'a', 'a', 'u', 'a', 'i', 'o', 'a', 'a', 'e', 'o', 'e', 'e', 'e', 'o', 'u', 'e', 'o', 'e', 'a', 'o', 'o', 'a', 'i', 'o', 'e', 'a', 'u', 'a', 'o', 'e', 'a', 'a', 'i', 'a', 'e', 'o', 'i', 'a', 'e', 'a', 'a', 'a', 'i', 'a', 'o', 'e', 'a', 'a', 'a', 'u', 'o', 'a', 'u', 'e', 'e', 'a', 'a', 'a', 'e', 'o', 'e', 'e', 'i', 'o', 'a', 'o', 'e', 'a', 'o', 'a', 'a', 'a', 'a', 'o', 'a', 'o', 'o', 'a', 'e', 'o', 'i', 'e', 'o', 'e', 'a', 'a', 'i', 'e', 'o', 'o', 'e', 'e', 'i', 'o', 'a', 'i', 'o', 'i']
+137
+137
+done reconstructing  060_monologue_
+working on  009_monologue_
+ *b**n* p**s*s* m*l**nt* m*b** tj*nd*l*c*m* * s*m*t*c*c**n*rc**n* s*m*t*c*r*l*rl*c*s*l**r*n** *d*sp**sd*lm*j*d**c*j*t*rm*n*p**sd**r*n**rl*c*s**t***lm**r* * p*rl*t*r*m*p*g** p*nt*r**r *nt**zm* ** ** *l*r*m*r*c**st**nm*m*nt*c* * l***p*rl*t*r**t*r**m*s*nl*s *l*s*js**c**m*j***m*s*l r*s*rj* p*rc*s*mp*rt*nt*l**r*j*n * j*p*rl*n*t*m*p*g**b*rl*spr*r*m*s *j*d*sp**s p**s m*g*st*m*t*l*s**l*tj*s **r*c*st*nd*nd* *s*d*l*b*m*g*st*m*t* l*b*c*l*mbj* * *jb**n**l*s c**nd*t*g*t*r*pj*b*j*l*t*r*pj*c*sl*smj*rc*l*s*l*sl*sm*rt*s*l*smj*rc*l*s ***nl*f*nd*j*nc*ns**l* * *nl* f*nd*j*nd*n*s*tr*sc*sl**nd*lj*n* ****m*s *nt**zm*b*jl*m*s***m*sj** c*nm*t*g*st* 
+segmented and inserted in time:  186.28292799
+['o', 'u', 'e', 'o', 'u', 'e', 'e', 'o', 'u', 'o', 'a', 'e', 'a', 'e', 'a', 'a', 'e', 'a', 'a', 'a', 'a', 'o', 'e', 'e', 'a', 'e', 'i', 'e', 'i', 'a', 'a', 'a', 'e', 'a', 'o', 'o', 'e', 'o', 'e', 'a', 'i', 'a', 'e', 'e', 'a', 'i', 'e', 'u', 'e', 'a', 'a', 'u', 'o', 'a', 'o', 'a', 'e', 'i', 'a', 'u', 'e', 'i', 'e', 'a', 'o', 'i', 'u', 'a', 'i', 'e', 'e', 'e', 'o', 'o', 'e', 'a', 'a', 'e', 'a', 'a', 'a', 'e', 'e', 'u', 'e', 'a', 'e', 'a', 'a', 'u', 'i', 'o', 'a', 'a', 'a', 'a', 'a', 'o', 'e', 'e', 'i', 'a', 'u', 'e', 'a', 'i', 'a', 'a', 'e', 'a', 'a', 'e', 'u', 'o', 'o', 'i', 'e', 'a', 'o', 'e', 'o', 'a', 'e', 'e', 'o', 'i', 'u', 'o', 'u', 'e', 'i', 'a', 'o', 'a', 'a', 'i', 'i', 'i', 'o', 'e', 'a', 'a', 'o', 'i', 'o', 'a', 'e', 'a', 'u', 'a', 'a', 'a', 'u', 'e', 'u', 'a', 'o', 'a', 'a', 'u', 'e', 'i', 'i', 'e', 'a', 'a', 'a', 'o', 'e', 'u', 'e', 'i', 'e', 'i', 'a', 'e', 'i', 'a', 'o', 'a', 'o', 'o', 'e', 'a', 'i', 'i', 'a', 'a', 'a', 'o', 'a', 'a', 'a', 'o', 'a', 'i', 'a', 'e', 'i', 'a', 'o', 'a', 'o', 'u', 'a', 'a', 'i', 'a', 'e', 'a', 'a', 'a', 'u', 'a', 'o', 'a', 'i', 'a', 'u', 'e', 'u', 'o', 'o', 'e', 'o', 'e', 'a', 'e', 'e', 'o', 'o', 'o', 'o', 'o', 'a', 'e', 'e', 'e', 'e', 'a', 'a', 'a', 'a', 'u', 'a', 'i', 'e', 'e', 'o', 'u', 'e', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'o', 'o', 'o', 'a', 'a', 'a', 'u', 'e', 'u', 'o', 'e', 'e', 'e', 'a', 'a', 'u', 'i', 'o', 'a', 'a', 'i', 'o', 'e', 'u', 'a', 'e', 'o', 'e', 'e', 'a', 'e', 'a', 'a']
+291
+291
+done reconstructing  009_monologue_
+working on  011_monologue_
+ j*m*l**nt*p*r***l*s *c**m*j**s*jsd*l*m**n* ***nt*nt*m*l*t*m* l***s*l**c*m*n*r p*r***st*l*sj*t**m*j*d*l*m**n* c*m*n* c**r*nt***c*m*n*t*s *r**m*j*m*s*m*n*s *l***r*r*s** l*c*s*t**d*s*j*n*r *l*** *m* p*g**l*rl*pr*ns* *b*r*lc*r** *n*lc*mp*t**r *t*t***nr*t* l****lm**r* s*l***rm*sb**lt*sp*r**c*t*g*c***r *r*r*s* *b**t*l**sj*np*r***st*l*s **t**m*j* n***d*l*n*t*c*m**c**st* *s*sm* m*d**d**d** 
+segmented and inserted in time:  131.174120903
+['o', 'e', 'e', 'a', 'a', 'a', 'a', 'a', 'u', 'a', 'o', 'i', 'o', 'o', 'a', 'a', 'i', 'i', 'e', 'a', 'a', 'a', 'a', 'i', 'i', 'e', 'e', 'u', 'o', 'e', 'a', 'e', 'u', 'a', 'i', 'e', 'u', 'a', 'i', 'a', 'a', 'e', 'a', 'e', 'i', 'o', 'o', 'a', 'o', 'o', 'a', 'i', 'e', 'a', 'a', 'a', 'a', 'i', 'a', 'u', 'a', 'e', 'a', 'o', 'o', 'a', 'a', 'i', 'a', 'a', 'e', 'a', 'a', 'a', 'e', 'e', 'a', 'a', 'e', 'i', 'o', 'i', 'u', 'u', 'i', 'a', 'u', 'a', 'i', 'i', 'a', 'a', 'o', 'a', 'a', 'e', 'i', 'o', 'a', 'a', 'a', 'e', 'o', 'o', 'e', 'o', 'e', 'a', 'i', 'a', 'i', 'a', 'i', 'e', 'e', 'a', 'a', 'o', 'o', 'u', 'e', 'a', 'e', 'a', 'u', 'a', 'o', 'e', 'u', 'o', 'e', 'a', 'u', 'i', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'a', 'e', 'o', 'a', 'a', 'o', 'o', 'a', 'o', 'i', 'o', 'o', 'i', 'a', 'o', 'o', 'e', 'u', 'i', 'o', 'a', 'a', 'e', 'a', 'e', 'i', 'o', 'a', 'i', 'e', 'a', 'a', 'a', 'e', 'o', 'a', 'e', 'i', 'a', 'e', 'o', 'e', 'a', 'u', 'e', 'a', 'e', 'o', 'e', 'e', 'i', 'a', 'a', 'i', 'e', 'a']
+197
+197
+done reconstructing  011_monologue_
+working on  069_monologue_
+ j*t*g**j*s*jx**l** j*j*t*g**n* r*p**n* r*x**l*j*n *nt*n*sj*t*g**n*sn***t*s**c*m*d*g*n**d**l*n*s*s*rj*st*mbj*n*nt*st*l*sp*r* t*g**l*n*sn***t*sd*g*n***f*c*s*d*g*r** **m*s*st*g* *x d*g*r* d*g*r** * n* *s**c**sl*c*s*d**ncl*m*tr*p*c*l*mbr* * ***n*s *f* *n* ** s* *s* * b**n* c**nt* 
+segmented and inserted in time:  126.482676983
+['e', 'a', 'a', 'i', 'o', 'e', 'e', 'e', 'i', 'o', 'e', 'e', 'a', 'u', 'a', 'o', 'a', 'i', 'a', 'o', 'e', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'e', 'e', 'u', 'i', 'a', 'o', 'a', 'i', 'a', 'i', 'a', 'o', 'o', 'o', 'e', 'i', 'o', 'u', 'e', 'e', 'a', 'e', 'o', 'u', 'a', 'a', 'e', 'i', 'a', 'a', 'a', 'a', 'i', 'u', 'a', 'u', 'a', 'e', 'o', 'a', 'a', 'i', 'o', 'o', 'u', 'e', 'a', 'o', 'i', 'o', 'i', 'e', 'a', 'a', 'i', 'u', 'i', 'e', 'o', 'e', 'e', 'i', 'o', 'i', 'a', 'e', 'o', 'a', 'o', 'e', 'e', 'o', 'e', 'i', 'u', 'a', 'i', 'o', 'u', 'i', 'a', 'o', 'a', 'a', 'a', 'e', 'a', 'e', 'e', 'e', 'o', 'e', 'e', 'u', 'a', 'a', 'a', 'a', 'a', 'i', 'a', 'a', 'e', 'a', 'i', 'e', 'o']
+135
+135
+done reconstructing  069_monologue_
+working on  018_monologue_
+ p**str**x**n*n*lm**nd* *sp**st*s d*m*pr*pj** s*l**l*s*c**m*j* d*m*c*s****ltr**x**s*js*c**rt* tr**x*t***ld**st*l*s s*js*m*j**sj*t*d*l*n*t* * m*b**s*nl*sc*r*s tr**x*c*n*n*n*l*r**d*f*r*nj*j*n**t*m*tr*c*sm**sp*j*l** *nr*p*r*j*nd** r*c*nstr*cj*n**mb*sd****p*r*t**b**c*l***t*m*t*r *sm*l**rdj*rj* p**sd*c*r*s *j*nd**p**sl*sm*rc*sd*c*r*s*n m*t*s*m*s * c**d***lm*rc** p***m*x*r*r **c* l*c*mp*t*nj**j*nd***s m**d*f**lp*r *mp*rt*j*n*sd*l*t*n**d*c*r**c***nr*p**st*sm**b*r*t*s n* p**sl*c*l**d*lt*r*l**s*p*rj*r p*r*m**s*p*rj*r **lm*nt*n*mj*nt*d**nt*r*l**s m*sf**r*l*c*l*nt*n*mj*nt***nr*n**ld 
+segmented and inserted in time:  375.145546198
+['u', 'e', 'a', 'e', 'u', 'a', 'a', 'a', 'e', 'a', 'o', 'e', 'o', 'e', 'a', 'e', 'e', 'e', 'o', 'e', 'a', 'e', 'e', 'a', 'o', 'i', 'a', 'a', 'a', 'e', 'e', 'e', 'a', 'a', 'i', 'u', 'a', 'e', 'a', 'a', 'i', 'u', 'u', 'a', 'o', 'a', 'e', 'a', 'e', 'a', 'e', 'e', 'e', 'i', 'o', 'a', 'e', 'e', 'a', 'i', 'e', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'o', 'a', 'e', 'a', 'a', 'a', 'a', 'e', 'a', 'o', 'a', 'i', 'i', 'a', 'u', 'e', 'a', 'o', 'o', 'i', 'i', 'i', 'e', 'o', 'e', 'o', 'i', 'a', 'e', 'o', 'a', 'e', 'o', 'o', 'e', 'e', 'a', 'a', 'a', 'o', 'a', 'o', 'a', 'u', 'o', 'a', 'o', 'e', 'a', 'i', 'a', 'a', 'a', 'o', 'o', 'o', 'e', 'e', 'i', 'a', 'e', 'e', 'i', 'i', 'e', 'i', 'i', 'a', 'e', 'a', 'u', 'e', 'e', 'a', 'a', 'i', 'a', 'a', 'o', 'u', 'e', 'a', 'a', 'a', 'e', 'o', 'a', 'a', 'u', 'i', 'a', 'a', 'a', 'u', 'i', 'a', 'o', 'e', 'u', 'i', 'a', 'u', 'e', 'u', 'i', 'a', 'a', 'a', 'i', 'a', 'e', 'o', 'e', 'e', 'a', 'u', 'a', 'a', 'o', 'a', 'i', 'e', 'o', 'u', 'e', 'a', 'i', 'a', 'e', 'a', 'e', 'e', 'e', 'o', 'i', 'a', 'e', 'o', 'a', 'o', 'i', 'o', 'e', 'i', 'u', 'e', 'a', 'e', 'a', 'a', 'a', 'a', 'o', 'u', 'e', 'a', 'o', 'e', 'o', 'i', 'i', 'a', 'a', 'e', 'o', 'o', 'e', 'i', 'a', 'e', 'a', 'o', 'o', 'e', 'o', 'e', 'o', 'a', 'a', 'u', 'a', 'e', 'e', 'e', 'e', 'a', 'o', 'u', 'i', 'e', 'o', 'o', 'a', 'e', 'o', 'u', 'u', 'o', 'u', 'a', 'a', 'a', 'i']
+271
+271
+done reconstructing  018_monologue_
+working on  015_monologue_
+ *n l*c*s* p**s p*rl*m**n*m*l**nt**m*b** m**r*l* s*l**c*m*n*rp*r***nr*t*c* *d*sp**s m*l**m*sj*nt**l*rl*pr*ns* *st*m*j*d***d*sp**sm**c**st**d*rm*r*tr*r*t* *l*n**t*c*m*g*st* *l*n**t*d*l*t* p*st* s* bl*c**n*r* p*r **c*n*l*tr*s*n**l*nt* p*** c*j**j**r***p*r** tr*jnt***c*c**r*nt*l*tr*s s* t*g**nc*r*l*t* s* *n*r*m*l *l* *r*n 
+segmented and inserted in time:  139.577501059
+['e', 'a', 'a', 'a', 'i', 'e', 'e', 'a', 'a', 'a', 'i', 'a', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'u', 'e', 'e', 'a', 'a', 'e', 'a', 'a', 'i', 'a', 'a', 'e', 'a', 'u', 'a', 'i', 'o', 'i', 'e', 'u', 'e', 'u', 'o', 'a', 'e', 'u', 'o', 'o', 'e', 'o', 'e', 'a', 'e', 'i', 'a', 'u', 'o', 'a', 'i', 'e', 'u', 'e', 'a', 'i', 'a', 'o', 'i', 'a', 'o', 'i', 'o', 'o', 'a', 'o', 'a', 'e', 'a', 'e', 'e', 'a', 'e', 'u', 'a', 'a', 'e', 'a', 'e', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'o', 'a', 'e', 'e', 'o', 'a', 'a', 'i', 'a', 'e', 'a', 'e', 'u', 'o', 'a', 'a', 'e', 'i', 'e', 'a', 'e', 'a', 'o', 'e', 'a', 'e', 'e', 'e', 'a', 'e', 'a', 'a', 'e', 'a', 'o', 'a', 'u', 'a', 'e', 'a', 'i', 'o', 'a', 'e', 'u', 'i', 'a', 'u', 'i', 'a', 'a', 'u', 'i', 'a', 'a', 'a', 'a', 'e', 'a']
+152
+152
+done reconstructing  015_monologue_
+working on  077_monologue_
+ *nd**c*m*n*c*rj*nt* p*r*x*mpl*l*c*s *s*m*rt*s*x***sc*b*j*x*mn*sj* c*n*n*spr*f*s*r*sd*l*nd*lm***n**s * b**n*m*l**nt* m*b**r*n** *j****rl*s*f*j*sd*l*c*s* t*mbj*n p**s**r*l*lm**r**nt*n*sd*s*j*n*l****lm**r* *d*sp**sm**r*n**p*r**r*l*x*mn*sj* ***l*cl*s*sd*d*s *tr*s*m*j* ***m*s*x*r*j*sm**b**n*s * c*n***n*n***sc*mp**r*s 
+segmented and inserted in time:  161.893593073
+['i', 'i', 'o', 'o', 'u', 'i', 'a', 'u', 'a', 'e', 'i', 'u', 'o', 'o', 'e', 'a', 'o', 'a', 'o', 'e', 'o', 'o', 'e', 'o', 'i', 'o', 'u', 'o', 'a', 'o', 'u', 'o', 'o', 'e', 'o', 'e', 'e', 'u', 'e', 'i', 'a', 'u', 'e', 'u', 'a', 'u', 'e', 'o', 'a', 'o', 'a', 'e', 'a', 'a', 'i', 'a', 'e', 'o', 'o', 'e', 'a', 'o', 'i', 'o', 'o', 'o', 'o', 'e', 'a', 'a', 'a', 'u', 'a', 'a', 'u', 'a', 'o', 'a', 'a', 'u', 'o', 'i', 'e', 'a', 'e', 'e', 'o', 'a', 'o', 'o', 'a', 'i', 'o', 'o', 'e', 'a', 'i', 'e', 'u', 'e', 'u', 'e', 'a', 'a', 'i', 'a', 'e', 'a', 'e', 'a', 'u', 'o', 'a', 'a', 'i', 'a', 'e', 'i', 'o', 'a', 'a', 'a', 'a', 'o', 'a', 'a', 'a', 'i', 'a', 'e', 'e', 'a', 'a', 'a', 'e', 'a', 'i', 'e', 'e', 'a', 'e', 'o', 'i', 'e', 'a', 'a', 'o', 'e', 'a', 'a', 'i', 'e']
+152
+152
+done reconstructing  077_monologue_
+working on  048_monologue_
+ b*rt*l**sj*n b*rt*l**sj*n*b*rt*l**sj*n* m* l**nt**l*s*c*d*l*m**n**t*nt*p*m* p*m**rm*n* b*r*tr*p** t*g**n*p*r* m*c*mp**r**sl*p*r* s*c*s*l*m**m*m* m* m*m*m* m*m*m*m** p*c**l*c** *nt*s*c**nd**st**l*j**s*s*l**p*r***r**lt*m*m*nt* m* l*p*s**nl*c*s*bj*nd*t*l**sj*n b**n* m*x* *c 
+segmented and inserted in time:  176.584023952
+['a', 'o', 'o', 'i', 'a', 'a', 'o', 'o', 'i', 'a', 'a', 'e', 'o', 'a', 'o', 'u', 'o', 'a', 'e', 'a', 'e', 'a', 'a', 'e', 'a', 'i', 'e', 'a', 'i', 'o', 'a', 'e', 'a', 'o', 'o', 'o', 'o', 'i', 'a', 'a', 'a', 'o', 'o', 'i', 'e', 'e', 'u', 'i', 'a', 'u', 'o', 'i', 'a', 'o', 'a', 'i', 'a', 'a', 'a', 'a', 'u', 'e', 'o', 'a', 'i', 'a', 'a', 'a', 'a', 'e', 'o', 'a', 'e', 'o', 'o', 'i', 'a', 'a', 'a', 'a', 'i', 'i', 'a', 'a', 'e', 'o', 'u', 'a', 'o', 'e', 'e', 'e', 'i', 'o', 'e', 'a', 'a', 'e', 'o', 'e', 'a', 'a', 'i', 'e', 'u', 'i', 'a', 'e', 'e', 'a', 'e', 'a', 'a', 'e', 'a', 'e', 'u', 'a', 'o', 'e', 'a', 'o', 'a', 'a', 'e', 'a', 'e', 'a', 'i']
+129
+129
+done reconstructing  048_monologue_
+working on  082_monologue_
+ c*m*n* x***b**r c**n* b*r* tr*p** d*t***np*c*t* c*m** *c*t* s*** *x*l*s *r* m*t* m**p*r*t* *s*p*p* p*r** d*s**s*tr*s s****nmbj** tr* d*nd*s**j*nl*sd*s**sp*r**st*mp*r l*sd**x*sp*r**st*mp*r b**n* l*st* 
+segmented and inserted in time:  9.40110707283
+['a', 'i', 'a', 'e', 'e', 'e', 'e', 'u', 'i', 'e', 'o', 'a', 'a', 'o', 'a', 'a', 'o', 'e', 'u', 'a', 'a', 'a', 'a', 'o', 'o', 'a', 'a', 'a', 'o', 'e', 'a', 'a', 'i', 'a', 'a', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'a', 'o', 'e', 'e', 'a', 'a', 'a', 'e', 'a', 'e', 'e', 'a', 'e', 'a', 'e', 'u', 'u', 'a', 'o', 'e', 'a', 'o', 'e', 'e', 'a', 'a', 'o', 'e', 'e', 'o', 'i', 'a', 'e', 'a', 'a', 'o', 'e', 'e', 'a', 'i', 'a', 'e', 'a', 'a', 'a', 'e', 'a', 'i', 'a']
+91
+91
+done reconstructing  082_monologue_
+working on  013_monologue_
+s*nd*f*r*nt*s l*n*smj*rc*l*s*bj*rn*sm*l**nt* m* m*m*b***m*b*jp*lx*mn*sj* **x*mn*sj**n**r**d*sp**sb**l**l*c*s* c*x*d*sb*s*s p*r***r*m*c*s* **nb*s**nc*l*ct** *****l*lm**r* *r*m*snj*t*s*p*r*m* *l*** r*p*s* d*sp**sd*l* *st***l*sd**r*p*s**nr*t*c* **r*l*l*c*s* * l** * n* m*s j*d*sc*ns* p*rc*p*rl*t*r*n* c**n*s*n* c* m* *m**nc*f*c*nl*t*c*n*n*r*p*c*nc*s**m**c**st* x*n*r*lm*nt*s*l**n*b* p*rl*m**n** *n*b*p*rl*t*r* *s**c*l*sd**sc*n*b*j x*mn*sj*b*j*l*s*t* *b*j**n *ntr*c*m*rj*l c*nm*x* 
+segmented and inserted in time:  106.652448177
+['o', 'i', 'e', 'e', 'e', 'a', 'a', 'e', 'o', 'o', 'o', 'i', 'o', 'u', 'o', 'a', 'e', 'a', 'e', 'o', 'e', 'u', 'a', 'a', 'a', 'i', 'u', 'o', 'a', 'o', 'e', 'u', 'o', 'a', 'e', 'a', 'i', 'e', 'a', 'e', 'u', 'e', 'a', 'i', 'a', 'e', 'a', 'a', 'o', 'e', 'a', 'o', 'a', 'e', 'a', 'e', 'a', 'i', 'i', 'a', 'a', 'a', 'u', 'a', 'e', 'o', 'e', 'a', 'a', 'e', 'a', 'o', 'u', 'e', 'a', 'e', 'e', 'a', 'u', 'i', 'a', 'o', 'a', 'e', 'a', 'e', 'a', 'e', 'a', 'e', 'i', 'o', 'a', 'e', 'a', 'o', 'e', 'u', 'e', 'a', 'e', 'o', 'i', 'a', 'e', 'e', 'u', 'e', 'o', 'o', 'e', 'e', 'a', 'i', 'o', 'a', 'i', 'e', 'o', 'o', 'a', 'a', 'a', 'e', 'a', 'a', 'o', 'a', 'o', 'e', 'a', 'a', 'a', 'o', 'e', 'a', 'i', 'a', 'o', 'a', 'e', 'e', 'u', 'a', 'a', 'a', 'a', 'o', 'i', 'a', 'u', 'o', 'a', 'o', 'a', 'u', 'a', 'a', 'o', 'o', 'i', 'o', 'a', 'o', 'a', 'u', 'e', 'a', 'o', 'o', 'a', 'e', 'e', 'a', 'e', 'e', 'i', 'a', 'e', 'a', 'a', 'e', 'e', 'a', 'u', 'o', 'e', 'o', 'i', 'e', 'a', 'e', 'e', 'o', 'a', 'a', 'a', 'o', 'e', 'a', 'a', 'u', 'o', 'e', 'u', 'o', 'a', 'i', 'o', 'a', 'a', 'o', 'e', 'e', 'o', 'o', 'e', 'e', 'e', 'e', 'a']
+221
+221
+done reconstructing  013_monologue_
+working on  024_monologue_
+ *nd**tr**x* *nl*c*s* p**s*b*r l*sc***r*sd*l*c*s* p**s*b*r pr*ct*c*m*nt*c*s*n** p**s**r t** c**n* *r*l*rl*c*s* cl*r*c*l*sp*s*m**m**j**p**st*mbj*np*rc* *sx**j*s*s* * n* **lr*t*c*m*c**m*p*g**b*rt*l**sj*n 
+segmented and inserted in time:  114.759218931
+['e', 'e', 'o', 'a', 'e', 'a', 'e', 'a', 'e', 'a', 'u', 'e', 'a', 'e', 'e', 'i', 'a', 'i', 'a', 'e', 'a', 'o', 'o', 'u', 'e', 'a', 'e', 'a', 'i', 'o', 'a', 'e', 'a', 'e', 'e', 'a', 'u', 'a', 'i', 'e', 'e', 'a', 'i', 'e', 'o', 'e', 'o', 'e', 'o', 'a', 'a', 'o', 'o', 'a', 'a', 'i', 'o', 'e', 'a', 'o', 'a', 'o', 'o', 'u', 'e', 'a', 'a', 'a', 'o', 'i', 'a', 'i', 'o', 'e', 'e', 'a', 'o', 'o', 'e', 'a', 'i', 'o', 'a', 'a', 'u', 'a', 'o', 'e', 'o', 'a', 'o', 'o', 'i', 'a']
+94
+94
+done reconstructing  024_monologue_
+working on  067_monologue_
+ p**sb** j*m*l**nt* m*b** m**r*n**m*b*j*m*s*d*sj*t*d*l*m**n* ** l****lt*nt**m*m*m**l****n*sg*r*n*sc*l*t*g*c*d*r *n*j*n*s m*d*s*j*n* *m*b*j*tr**x*r * c*n*n*s**r**nl* **st*r** p**sj* p*r x*mp* t**l*s*m*n***s* * l*s***s*l*sd*m*g*s l**j***m*m*m**r*l*lm**r* *r*l*c**n*r*l*c*s* m*sj*nt**nl*m*c*n*p*rc*j*tr**x*m*t*l*sm*n**l***s m*p*g**c*s*r t*mbj*n*nm*c*s* *j* m*l*p*s*t***ld** *nf*nj*nd*c***r 
+segmented and inserted in time:  205.749727964
+['i', 'e', 'e', 'a', 'e', 'u', 'o', 'a', 'e', 'a', 'e', 'a', 'a', 'u', 'o', 'o', 'e', 'i', 'a', 'a', 'o', 'a', 'o', 'e', 'a', 'i', 'e', 'a', 'a', 'a', 'a', 'a', 'e', 'u', 'o', 'e', 'o', 'e', 'a', 'e', 'o', 'i', 'e', 'e', 'e', 'e', 'u', 'a', 'i', 'a', 'e', 'o', 'e', 'e', 'o', 'e', 'e', 'o', 'a', 'e', 'a', 'i', 'e', 'a', 'e', 'a', 'a', 'a', 'a', 'e', 'a', 'i', 'a', 'a', 'a', 'a', 'a', 'e', 'i', 'o', 'e', 'a', 'o', 'e', 'e', 'e', 'o', 'i', 'e', 'a', 'a', 'u', 'a', 'e', 'a', 'o', 'a', 'u', 'i', 'a', 'a', 'i', 'a', 'o', 'a', 'a', 'i', 'a', 'e', 'e', 'a', 'o', 'i', 'e', 'a', 'a', 'i', 'e', 'o', 'e', 'a', 'e', 'e', 'a', 'u', 'i', 'i', 'e', 'a', 'i', 'o', 'a', 'e', 'a', 'a', 'o', 'u', 'u', 'a', 'e', 'a', 'e', 'a', 'o', 'a', 'o', 'e', 'a', 'e', 'i', 'e', 'a', 'a', 'a', 'u', 'e', 'a', 'o', 'e', 'e', 'e', 'a', 'a', 'o', 'a', 'u', 'a', 'i', 'a', 'a', 'a', 'a', 'o', 'u', 'o', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'o', 'i', 'a', 'a', 'a', 'o', 'i']
+189
+189
+done reconstructing  067_monologue_
+working on  064_monologue_
+ t**sl*sd**s d*z* c*m* l**nt* b**n* d*z*c*m*l**nt*l*pr*m*r*c****sl**rm*l*s j*st*sm*sj*nt**nl*c*m*m* *rs*n* s*l*d*l*c** *lc**rt* b*jm*l**l*sdj*nt*s l***b*j*l*c**n* p*g**c*l*nt*r l***p*n*l*p*g**c*l*nt*r*l*** l*** *m**l nj*t*p*r*c*b*j**st*j*r l*d*sp*t* b*j *l****f*j**l*c*m* l*d*jl*sp*st**s l***l*str**s m*r*r*s**l*c**n* b*x*l***p*n*l* p*g***r*lt*c*l*t*l***m*p*g**l**r b*r*tr*p** m*p*g***r*l*lm**r* l*d*j*ld*s*j*n**f*j* *l*** *m**l*n**p*r*c*s*r*n** p*r*d*sp*t*rl*l*sd**p*r**lc*l*xj* n* n*s*m*g*st*p*r*n*p***b*rl*p*rl*m**n* *p*rl*t*r*s* t*r*s*m* p*r***l*s*n**m*j*d** *st*c*n*l**c**st***ln*m*p****c*st*r 
+segmented and inserted in time:  375.764144897
+['o', 'i', 'a', 'a', 'i', 'i', 'a', 'a', 'a', 'e', 'a', 'a', 'a', 'e', 'a', 'i', 'a', 'u', 'u', 'o', 'a', 'e', 'a', 'i', 'e', 'a', 'i', 'a', 'o', 'e', 'e', 'e', 'a', 'a', 'u', 'o', 'u', 'u', 'o', 'e', 'a', 'e', 'a', 'a', 'e', 'a', 'a', 'o', 'e', 'e', 'i', 'i', 'a', 'e', 'u', 'a', 'o', 'a', 'u', 'o', 'e', 'e', 'u', 'a', 'e', 'u', 'a', 'a', 'o', 'u', 'i', 'a', 'o', 'a', 'u', 'e', 'a', 'e', 'a', 'e', 'u', 'o', 'e', 'a', 'a', 'o', 'e', 'o', 'a', 'e', 'a', 'e', 'i', 'o', 'a', 'e', 'a', 'a', 'a', 'o', 'e', 'e', 'a', 'e', 'i', 'a', 'a', 'o', 'e', 'e', 'e', 'i', 'e', 'a', 'a', 'a', 'e', 'i', 'o', 'u', 'e', 'a', 'a', 'u', 'a', 'a', 'a', 'a', 'o', 'e', 'o', 'a', 'e', 'e', 'u', 'e', 'e', 'a', 'e', 'o', 'e', 'a', 'a', 'i', 'u', 'i', 'a', 'o', 'e', 'i', 'i', 'o', 'o', 'i', 'a', 'a', 'a', 'u', 'e', 'o', 'a', 'o', 'a', 'a', 'u', 'i', 'o', 'u', 'a', 'o', 'e', 'o', 'e', 'e', 'a', 'o', 'o', 'i', 'e', 'a', 'a', 'u', 'i', 'a', 'e', 'e', 'a', 'u', 'i', 'a', 'o', 'e', 'e', 'a', 'o', 'i', 'a', 'a', 'a', 'e', 'i', 'o', 'a', 'a', 'o', 'a', 'e', 'a', 'a', 'a', 'e', 'e', 'i', 'e', 'a', 'a', 'i', 'a', 'i', 'u', 'a', 'a', 'a', 'a', 'o', 'a', 'a', 'e', 'o', 'i', 'a', 'o', 'i', 'a', 'i', 'a', 'a', 'a', 'a', 'a', 'a', 'e', 'i', 'a', 'a', 'o', 'i', 'o', 'a', 'a', 'a', 'a', 'a', 'e', 'e', 'a', 'i', 'e', 'a', 'a', 'a', 'e', 'a', 'i', 'u', 'o', 'o', 'e', 'i', 'o', 'i', 'o', 'e', 'o', 'a', 'e', 'a', 'a', 'u', 'e', 'a', 'o', 'e', 'e', 'a', 'i', 'e', 'a', 'a', 'o', 'a']
+291
+291
+done reconstructing  064_monologue_
+working on  079_monologue_
+ tr**x*r s*j tr**x**rd**r*bl*c* *st*c*p*nt*r* t***s* m*b*m**bj*n s* m*b*bj*ngr*j*s*dj*s *n*m*t*sc*s*st*g*m*t* s*m*t**rt* s*l*c*sl*c*rp*nt*r**l**r*x*r**l*l**l*r**l**l*ctr***l*pl*m*r** m*d*fj*nd*m*t* c*ng*st*m*x* 
+segmented and inserted in time:  110.623320103
+['a', 'e', 'a', 'a', 'a', 'e', 'o', 'i', 'u', 'e', 'o', 'o', 'a', 'i', 'a', 'u', 'u', 'u', 'a', 'e', 'a', 'a', 'i', 'a', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'e', 'e', 'u', 'a', 'u', 'i', 'a', 'a', 'e', 'a', 'e', 'o', 'o', 'e', 'e', 'a', 'e', 'o', 'e', 'a', 'a', 'a', 'i', 'e', 'o', 'e', 'a', 'i', 'e', 'a', 'e', 'a', 'o', 'o', 'i', 'i', 'i', 'o', 'a', 'a', 'e', 'a', 'e', 'a', 'e', 'a', 'a', 'e', 'a', 'o', 'o', 'a', 'i', 'i', 'a', 'o', 'u', 'o', 'e', 'a']
+94
+94
+done reconstructing  079_monologue_
+working on  065_monologue_
+ *jm*t*t**nd**c*m*n*c*rj*nt*m***sm**br**m*l**nt**tr**x*rc*n m*r**b**rl***r*n**rl**d*rl*ld*s*j*n* b*j*p*s**n*r***r**c*sm*rt*smj*rc*l*sx***s*bj*rn*s *l***r*r*s***r*l*lm**r*l***b*j*lp*rc*mbj****rb**lt*s p*rl*t*r*tr*t*d*s*l*rc*n*l**n *ntr*c*m*rj*l*l*s*t* *t*m*r*l**rcr**r*m*s*l*rc*nl*x*nt* m**c**st*r*nd** p*r*bj*n m**bj*nt** m*t*sgr*j*s 
+segmented and inserted in time:  301.458997011
+['i', 'a', 'i', 'a', 'i', 'i', 'o', 'o', 'u', 'i', 'a', 'u', 'o', 'e', 'a', 'e', 'i', 'o', 'e', 'a', 'a', 'a', 'e', 'a', 'a', 'a', 'e', 'i', 'o', 'a', 'e', 'a', 'a', 'i', 'o', 'a', 'i', 'e', 'e', 'i', 'o', 'a', 'a', 'e', 'e', 'e', 'u', 'o', 'a', 'e', 'a', 'i', 'o', 'a', 'i', 'a', 'a', 'e', 'a', 'e', 'a', 'e', 'e', 'a', 'a', 'e', 'e', 'e', 'u', 'i', 'o', 'e', 'i', 'o', 'a', 'a', 'e', 'e', 'o', 'o', 'a', 'a', 'u', 'a', 'e', 'a', 'a', 'i', 'u', 'o', 'e', 'o', 'o', 'e', 'a', 'o', 'i', 'a', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'a', 'o', 'e', 'a', 'e', 'a', 'e', 'e', 'o', 'o', 'e', 'u', 'i', 'a', 'o', 'a', 'e', 'a', 'e', 'i', 'i', 'a', 'i', 'a', 'e', 'o', 'o', 'e', 'e', 'e', 'e', 'a', 'a', 'i', 'a', 'e', 'i', 'a', 'o', 'a', 'i', 'a', 'a', 'e', 'a', 'u', 'o', 'a', 'u', 'i', 'a', 'a']
+157
+157
+done reconstructing  065_monologue_
+working on  098_monologue_
+ b**n*m*l**nt**l*s*c**dj*d*l*m**n* s* x*m m*r**m*t* m*b** m*m*c** d*s*j*n* *s*l*d*l*c*s**ntr*l*s*js*b*jnt** s*js*m*j*d*l*m**n* ***l*cl*n*c*f*lt*nd**nc**rt*p*r*l*sj*t*x*n*r*lm*nt* * *mpj** pr*nd**lc*mp*t**r m*s*r*m*pr*m*rt*nt*d*l*m**n* *mpj***r**s*rpr*m*r* t**sl*sc*r**s *c*nt*st*r**d*r*sp**st* ***rd*nd* c*mpl*mj*nt*c*nl*st*r**sc*t*g*p*ndj*nt* **s*st**l*sr**nj*n*sc*t*g*pr*r*m**s s**nm*cr*n*r*m*d*tr**x* * * **c*ns*lt*d*cr**mj*nt**d*s*r** l*sd**sm*rt*s*nl*t*r* 
+segmented and inserted in time:  79.6961500645
+['u', 'e', 'o', 'a', 'o', 'a', 'e', 'e', 'a', 'o', 'i', 'a', 'u', 'o', 'i', 'o', 'a', 'a', 'a', 'e', 'a', 'e', 'e', 'a', 'a', 'a', 'e', 'a', 'e', 'o', 'a', 'e', 'e', 'e', 'u', 'o', 'a', 'i', 'a', 'e', 'a', 'o', 'o', 'e', 'o', 'o', 'a', 'a', 'o', 'e', 'a', 'a', 'e', 'e', 'a', 'i', 'e', 'a', 'a', 'a', 'e', 'e', 'e', 'a', 'a', 'a', 'e', 'a', 'a', 'o', 'i', 'i', 'e', 'a', 'e', 'o', 'e', 'e', 'i', 'o', 'o', 'a', 'e', 'e', 'a', 'u', 'o', 'e', 'e', 'a', 'a', 'a', 'o', 'o', 'u', 'u', 'i', 'i', 'a', 'i', 'e', 'e', 'a', 'a', 'i', 'o', 'a', 'a', 'u', 'e', 'a', 'i', 'e', 'a', 'e', 'i', 'e', 'o', 'o', 'i', 'a', 'a', 'i', 'e', 'a', 'e', 'o', 'a', 'e', 'a', 'e', 'e', 'u', 'e', 'a', 'a', 'i', 'o', 'e', 'e', 'o', 'a', 'u', 'o', 'o', 'a', 'a', 'e', 'a', 'a', 'a', 'u', 'a', 'u', 'a', 'a', 'i', 'u', 'o', 'a', 'e', 'u', 'a', 'a', 'e', 'o', 'e', 'e', 'e', 'a', 'a', 'e', 'e', 'a', 'a', 'o', 'a', 'a', 'o', 'o', 'a', 'e', 'a', 'a', 'a', 'a', 'i', 'o', 'u', 'a', 'o', 'a', 'u', 'a', 'e', 'i', 'a', 'i', 'i', 'a', 'e', 'a', 'i', 'a', 'e', 'u', 'i', 'e', 'a']
+209
+209
+done reconstructing  098_monologue_
+working on  053_monologue_
+ b**n* * l*sl**r*s dj*rj*s*n m*l**nt* *l*sj*t*d*l*m**n* * b*j*l*c**n* *r*l*l*str*st*sc*st*ns*j*s l***t*m**np*c*d*c*f* l*** b*j* b**l**l*pj** *r*l*l*c*m* xm s* j* d*s d*sp**sm*b**p*rc*l *nt*rj*rm*nt*lb***st***c*p** m*b** *j* b**l* *l*c**n* *r*l*r n***m*nt* l*s c*s*s c* *st*n *j*nt*s** s*l**l*c**c*mpr* * l* l*sb***l*sp*r*l*c* p*r**ld*s*j*n* * d*sp**s * **m*d*s*j*n* p*r***l*sn***d*l*m**n* *st*l*sdj* b***l** b**n* m* c** c*n*ld*s*j*n* t*m*c*f*c*nl*t* r*p*c*s*t* * l*sb***l*sc*c*mpr* * *st*l* dj* *st*jm*r*nd**b*rc*p*****r *r*l* l*s *r*l*l* x**l*d*l l*r* xm *l*r*s**m*f*c*nd* *l*r*s**m*f*c*nd*l**r*l*l*x**l*l*d*jl*c*m** * l*** xm *l*sdj*d*l*m**n* d*sp*t** x*j*rc*n*ld*s*j*n* l*** *r*c*n*** * * c**lcj*r *tr*c*s*c*t*g*p*r*d*rl* c*nc*f* * r*p**c*s*t* b**n* d*sp**sd*l* dj* m*d**c***r*l*lm**r* *st*l*sd**d*ld****n* d***d***m*j* d*l**n**st*j*j*nd**lm**r* *l**n* bj*n*f*rn*nd* l*s*r*s**lm**r* *l*sd*s *ld*x*j*r *l*sd*m*s*s*r*n s*s*r*nc**nd*b*n*lm*r*r j*t*rm*n** *l*lm**r* j**lm**r*t*mbj*np*r***l*sd*s * j*m**c**st*p*r***l*sn*** n***n** n*n****m*j**dj* *n l*t*l**sj*n *nl* p*rl*s*r*sd*l*t*r* *nl*s*r*sd*l*t*r* s*n*t*g*b**lt*sp*r**r*n*l*ntr* m*d**c* m*c***nl*c*s*m*r*nd*l*t*l**sj*n l*st* 
+segmented and inserted in time:  298.822100163
+['a', 'e', 'a', 'a', 'a', 'o', 'e', 'e', 'e', 'e', 'a', 'u', 'o', 'a', 'e', 'e', 'e', 'e', 'a', 'i', 'e', 'a', 'a', 'a', 'a', 'a', 'e', 'u', 'i', 'a', 'o', 'a', 'e', 'a', 'o', 'a', 'o', 'e', 'o', 'o', 'a', 'e', 'a', 'a', 'o', 'o', 'u', 'o', 'o', 'i', 'e', 'e', 'e', 'a', 'a', 'a', 'a', 'a', 'i', 'a', 'i', 'u', 'o', 'e', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'e', 'u', 'e', 'a', 'e', 'u', 'a', 'o', 'i', 'e', 'e', 'a', 'e', 'e', 'u', 'o', 'i', 'a', 'o', 'u', 'e', 'a', 'a', 'e', 'a', 'a', 'o', 'a', 'i', 'a', 'a', 'i', 'e', 'a', 'a', 'a', 'e', 'a', 'o', 'a', 'u', 'e', 'a', 'a', 'a', 'a', 'a', 'e', 'a', 'a', 'u', 'o', 'e', 'a', 'o', 'e', 'a', 'i', 'i', 'a', 'o', 'a', 'a', 'a', 'i', 'o', 'a', 'a', 'e', 'e', 'a', 'a', 'a', 'a', 'a', 'e', 'e', 'e', 'u', 'o', 'a', 'e', 'u', 'e', 'a', 'a', 'i', 'i', 'e', 'a', 'e', 'a', 'a', 'e', 'a', 'e', 'e', 'e', 'o', 'a', 'e', 'a', 'i', 'u', 'a', 'e', 'i', 'o', 'a', 'e', 'u', 'e', 'i', 'o', 'a', 'e', 'a', 'a', 'a', 'e', 'a', 'a', 'e', 'e', 'u', 'o', 'i', 'o', 'a', 'u', 'e', 'a', 'a', 'a', 'a', 'e', 'a', 'a', 'a', 'i', 'o', 'a', 'e', 'e', 'a', 'o', 'a', 'a', 'e', 'e', 'a', 'a', 'e', 'o', 'i', 'a', 'a', 'a', 'a', 'a', 'i', 'e', 'a', 'o', 'i', 'a', 'e', 'a', 'a', 'a', 'e', 'a', 'a', 'a', 'u', 'a', 'e', 'o', 'o', 'a', 'e', 'o', 'a', 'i', 'i', 'e', 'a', 'i', 'a', 'e', 'o', 'a', 'i', 'i', 'e', 'a', 'i', 'a', 'u', 'e', 'a', 'e', 'a', 'u', 'a', 'a', 'o', 'u', 'a', 'a', 'o', 'a', 'e', 'a', 'a', 'e', 'e', 'u', 'o', 'i', 'o', 'a', 'a', 'i', 'u', 'e', 'a', 'e', 'e', 'e', 'e', 'o', 'a', 'e', 'a', 'e', 'a', 'a', 'e', 'a', 'o', 'e', 'e', 'e', 'a', 'a', 'u', 'a', 'e', 'a', 'a', 'o', 'a', 'a', 'o', 'e', 'a', 'a', 'a', 'e', 'i', 'a', 'e', 'a', 'o', 'a', 'o', 'a', 'e', 'a', 'a', 'e', 'a', 'e', 'u', 'e', 'a', 'e', 'a', 'e', 'i', 'e', 'i', 'a', 'o', 'a', 'o', 'o', 'e', 'a', 'e', 'i', 'o', 'o', 'o', 'i', 'i', 'o', 'a', 'u', 'a', 'e', 'a', 'u', 'i', 'o', 'u', 'a', 'o', 'e', 'a', 'u', 'o', 'e', 'a', 'o', 'a', 'i', 'a', 'a', 'u', 'i', 'a', 'e', 'a', 'a', 'u', 'o', 'e', 'a', 'a', 'i', 'a', 'u', 'u', 'a', 'a', 'u', 'i', 'e', 'e', 'a', 'i', 'i', 'i', 'e', 'e', 'e', 'a', 'a', 'u', 'a', 'a', 'o', 'a', 'o', 'a', 'a', 'a', 'a', 'a', 'o', 'i', 'e', 'e', 'i', 'a', 'a', 'e', 'e', 'a', 'u', 'i', 'e', 'o', 'o', 'e', 'a', 'u', 'a', 'a', 'e', 'a', 'e', 'e', 'a', 'a', 'e', 'a', 'i', 'a', 'e', 'o', 'a', 'a', 'a', 'u', 'a', 'e', 'o', 'a', 'e', 'o', 'e', 'e', 'a', 'i', 'i', 'e', 'e', 'e', 'o', 'a', 'i', 'a', 'e', 'e', 'i', 'a', 'o', 'a', 'e', 'a', 'e', 'a', 'e', 'e', 'e', 'i', 'e', 'a', 'e', 'o', 'o', 'o', 'e', 'i', 'e', 'a', 'o', 'e', 'o', 'a', 'i', 'a', 'a', 'e', 'o', 'o', 'i', 'a', 'e', 'a', 'e', 'i', 'e', 'a', 'a', 'a', 'o', 'e', 'a', 'a', 'a', 'i', 'a', 'o', 'a', 'u', 'i', 'o', 'a', 'i', 'a']
+547
+547
+done reconstructing  053_monologue_
+working on  094_monologue_
+ *r*l**p*t*s p*nt* *s** xm** m*b*j*c*m*n*r x***b**r m*r*s*nl*c*s* p*r**s*c*s*s x***b**r tr*sb*nd*s d*c* **p* d**p*l*r*s * *t* b*rj*sc*m**ns*l** s* b**n* m*x* 
+segmented and inserted in time:  2.38620114326
+['a', 'e', 'a', 'o', 'a', 'a', 'e', 'e', 'a', 'e', 'o', 'a', 'o', 'e', 'a', 'o', 'a', 'i', 'a', 'e', 'e', 'e', 'e', 'u', 'o', 'o', 'e', 'a', 'a', 'a', 'a', 'e', 'a', 'i', 'o', 'i', 'e', 'e', 'e', 'e', 'u', 'a', 'a', 'a', 'a', 'a', 'a', 'e', 'i', 'a', 'o', 'i', 'a', 'e', 'a', 'a', 'a', 'a', 'e', 'o', 'o', 'i', 'u', 'e', 'a', 'a', 'a', 'e', 'a', 'e', 'a']
+71
+71
+done reconstructing  094_monologue_
+working on  042_monologue_
+ *nd**c*m*n*c*rj*nt* *j*ct**lm*nt* *ct**lm*nt* ***x*r*j* m*m*t**lc*mp*t**r s*l**c*m*n*r l*p*g*m*p*g***rl*st*r**sc*nm*x* **t*r* *n***sc*mpl* *nc*nt* d*pr*m*rj* n*n* p**s*n*l *r**n*st* s* d*pr*nt* 
+segmented and inserted in time:  15.572876215
+['i', 'i', 'o', 'o', 'u', 'i', 'a', 'u', 'a', 'i', 'a', 'u', 'a', 'e', 'e', 'a', 'u', 'a', 'e', 'e', 'a', 'i', 'i', 'e', 'i', 'a', 'e', 'e', 'o', 'a', 'a', 'o', 'o', 'u', 'a', 'e', 'a', 'a', 'i', 'a', 'o', 'e', 'e', 'a', 'a', 'u', 'e', 'i', 'o', 'a', 'e', 'a', 'e', 'e', 'a', 'a', 'u', 'o', 'a', 'e', 'e', 'a', 'i', 'u', 'a', 'e', 'a', 'a', 'e', 'i', 'e', 'a', 'a', 'a', 'a', 'i', 'a', 'o', 'e', 'a', 'e', 'e', 'e', 'a', 'e', 'o', 'o']
+87
+87
+done reconstructing  042_monologue_
+working on  066_monologue_
+ * m*l**nt**l*sc**tr**m*j*d*l*m**n* **r*j*n s*jcr*stj*n* *nt*n*s * ***n**j*n*l**l*b*lj* *st*l*s*c**m*j**s*js j*d***m*d*r***l*c**n* **l*sc***r*sd*c**n* j*m*ntr* *r*l*r c*s* **r*n**rd*s*r*n l***s*l**nl*s*r*sd*l*t*r**t*p*m*j*** **rb**lt*sc**jc***r p*rc*s*jx**l** 
+segmented and inserted in time:  180.855951071
+['a', 'u', 'o', 'a', 'e', 'e', 'a', 'o', 'a', 'a', 'e', 'o', 'a', 'i', 'e', 'a', 'a', 'a', 'a', 'i', 'e', 'a', 'a', 'i', 'u', 'o', 'a', 'e', 'a', 'a', 'e', 'e', 'e', 'e', 'o', 'u', 'o', 'e', 'a', 'a', 'e', 'a', 'e', 'i', 'o', 'o', 'i', 'a', 'o', 'a', 'a', 'i', 'o', 'i', 'o', 'a', 'a', 'o', 'e', 'e', 'e', 'u', 'i', 'a', 'o', 'a', 'u', 'a', 'i', 'a', 'e', 'e', 'i', 'e', 'u', 'o', 'e', 'e', 'e', 'a', 'e', 'a', 'a', 'a', 'a', 'i', 'e', 'o', 'a', 'e', 'e', 'u', 'e', 'u', 'a', 'i', 'a', 'e', 'o', 'o', 'o', 'e', 'i', 'e', 'a', 'e', 'a', 'a', 'o', 'a', 'a', 'a', 'a', 'o', 'i', 'a', 'o', 'i', 'a', 'i', 'a', 'a', 'o', 'a', 'o', 'e', 'e', 'i', 'o']
+129
+129
+done reconstructing  066_monologue_
+working on  080_monologue_
+ n* p**s j*s*j*nd*s*c*p**m*s* j**st*j*sp*r*nd*l*x**l*j*nd*st**s*n**s**r* b*x**lc*f*d*nd*m*m*c*x***r*b**x**rb**r**st*s**r*s *j*p*r***l*sd***m*j*b*jp*r*l*c*s* c*m*j*b**c*n*n**rm*n*m**p*rc*lr*st*d*rm*n*smj*s*st*n*nl*s*st**s*n**s p**sj****l*lm**r***b*r*tr*p** *t*l*r*p*l*l***r* s**jc*pl*nt*rl*pl*nt**m*c***nl*c*m*d*rm*r*st*l* tr*s*m*j*c**tr* j*d*sp**s d* l*tr*s*m*j*m*l**nt* *m*b** m*d*j*tr*tr*tr*d*t* *sp*r**c***m**rm*n*l*s*c**m*j**j*m*b*jp*r**lp*rc**st*l*s*t**m*j*d*l*n*t*j*s** m*c**ntr*c*n**m*p*g**b*rt*l**sj*n*j* b*jnt**s**s *j*tr**x*n*l*st*** r**zl*ns r*c* *sl*c*p*t*lr*r**zl*ns p*r**tr**x*nm*t*sf*r*c*s s**j*f b*rj*s s*s*m*s*m*n*s*p*rl*c*j* *t**** j*tr**x*b*jnt**s**s j***l*sb**lt*sp*r*b**t* p*rc*st**nb**t* m**pr**r*nt**j*t*c**sp*r*r*c*m**m*n p*r*m*nd*r*l p*r*c*j*l*sm*nd****s*ln*m*r*d*lb* *l*c**nt*d*lp**s*ln*m*r*d*l*c**nt*d*lb*c**j*m*m*nd*n*ld*n*r* m *x*b**n* c*nm*t*g*st* 
+segmented and inserted in time:  458.027409077
+['o', 'i', 'e', 'o', 'e', 'a', 'e', 'e', 'o', 'i', 'a', 'o', 'a', 'o', 'e', 'e', 'o', 'i', 'a', 'o', 'o', 'e', 'e', 'i', 'a', 'i', 'e', 'i', 'e', 'e', 'a', 'e', 'i', 'a', 'o', 'e', 'o', 'a', 'a', 'o', 'e', 'e', 'o', 'e', 'a', 'a', 'i', 'e', 'o', 'i', 'o', 'i', 'a', 'i', 'a', 'e', 'e', 'a', 'i', 'e', 'a', 'o', 'a', 'a', 'a', 'u', 'a', 'i', 'o', 'a', 'o', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'o', 'a', 'e', 'u', 'a', 'o', 'o', 'i', 'e', 'e', 'a', 'a', 'a', 'a', 'o', 'o', 'a', 'o', 'a', 'a', 'i', 'e', 'e', 'a', 'e', 'a', 'o', 'i', 'o', 'e', 'u', 'e', 'o', 'e', 'a', 'u', 'a', 'a', 'u', 'o', 'e', 'i', 'a', 'o', 'o', 'i', 'e', 'i', 'a', 'o', 'a', 'e', 'e', 'e', 'a', 'i', 'e', 'e', 'u', 'a', 'a', 'a', 'e', 'a', 'e', 'a', 'a', 'a', 'o', 'e', 'a', 'a', 'a', 'o', 'i', 'e', 'e', 'a', 'e', 'o', 'o', 'a', 'u', 'a', 'o', 'o', 'e', 'i', 'e', 'a', 'i', 'o', 'e', 'e', 'a', 'u', 'o', 'a', 'e', 'a', 'a', 'a', 'a', 'i', 'o', 'e', 'e', 'o', 'a', 'a', 'e', 'a', 'i', 'a', 'o', 'i', 'o', 'a', 'e', 'a', 'a', 'e', 'i', 'o', 'i', 'a', 'a', 'a', 'o', 'a', 'a', 'a', 'a', 'a', 'e', 'a', 'o', 'e', 'i', 'o', 'o', 'e', 'a', 'o', 'a', 'o', 'i', 'a', 'e', 'o', 'a', 'a', 'a', 'a', 'e', 'o', 'e', 'o', 'i', 'e', 'e', 'a', 'a', 'e', 'o', 'a', 'o', 'a', 'a', 'o', 'a', 'e', 'a', 'e', 'a', 'a', 'o', 'a', 'e', 'a', 'a', 'i', 'a', 'a', 'a', 'a', 'e', 'e', 'e', 'e', 'e', 'a', 'a', 'i', 'e', 'a', 'a', 'e', 'e', 'a', 'a', 'o', 'o', 'i', 'e', 'i', 'o', 'e', 'o', 'e', 'e', 'u', 'e', 'a', 'e', 'i', 'o', 'o', 'e', 'a', 'a', 'o', 'o', 'a', 'a', 'a', 'a', 'e', 'a', 'a', 'a', 'e', 'a', 'e', 'a', 'a', 'e', 'a', 'e', 'a', 'e', 'a', 'u', 'a', 'a', 'a', 'a', 'e', 'o', 'o', 'a', 'o', 'e', 'a', 'a', 'e', 'o', 'a', 'o', 'e', 'a', 'e', 'o', 'e', 'a', 'a', 'o', 'u', 'o', 'a', 'i', 'a', 'a', 'i', 'o', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'e', 'a', 'a', 'e', 'e', 'e', 'a', 'o', 'i', 'a', 'a', 'a', 'a', 'i', 'i', 'e', 'e', 'e', 'u', 'e', 'e', 'u', 'e', 'o', 'e', 'a', 'i', 'e', 'o', 'e', 'o', 'i', 'o', 'o', 'e', 'u', 'a', 'a', 'i', 'e', 'o', 'e', 'a', 'a', 'e', 'a', 'e', 'a', 'e', 'a', 'a']
+416
+416
+done reconstructing  080_monologue_
+working on  096_monologue_
+ j*t**sl*sd**s * m* l**nt* *l*s*c*s*jsd*l*m**n* * m*b** * m*b*st* *b**s**d*s*j*n* *b**sn*l*** * m*b*jp*r*l**n**rs** c**nd****l**n**rs**sj*mpr**n*j**ld**t*m*nd*m**nc*f* * r**s**lc*r***l*ctr*n*c* * m*p*g**tr**x*r*n *s*nt*sc**j*nc*** *j*nt*sd*ld**nt*rj*r * * c*mj*n*c*n l*c*t*g*c* r**l**r*s*d** *s*st**l*n*sr**nj*n*s * c*t*g*c* * r**l**rp*r*s*nt*sd**mb*st**j*n ** pr*j*ct*sc*t*g*m*s*n*st*nsj*n * *lm*j*d** *lm**r*sj*mpr*nl**f**n* *l *lm**r*c* ** * **b**sl*sbj*rn*s *c*mpr**l*lm**r**n*l*nr*st**r*nt*d*l**n* xm *l**n**m*j**d*sd*l*t*r**n*j*tr*b* *tr**x*r*l* x*rn**d*l*t*r* *l*str*s* c**tr*d*l*t*r*m*t*m*tr*c*f* **l*s * s*jsd*l*t*r* *s*js*m*j* s*l**c*m*r*l* p*r* s**rtr**x*nd* *pr*s*m**m*nt**st*l*s*t*n***d*l*n*t* *l*sf*n*sd*s*m*n*n*rm*lm*nt*t*mbj*n*st*jtr**x*nd* **nl*n*t* *s*l*c*nm*n*j** l*s*m**s 
+segmented and inserted in time:  264.322874069
+['e', 'a', 'i', 'a', 'a', 'i', 'a', 'a', 'e', 'a', 'a', 'e', 'e', 'a', 'u', 'e', 'i', 'e', 'a', 'a', 'a', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'a', 'o', 'o', 'e', 'e', 'a', 'o', 'a', 'e', 'a', 'i', 'a', 'i', 'o', 'o', 'a', 'a', 'a', 'a', 'a', 'i', 'a', 'e', 'o', 'a', 'i', 'e', 'a', 'u', 'a', 'o', 'e', 'e', 'e', 'e', 'o', 'a', 'e', 'i', 'e', 'i', 'e', 'u', 'o', 'o', 'a', 'e', 'a', 'e', 'e', 'e', 'e', 'i', 'a', 'e', 'a', 'i', 'o', 'e', 'i', 'a', 'i', 'e', 'a', 'e', 'i', 'a', 'a', 'a', 'e', 'e', 'a', 'a', 'a', 'e', 'e', 'a', 'a', 'u', 'o', 'i', 'a', 'u', 'o', 'a', 'a', 'a', 'u', 'o', 'e', 'e', 'i', 'e', 'e', 'a', 'a', 'o', 'u', 'o', 'e', 'a', 'i', 'o', 'e', 'o', 'a', 'i', 'o', 'i', 'a', 'e', 'i', 'o', 'a', 'u', 'e', 'a', 'e', 'a', 'a', 'o', 'a', 'a', 'a', 'a', 'a', 'e', 'o', 'a', 'a', 'i', 'o', 'i', 'e', 'a', 'a', 'e', 'e', 'a', 'o', 'e', 'a', 'a', 'a', 'a', 'e', 'a', 'o', 'a', 'a', 'e', 'a', 'i', 'o', 'o', 'a', 'a', 'a', 'e', 'a', 'a', 'o', 'a', 'u', 'a', 'o', 'i', 'e', 'e', 'u', 'a', 'e', 'a', 'a', 'a', 'u', 'a', 'o', 'a', 'a', 'a', 'a', 'o', 'i', 'a', 'i', 'a', 'i', 'o', 'i', 'o', 'a', 'e', 'e', 'a', 'u', 'o', 'a', 'a', 'u', 'e', 'a', 'u', 'a', 'e', 'e', 'i', 'a', 'a', 'e', 'i', 'o', 'o', 'e', 'i', 'o', 'e', 'e', 'e', 'a', 'o', 'e', 'a', 'a', 'o', 'a', 'a', 'a', 'a', 'e', 'a', 'e', 'a', 'a', 'a', 'u', 'e', 'i', 'e', 'a', 'i', 'u', 'e', 'a', 'u', 'a', 'o', 'i', 'a', 'a', 'a', 'i', 'a', 'a', 'u', 'o', 'e', 'a', 'u', 'a', 'a', 'a', 'e', 'i', 'e', 'a', 'a', 'i', 'e', 'e', 'a', 'a', 'a', 'i', 'a', 'i', 'a', 'o', 'a', 'a', 'e', 'u', 'a', 'e', 'a', 'a', 'a', 'i', 'a', 'e', 'a', 'a', 'o', 'e', 'i', 'o', 'o', 'a', 'i', 'a', 'o', 'i', 'a', 'i', 'a', 'e', 'e', 'i', 'e', 'e', 'e', 'a', 'a', 'o', 'a', 'e', 'e', 'e', 'a', 'e', 'o', 'a', 'e', 'a', 'a', 'u', 'a', 'a', 'o', 'a', 'a', 'i', 'a', 'o', 'i', 'a', 'o', 'e', 'o', 'a', 'e', 'a']
+370
+370
+done reconstructing  096_monologue_
+working on  091_monologue_
+ j**n*nd**c*m*n*c*rj*nt*p**s*mbr*j* m*l**nt* m*b**d*pr*nt**j** *l*s**r**nl*c**n* l***m*b*j x***b**r c*m*n* m*d*str*j**nf*n c*mb*rs*rc*nl*s*m**s ***n mbj***lb*rl**str** 
+segmented and inserted in time:  28.4852879047
+['a', 'e', 'i', 'i', 'o', 'o', 'u', 'i', 'a', 'u', 'o', 'u', 'e', 'e', 'u', 'a', 'u', 'o', 'a', 'e', 'a', 'e', 'u', 'e', 'o', 'o', 'o', 'e', 'a', 'i', 'u', 'o', 'e', 'a', 'u', 'u', 'i', 'a', 'o', 'e', 'u', 'a', 'a', 'a', 'e', 'e', 'e', 'e', 'u', 'a', 'i', 'a', 'i', 'e', 'a', 'o', 'o', 'i', 'o', 'a', 'e', 'o', 'a', 'i', 'i', 'o', 'a', 'a', 'u', 'o', 'e', 'a', 'a', 'a', 'o', 'a', 'e']
+77
+77
+done reconstructing  091_monologue_
+working on  026_monologue_
+m*l**nt* *l*sdj*d*l* m**n* m*b** d*s*j*n* *m*p*g**b*rl*sn*t*j*s d*sp**sm*p*g**l*r c*n m**rm*n* m*st*r* b***lpr*r*m*d* d* *lp*s**sc*r*ct**c*mpr*l**rc*st* s* 
+segmented and inserted in time:  9.67667102814
+['u', 'o', 'a', 'e', 'e', 'e', 'u', 'o', 'a', 'i', 'u', 'a', 'a', 'e', 'a', 'e', 'e', 'u', 'o', 'u', 'a', 'o', 'e', 'o', 'a', 'o', 'o', 'e', 'a', 'e', 'u', 'e', 'e', 'e', 'a', 'o', 'e', 'e', 'u', 'e', 'o', 'a', 'o', 'o', 'a', 'e', 'u', 'o', 'a', 'a', 'i', 'e', 'a', 'e', 'i', 'o', 'i', 'a', 'a', 'o', 'o', 'o', 'e', 'i', 'a', 'a', 'a', 'a']
+68
+68
+done reconstructing  026_monologue_
+working on  052_monologue_
+ * x*n*r*lm*nt* m*l**nt* m***rc**lb** * b*x**t*m*rm**nt*nt* *f*m*rm**n**r** *s*c*r*lp*r* *l*c** l* * l***m*p*g** *r*n**r*nl*c*b*j*tr**x*r * *l* * *l**r*m*s*n**nt**l*st*c*p*r*c*mf*cj*n*s * d***m*zm*s*c*m*s p*r**r *r**r*sd*br*sj*r t*mbj*n *s**s*n**mpr*s*d*m**rm*n*l*c*p*s**sc* j*l*m*n*x* * d* d*sp**sd**tr* pr**s* l*sd*m*sc*l*r l**nt*s*l*tr*nsp*r*nt*p*r* c*n*tr*pr**s* l*d*m*sc*l*r *s**nt*pr*s*m**m*nt*l p*r * l*c*str*nsp*r*nt*sl*b*nd*m*sp*rc*l*s **lc*l* * tj*n*b*rj*j*nd*pr*j*s**n*l *l*nt* *l*d*c*l*r*s c**j c*s*np*r* *r**r*s *r**r*s d*c*l*r*s **s*sl*sb*nd*m*s*l p*rm*j*r * d*sm*lp*s*s*lp*r f*lt*m*s *s* x*n*r*lm*nt**b**sm*t*c*c**rm**st*m*st*r* p*r**t*p*dj**n*d*l*n*t* b**n* m**bj*n 
+segmented and inserted in time:  83.8859128952
+['a', 'o', 'o', 'a', 'e', 'e', 'u', 'o', 'a', 'e', 'a', 'i', 'e', 'u', 'a', 'e', 'a', 'a', 'o', 'e', 'o', 'e', 'e', 'a', 'i', 'e', 'a', 'u', 'i', 'e', 'a', 'e', 'a', 'i', 'e', 'a', 'i', 'o', 'o', 'a', 'a', 'a', 'a', 'i', 'i', 'a', 'a', 'a', 'e', 'u', 'u', 'a', 'o', 'e', 'o', 'o', 'i', 'a', 'e', 'a', 'a', 'o', 'i', 'o', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'a', 'e', 'i', 'i', 'a', 'a', 'e', 'a', 'e', 'a', 'i', 'o', 'o', 'e', 'a', 'o', 'u', 'a', 'a', 'a', 'a', 'o', 'a', 'o', 'e', 'e', 'a', 'a', 'a', 'a', 'i', 'i', 'u', 'a', 'o', 'a', 'e', 'e', 'u', 'a', 'a', 'e', 'o', 'u', 'a', 'e', 'e', 'a', 'e', 'u', 'e', 'o', 'o', 'o', 'o', 'a', 'a', 'a', 'o', 'u', 'i', 'a', 'e', 'a', 'a', 'a', 'e', 'u', 'e', 'e', 'o', 'a', 'e', 'o', 'a', 'o', 'e', 'u', 'u', 'a', 'a', 'a', 'e', 'a', 'a', 'a', 'a', 'e', 'a', 'a', 'a', 'o', 'o', 'o', 'e', 'o', 'a', 'a', 'o', 'u', 'u', 'a', 'a', 'i', 'e', 'e', 'e', 'u', 'o', 'a', 'e', 'a', 'a', 'a', 'o', 'a', 'a', 'a', 'e', 'a', 'a', 'a', 'a', 'u', 'a', 'e', 'a', 'o', 'e', 'u', 'o', 'a', 'u', 'o', 'a', 'e', 'a', 'o', 'e', 'o', 'e', 'a', 'a', 'a', 'a', 'e', 'a', 'u', 'a', 'a', 'o', 'e', 'i', 'a', 'e', 'a', 'a', 'a', 'i', 'u', 'a', 'o', 'i', 'u', 'a', 'o', 'e', 'o', 'o', 'e', 'a', 'e', 'o', 'o', 'a', 'o', 'i', 'i', 'o', 'e', 'o', 'a', 'o', 'i', 'i', 'a', 'e', 'o', 'a', 'o', 'a', 'a', 'i', 'o', 'o', 'a', 'e', 'e', 'i', 'a', 'i', 'a', 'e', 'a', 'e', 'i', 'a', 'e', 'o', 'a', 'a', 'a', 'i', 'u', 'e', 'a', 'i', 'a', 'e', 'o', 'i', 'a', 'i', 'a', 'a', 'e', 'a', 'e', 'a', 'a']
+301
+301
+done reconstructing  052_monologue_
+working on  046_monologue_
+ l**r**st* b**t*l**sj*n **b**lt*s*n *l*s*rm*n*s n*m*s j* tr**x***n*st**s*n**s b****b****c*m*b*jnt**c***s d*t** s* s*d* t** t*c***rd*t**** l**rpl*t*s*sl*m*sd*r* d*n** 
+segmented and inserted in time:  167.064870834
+['i', 'a', 'o', 'e', 'e', 'e', 'u', 'u', 'i', 'o', 'a', 'o', 'i', 'a', 'a', 'o', 'e', 'a', 'e', 'e', 'o', 'e', 'o', 'a', 'a', 'a', 'e', 'a', 'i', 'e', 'e', 'e', 'e', 'e', 'e', 'u', 'e', 'a', 'a', 'o', 'o', 'e', 'i', 'u', 'a', 'a', 'a', 'o', 'o', 'i', 'o', 'e', 'a', 'e', 'a', 'a', 'e', 'a', 'e', 'a', 'u', 'o', 'o', 'i', 'o', 'e', 'e', 'e', 'e', 'i', 'a', 'a', 'o', 'i', 'a', 'e', 'u', 'o', 'e', 'i', 'a']
+81
+81
+done reconstructing  046_monologue_
+working on  070_monologue_
+ m***ct**m*nt*lm*nt* * tr*t*nd*d* s*l*j*n*rm*pr*l*m*d*l*lm**r* *tr*t**d**pr*nd*rb*tr*l*s tr*s**s c*n*n*pr*ct*c*p*c*c*nst*nt* p*rc* *st*j*mb*st**nd* * pr**ct*sc* r**lm*nt* *st*n *lb*l*rt*nc*st*s* d* l*sm*t*rj*l*sp*r*b*tr*l*s *nt*n*s **r**st*j*n ****l*s c*tj*n**n*t*n*c* d*f*r*nt**l* *f*n* c*sl*c**pr*nd* **j*nd**s*s****l*s m*p*r**c*st**r t***ltr**x* c*s*n**s*t*dj*rj* *s* *s*lpr*l*m* 
+segmented and inserted in time:  49.3400912285
+['e', 'a', 'a', 'o', 'o', 'e', 'a', 'e', 'e', 'a', 'a', 'a', 'o', 'e', 'o', 'e', 'a', 'i', 'a', 'e', 'a', 'o', 'a', 'o', 'o', 'e', 'a', 'o', 'a', 'e', 'i', 'e', 'a', 'e', 'e', 'o', 'o', 'o', 'e', 'o', 'e', 'o', 'u', 'a', 'a', 'i', 'o', 'a', 'a', 'o', 'a', 'e', 'a', 'o', 'e', 'o', 'a', 'a', 'i', 'e', 'a', 'a', 'e', 'a', 'a', 'a', 'e', 'a', 'e', 'e', 'e', 'a', 'a', 'a', 'e', 'a', 'o', 'o', 'o', 'a', 'e', 'a', 'a', 'u', 'i', 'a', 'a', 'a', 'o', 'e', 'a', 'e', 'a', 'o', 'i', 'o', 'e', 'e', 'a', 'e', 'e', 'e', 'a', 'a', 'a', 'u', 'o', 'e', 'o', 'e', 'a', 'e', 'i', 'e', 'e', 'e', 'a', 'a', 'a', 'i', 'o', 'a', 'a', 'i', 'a', 'e', 'a', 'a', 'i', 'a', 'a', 'o', 'e', 'e', 'o', 'a', 'u', 'a', 'e', 'a', 'o', 'a', 'o', 'a', 'a', 'e', 'a', 'u', 'a', 'e', 'a', 'a', 'i', 'o', 'a', 'i', 'o', 'e', 'a', 'a', 'i', 'e', 'e', 'o', 'e', 'a']
+166
+166
+done reconstructing  070_monologue_
+working on  086_monologue_
+ * c*m*n* * c**nd*m*t*c*tr**x*rtr**x* d*sp**sx***b**r * ***ln***l d*p*rt**l f**l **ntr*n*r xm**r**l*r *r*n*t* *n* *s*s**sp*r* *s*s**s p*r* n*s*p***x**r c*n *l *lp*p*d*lx***l*r* l*r**tr*sb*nd*sj*x*** tr*sb*nd*s p*r****n*c**d*s 
+segmented and inserted in time:  55.7805860043
+['a', 'a', 'i', 'a', 'a', 'a', 'e', 'i', 'i', 'e', 'e', 'o', 'i', 'e', 'a', 'e', 'e', 'e', 'u', 'e', 'e', 'e', 'e', 'e', 'u', 'a', 'a', 'i', 'i', 'e', 'o', 'a', 'e', 'o', 'e', 'a', 'i', 'e', 'a', 'e', 'e', 'a', 'a', 'u', 'o', 'o', 'e', 'i', 'u', 'a', 'a', 'u', 'a', 'e', 'o', 'e', 'e', 'e', 'a', 'e', 'e', 'e', 'i', 'a', 'a', 'i', 'a', 'u', 'e', 'e', 'a', 'a', 'e', 'a', 'e', 'a', 'a', 'e', 'e', 'e', 'e', 'o', 'o', 'o', 'o', 'o', 'a', 'a', 'o', 'e', 'a', 'a', 'a', 'a', 'a', 'a', 'i', 'a', 'a', 'i', 'i', 'i', 'i', 'a', 'o']
+105
+105
+done reconstructing  086_monologue_
+working on  049_monologue_
+ b**n*j*m*l**nt*m*s*m*n*sm*d*spj*rt**l*s tr*sc**tr*d*l*m**n* s**d*sc*ns*nd*p*c*m*p*g***sc*t*r r*j*m*s*m*n*sd**c**s*js *l*s*js*m*j*m*l**nt* m* t*m*l*sm**c*m*nt*s m*b**d*s*j*n* * l**b***l*d*r***t*l**sj*nd*n*t*j*s * m*s m*s**l*nt*d*l*m**n*tr*t*d*c*m*n*r*np*c* **lm*j*d** p**s**c*nl*s l*s*r*rj*sd*l*sm**c*m*nt*s *lm**r*x*n*r*lm*nt*d***m*j* l*** d*sc*ns**nr*t*p**sbj*nd**l*d*t*l**sj*n * m*c**l*j*nd* ** p**sp*rl*x*n*r*lm*nt**l*s c**tr**m*j***c****x*r*j* * c*m*n* ***x*r*j**np*s*n****x*mn*sj**nf*np**sc*m**nx*n*r*l j**nl*n*t* s**l*j*nd*p*p*p**s*l*c*m*g*st*m*t* * tr*t*d*c*m*rp**sj*mpr**l*m*zm**r*sj*t**m*j*m*s*m*n*s **l*s*t* * c*mb*rs*c*nm*f*m*lj* m*d*sc*ns*m*r*l*x* 
+segmented and inserted in time:  470.604251862
+['u', 'e', 'o', 'e', 'u', 'o', 'u', 'e', 'a', 'i', 'o', 'e', 'i', 'e', 'i', 'e', 'a', 'a', 'e', 'u', 'a', 'o', 'i', 'e', 'a', 'a', 'a', 'e', 'u', 'e', 'a', 'a', 'o', 'a', 'a', 'a', 'a', 'u', 'a', 'i', 'i', 'a', 'e', 'a', 'e', 'e', 'e', 'o', 'e', 'o', 'i', 'o', 'o', 'i', 'u', 'o', 'e', 'e', 'a', 'u', 'o', 'a', 'e', 'a', 'o', 'o', 'a', 'e', 'a', 'o', 'e', 'a', 'a', 'e', 'u', 'e', 'e', 'u', 'o', 'a', 'i', 'a', 'a', 'a', 'u', 'a', 'e', 'i', 'a', 'u', 'u', 'i', 'o', 'a', 'i', 'a', 'e', 'a', 'a', 'a', 'e', 'e', 'a', 'e', 'a', 'o', 'i', 'o', 'i', 'o', 'a', 'a', 'a', 'a', 'i', 'a', 'u', 'o', 'o', 'i', 'a', 'e', 'a', 'a', 'o', 'a', 'u', 'a', 'o', 'o', 'o', 'i', 'a', 'e', 'e', 'a', 'a', 'e', 'a', 'o', 'e', 'a', 'o', 'o', 'e', 'a', 'o', 'o', 'a', 'e', 'e', 'i', 'o', 'a', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'a', 'u', 'a', 'o', 'u', 'e', 'a', 'u', 'e', 'o', 'e', 'u', 'i', 'o', 'a', 'a', 'a', 'a', 'e', 'i', 'a', 'a', 'a', 'a', 'i', 'e', 'e', 'a', 'o', 'o', 'a', 'e', 'e', 'a', 'a', 'i', 'a', 'a', 'u', 'a', 'o', 'e', 'o', 'i', 'o', 'o', 'e', 'e', 'i', 'a', 'a', 'a', 'i', 'a', 'a', 'i', 'e', 'a', 'o', 'o', 'e', 'i', 'a', 'a', 'a', 'i', 'i', 'u', 'o', 'a', 'e', 'i', 'u', 'e', 'o', 'o', 'u', 'i', 'o', 'i', 'u', 'a', 'a', 'o', 'a', 'e', 'a', 'e', 'a', 'e', 'e', 'e', 'u', 'e', 'o', 'i', 'a', 'i', 'a', 'e', 'i', 'a', 'a', 'a', 'a', 'a', 'o', 'e', 'i', 'e', 'i', 'e', 'e', 'a', 'a', 'u', 'e', 'e', 'o', 'a', 'o', 'a', 'a', 'e', 'e', 'a', 'a', 'a', 'u', 'a', 'a', 'a', 'a', 'o', 'a', 'e', 'a', 'i', 'e', 'e', 'a', 'i', 'e', 'o', 'u', 'a', 'i', 'e', 'a']
+310
+310
+done reconstructing  049_monologue_
+working on  061_monologue_
+ j* s*jl*c*m*c*r*d*l*sb**lt*sd*l*c*s* t*x* *scr** * l*s*f*j*sd*l*c*s* b*rj*s l*c*l*n*rj* * **nd*l*s **nt*s*t*s *c*r*nd**p**nd* c*n g*st*
+segmented and inserted in time:  8.39593601227
+['a', 'a', 'a', 'a', 'a', 'a', 'i', 'a', 'a', 'a', 'a', 'o', 'e', 'a', 'o', 'o', 'a', 'i', 'e', 'e', 'o', 'a', 'o', 'a', 'a', 'a', 'e', 'a', 'o', 'o', 'a', 'e', 'a', 'o', 'a', 'e', 'a', 'a', 'u', 'a', 'a', 'a', 'a', 'e', 'a', 'o', 'a', 'o', 'a', 'i', 'a', 'a', 'e', 'a', 'a', 'e', 'a', 'a']
+58
+58
+done reconstructing  061_monologue_
+working on  089_monologue_
+ m**r*n*** m*b*j*lp*rc***r* *l**r*nc*r*d*c*m**sr*p**s r*r*s**m*c*s*n***n****m*j*d*l*m**n* d*s*j*n* *r*n**c*s*b*r*tr*p** *r*n**l*c*s* d***s*l* *j**lb**r *nr*t* *st*m*j*d** r*r*s**m*c*s*lm*r*r m*t*r**d*rm*rl*sj*st*c*m*s*d** l***p*rl*t*r*s**jf*rm* x**m*s*n *rc*s*t**nm*c*s**nf*m*lj* *j*s*l**lp*rc**c*r*r*l*s**c***d*p*rl*m**n**r*r*s**m*c*s*n***n****m*j*d*l*n*t* c*nm*t*g*st* 
+segmented and inserted in time:  1045.74620914
+['u', 'e', 'a', 'e', 'e', 'e', 'a', 'u', 'o', 'a', 'o', 'a', 'i', 'e', 'e', 'i', 'o', 'o', 'a', 'a', 'o', 'a', 'e', 'a', 'o', 'a', 'e', 'a', 'a', 'e', 'a', 'e', 'a', 'i', 'o', 'u', 'a', 'o', 'u', 'e', 'a', 'o', 'a', 'i', 'e', 'a', 'a', 'a', 'e', 'e', 'u', 'o', 'o', 'i', 'a', 'a', 'u', 'a', 'a', 'e', 'o', 'i', 'e', 'o', 'i', 'a', 'e', 'a', 'a', 'o', 'a', 'o', 'a', 'i', 'a', 'a', 'o', 'a', 'o', 'a', 'u', 'a', 'o', 'e', 'i', 'a', 'o', 'i', 'o', 'a', 'o', 'a', 'i', 'a', 'a', 'i', 'i', 'a', 'a', 'e', 'i', 'a', 'o', 'i', 'a', 'u', 'a', 'o', 'a', 'e', 'i', 'o', 'e', 'u', 'o', 'o', 'i', 'e', 'a', 'e', 'u', 'i', 'a', 'a', 'i', 'e', 'e', 'a', 'e', 'e', 'a', 'i', 'a', 'e', 'a', 'i', 'a', 'e', 'a', 'e', 'e', 'o', 'o', 'o', 'a', 'a', 'i', 'o', 'u', 'a', 'i', 'a', 'a', 'i', 'i', 'i', 'e', 'o', 'a', 'i', 'a', 'u', 'e', 'a', 'a', 'a', 'a', 'o', 'a', 'i', 'o', 'u', 'a', 'o', 'u', 'e', 'a', 'o', 'a', 'o', 'a', 'o', 'a', 'e', 'a', 'e', 'a', 'a']
+188
+188
+done reconstructing  089_monologue_
+working on  051_monologue_
+ m*l**nt**l*s*jsd*l*m**n* m*b**m**r*n** m*d*s*j*n* *m*b*g**l**n**rs****rd*p*rt* *l***c*t*rm*n**ld*p*rt* m*b*j*l*c*f*t*rj*m*t*m**nx**c*nm*s*m**s *d*r*r*s**c*s* **r*f*j*s*nl*c*s*p*rl*t*r* b***nb** m*b*j *l*n*sb**s*nm*tr***tr*s*nb*s d*p*nd*l*b**lt*c*b*j**rp*rc**b**sd*sp**sd*l**n**rs** **b**lt*s*nt*n*sd*p*nd*d*l*d*r*cj*nc*t*m*m* m*b*j*nm*tr* m*b*j*nb*s n* m*t*c*c*b* *n b** *nl**st*j*n c*x*r*tr* c*l*ct**c*m****m*c*s* n* b**c*nm*s*rm*n*s**n*rm*n* *d*s*r*n*s s*nb**nt*d*p**l tr**x*dj**sj*t***s*nf*rm*j* j*s*jr*s**nt*d*f*rm*j* * *l*tr*r*st*d*tj*mp**nc*nt**l****st*j*c*nt**l***n*ls*n**m*p*s*r*np*r*c*nt**l*****t*rm*n* **s*lj*rc*nt*l* 
+segmented and inserted in time:  467.853986979
+['u', 'o', 'a', 'o', 'i', 'u', 'o', 'i', 'e', 'a', 'a', 'a', 'a', 'e', 'u', 'u', 'e', 'a', 'a', 'a', 'i', 'e', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'i', 'e', 'o', 'a', 'i', 'e', 'a', 'o', 'i', 'e', 'o', 'e', 'e', 'i', 'o', 'a', 'a', 'a', 'a', 'u', 'a', 'e', 'o', 'e', 'e', 'a', 'o', 'u', 'a', 'u', 'e', 'o', 'e', 'e', 'o', 'e', 'a', 'i', 'o', 'i', 'i', 'i', 'o', 'a', 'o', 'a', 'a', 'i', 'a', 'a', 'o', 'a', 'i', 'e', 'a', 'a', 'e', 'a', 'e', 'o', 'o', 'i', 'e', 'a', 'a', 'u', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'i', 'o', 'a', 'i', 'a', 'a', 'e', 'o', 'o', 'e', 'i', 'e', 'e', 'a', 'o', 'a', 'a', 'o', 'o', 'i', 'o', 'e', 'a', 'o', 'i', 'a', 'i', 'e', 'u', 'e', 'e', 'i', 'a', 'a', 'i', 'e', 'a', 'o', 'i', 'a', 'a', 'o', 'a', 'e', 'a', 'e', 'e', 'i', 'o', 'i', 'e', 'o', 'u', 'o', 'e', 'a', 'e', 'a', 'a', 'e', 'e', 'o', 'a', 'a', 'e', 'i', 'o', 'a', 'i', 'e', 'a', 'a', 'e', 'e', 'a', 'e', 'a', 'e', 'o', 'a', 'a', 'u', 'e', 'a', 'a', 'a', 'e', 'o', 'a', 'i', 'a', 'u', 'u', 'a', 'a', 'o', 'o', 'e', 'u', 'o', 'i', 'e', 'o', 'e', 'a', 'u', 'i', 'a', 'o', 'a', 'a', 'e', 'o', 'e', 'u', 'i', 'e', 'o', 'o', 'a', 'u', 'a', 'e', 'i', 'o', 'e', 'o', 'a', 'o', 'e', 'i', 'o', 'o', 'a', 'o', 'e', 'a', 'i', 'e', 'e', 'e', 'o', 'e', 'a', 'a', 'e', 'o', 'o', 'e', 'a', 'o', 'u', 'i', 'u', 'e', 'a', 'e', 'i', 'o', 'o', 'e', 'e', 'a', 'i', 'a', 'e', 'i', 'o', 'a', 'a', 'o', 'i', 'a', 'a', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'e', 'o', 'u', 'e', 'a', 'o', 'e', 'i', 'a', 'a', 'i', 'i', 'e', 'a', 'a', 'a']
+299
+299
+done reconstructing  051_monologue_
+working on  071_monologue_
+ *nl* m**n* b*j*lx*mn*sj* p*r**d**n**r**m*j*d*s*r*s**n**r*d*p*ndj*nd**ltj*mp*c*t*g* l*s*f*j*sd*l*c*s* l*sb**lt*sc**jc***rp*rf**r* *b**sc*s* *b**sl** *b**sb** x**rt*l**sj*nt*mbj*n xm *b*s*c*m*nt*s*s* *b**sb*j* s*l*r**rc*mpr*s *s*mpl*m*nt**c*m*n*rp*rl*s*ntr*sc*m*rj*l*s *m*r**n*c*n*m*st**s *c 
+segmented and inserted in time:  142.985233784
+['e', 'a', 'i', 'u', 'a', 'u', 'o', 'u', 'o', 'a', 'i', 'a', 'a', 'u', 'a', 'a', 'a', 'e', 'a', 'o', 'a', 'a', 'e', 'o', 'i', 'o', 'a', 'a', 'a', 'o', 'a', 'a', 'i', 'a', 'u', 'a', 'a', 'e', 'o', 'o', 'a', 'a', 'a', 'e', 'a', 'o', 'o', 'i', 'o', 'a', 'a', 'i', 'a', 'i', 'a', 'i', 'o', 'u', 'e', 'a', 'i', 'a', 'i', 'a', 'a', 'i', 'a', 'i', 'e', 'a', 'i', 'a', 'i', 'e', 'a', 'o', 'i', 'u', 'i', 'o', 'u', 'o', 'a', 'a', 'u', 'a', 'o', 'e', 'a', 'a', 'i', 'i', 'a', 'i', 'a', 'a', 'o', 'e', 'o', 'i', 'o', 'a', 'o', 'i', 'e', 'e', 'e', 'a', 'a', 'i', 'a', 'e', 'a', 'e', 'e', 'o', 'e', 'e', 'a', 'a', 'e', 'i', 'u', 'a', 'e', 'a', 'u', 'i', 'a', 'i']
+130
+130
+done reconstructing  071_monologue_
+working on  081_monologue_
+ c***j* *n*nd**n*rm*lp*rl*m**n* m*l**nt*m**t*mpr*n* s*c* *l*m*sc*t*d*r*n*b**lt*lp*rc* d*sp**sb*g**l*c*s* d*s*j*n* *s*l*p*r*l**str** *c*tr*rm*c*nm*s*m**s*x**rb**r c*l****st*l*s *n* d*l*t*r*m*s*m*n*s d*sp**sr*r*s**l*c*s* *lm**r* ***n*sj*st*d*sp**sd*l*m**r* *s**j*l*n*b**lt*c***r l**c*nm*s**r* *s*n*m*p*g**b*rt*l**sj*n **l*r*lp*rj**c* m**c**st**l*sd**d*l*n*t* *l*sd**s* s*p*rc*lpr*l*m*c*t*g**sc*s*m**c**st*m**t*mpr*n* d*spj*rt*m**t*mpr*n* *nt*n*sj*d**rm*d* d**d*l*n*t**s*jsd*l*m**n* d**rm*s*js*r*s* c*m**nr*l*x*t* 
+segmented and inserted in time:  125.665015936
+['i', 'a', 'a', 'o', 'e', 'o', 'a', 'a', 'o', 'a', 'e', 'a', 'i', 'u', 'a', 'u', 'o', 'a', 'o', 'e', 'a', 'e', 'a', 'a', 'a', 'a', 'a', 'e', 'a', 'o', 'a', 'a', 'u', 'a', 'a', 'a', 'e', 'a', 'o', 'e', 'u', 'e', 'e', 'o', 'e', 'a', 'a', 'o', 'e', 'e', 'u', 'o', 'a', 'i', 'a', 'o', 'e', 'a', 'u', 'i', 'a', 'i', 'e', 'o', 'e', 'o', 'i', 'i', 'i', 'o', 'e', 'a', 'o', 'e', 'a', 'o', 'e', 'e', 'e', 'e', 'i', 'o', 'u', 'a', 'i', 'a', 'a', 'a', 'e', 'a', 'e', 'a', 'e', 'u', 'e', 'a', 'o', 'a', 'u', 'a', 'a', 'a', 'o', 'o', 'e', 'a', 'a', 'i', 'u', 'a', 'u', 'a', 'e', 'u', 'e', 'i', 'e', 'a', 'a', 'e', 'e', 'e', 'o', 'u', 'i', 'u', 'e', 'e', 'a', 'o', 'o', 'i', 'e', 'u', 'o', 'i', 'e', 'i', 'a', 'e', 'u', 'a', 'e', 'e', 'a', 'a', 'e', 'o', 'a', 'o', 'a', 'a', 'u', 'a', 'i', 'e', 'e', 'e', 'o', 'a', 'i', 'a', 'o', 'i', 'a', 'o', 'e', 'o', 'i', 'a', 'i', 'a', 'e', 'e', 'i', 'e', 'e', 'o', 'o', 'o', 'e', 'a', 'a', 'e', 'a', 'a', 'o', 'a', 'a', 'e', 'a', 'u', 'e', 'o', 'e', 'a', 'e', 'a', 'a', 'o', 'i', 'e', 'e', 'a', 'e', 'a', 'a', 'a', 'e', 'a', 'u', 'o', 'a', 'a', 'a', 'e', 'u', 'a', 'a', 'o', 'a', 'a', 'i', 'i', 'e', 'a', 'a', 'a', 'e', 'i', 'e', 'e', 'e', 'e', 'o', 'o', 'o', 'u', 'e', 'a', 'a', 'a']
+242
+242
+done reconstructing  081_monologue_
+working on  043_monologue_
+d**rm*l* m**n* * c*s* c**nd* p*** b**t*l**sj*n s*l**l*n*sb**s d*nd* l*sd*nd*l*stj*s *lm*rc** *l**l*sj* *l*sr**nj*n*s *l**r*n m*t*sgr*j*s**st* 
+segmented and inserted in time:  4.03485202789
+['u', 'e', 'e', 'a', 'i', 'u', 'a', 'a', 'a', 'a', 'u', 'a', 'o', 'i', 'e', 'a', 'e', 'u', 'u', 'i', 'o', 'a', 'a', 'e', 'a', 'a', 'a', 'o', 'a', 'a', 'o', 'e', 'o', 'e', 'o', 'e', 'i', 'u', 'i', 'a', 'a', 'e', 'e', 'e', 'a', 'e', 'e', 'a', 'o', 'a', 'a', 'a', 'e', 'e', 'a', 'u', 'i', 'a', 'a', 'i', 'e', 'a']
+62
+62
+done reconstructing  043_monologue_
+
+Process finished with exit code 0
+ 
+
+
