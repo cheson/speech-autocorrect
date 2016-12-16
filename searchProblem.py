@@ -36,6 +36,7 @@ class UniformCostSearch(SearchAlgorithm):
         self.actions = None
         self.totalCost = None
         self.numStatesExplored = 0
+        self.words = []
 
         # Initialize data structures
         frontier = PriorityQueue()  # Explored states are maintained by the frontier.
@@ -62,6 +63,7 @@ class UniformCostSearch(SearchAlgorithm):
                     words.append(action)
                     state = prevState
                 words.reverse()
+                self.words = words
                 self.actions = []
                 for word in words: 
                     for ch in word: 
