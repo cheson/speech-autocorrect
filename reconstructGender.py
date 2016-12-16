@@ -13,8 +13,8 @@ class Reconstruct():
     def __init__(self):
         self.originalsLocation = os.getcwd() + '/data/audio/'
         self.temporaryOutput = os.getcwd() + '/data/'
-        self.reconstructedFiles = os.getcwd() + '/data/reconstructed/'
-        self.replacementVowelLocation = os.getcwd() + '/data/perfect_vowels/'
+        self.reconstructedFiles = os.getcwd() + '/data/reconstructedGender/'
+        self.replacementVowelLocation = os.getcwd() + '/PerfectVowels/'
         self.vowels = ['a', 'e', 'i', 'o', 'u', 'w'] # 'y' as a vowel?
 
     def reconstruct(self, originalWavFile, startPoint, endPoint, replacement, finalConcatWav):
@@ -125,18 +125,13 @@ queries = alignment.produceStrings(monologueALLCutTimes)
 for filePrefix in queries:
     print 'working on ', filePrefix
 
-    # query = queries[filePrefix]
-    # print query
     query = queries[filePrefix]
-
     print query
 
     reconstructStart = time.time()
     answer = charStates.segmentAndInsert(query.split(), bigramCost, corpus)
     reconstructEnd = time.time()
-
     print 'segmented and inserted in time: ', reconstructEnd - reconstructStart
-
     print answer
 
     gender = monologueGenders[filePrefix]
