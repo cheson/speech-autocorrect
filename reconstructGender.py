@@ -121,30 +121,30 @@ alignment = ProcessAlignments()
 monologueALLCutTimes = alignment.getCutTimes('monologue', ALPHABET)
 queries = alignment.produceStrings(monologueALLCutTimes)
 
-filePrefix = '001_monologue_'
-# for filePrefix in queries:
-print 'working on ', filePrefix
+# filePrefix = '001_monologue_'
+for filePrefix in queries:
+    print 'working on ', filePrefix
 
-# query = queries[filePrefix]
-# print query
-query = queries[filePrefix]
+    # query = queries[filePrefix]
+    # print query
+    query = queries[filePrefix]
 
-print query
+    print query
 
-reconstructStart = time.time()
-answer = charStates.segmentAndInsert(query.split(), bigramCost, corpus)
-reconstructEnd = time.time()
+    reconstructStart = time.time()
+    answer = charStates.segmentAndInsert(query.split(), bigramCost, corpus)
+    reconstructEnd = time.time()
 
-print 'segmented and inserted in time: ', reconstructEnd - reconstructStart
+    print 'segmented and inserted in time: ', reconstructEnd - reconstructStart
 
-print answer
+    print answer
 
-gender = monologueGenders[filePrefix]
+    gender = monologueGenders[filePrefix]
 
-reconstruct = Reconstruct()
-reconstruct.fullReconstruct(filePrefix, 'monologue', answer, 'reconstructed_'+filePrefix+'.wav', gender)
+    reconstruct = Reconstruct()
+    reconstruct.fullReconstruct(filePrefix, 'monologue', answer, 'reconstructed_'+filePrefix+'.wav', gender)
 
-print 'done reconstructing ', filePrefix
+    print 'done reconstructing ', filePrefix
 
 
 
