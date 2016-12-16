@@ -28,8 +28,8 @@ def make_character_models(path):
 
 	# add bigramCost 
 
-   	# return ngramCost, bigramCost, corpus
-   	return bigramCost, corpus
+	# return ngramCost, bigramCost, corpus
+	return bigramCost, corpus
 
 # Define States as Vowel Insertion + Word Segmentation combination problem
 
@@ -38,25 +38,25 @@ class JointInsertionSegmentationProblem(searchProblem.SearchProblem):
 	def __init__(self, query, bigramCost, corpus):
 		self.query = query
 		# self.chargramCost = chargramCost
-		self.bigramCost = bigramCost 
+		self.bigramCost = bigramCost
 		self.corpus = corpus
 
 	def startState(self):
 		# BEGIN_YOUR_CODE (our solution is 1 line of code, but don't worry if you deviate from this)
 		return ('-BEGIN-', 0)
-		#raise Exception("Not implemented yet")
-		# END_YOUR_CODE
+	#raise Exception("Not implemented yet")
+	# END_YOUR_CODE
 
 	def isEnd(self, state):
 		# BEGIN_YOUR_CODE (our solution is 2 lines of code, but don't worry if you deviate from this)
 		length = len(self.query)
 		return state[1] == length
-		#raise Exception("Not implemented yet")
-		# END_YOUR_CODE
+	#raise Exception("Not implemented yet")
+	# END_YOUR_CODE
 
 	def succAndCost(self, state):
 		# BEGIN_YOUR_CODE (our solution is 9 lines of code, but don't worry if you deviate from this)
-		prevWord, currIndex = state 
+		prevWord, currIndex = state
 		results = []
 
 		for index in range(currIndex, len(self.query)): # for each possible segmentation of currPhrase
@@ -66,47 +66,59 @@ class JointInsertionSegmentationProblem(searchProblem.SearchProblem):
 
 			# print possFills
 
-			if len(possFills) > 0: 
-			    for possFill in possFills:
-			        results.append((possFill, (possFill,  index+1), self.bigramCost(prevWord, possFill)))
-		
+			if len(possFills) > 0:
+				for possFill in possFills:
+					results.append((possFill, (possFill,  index+1), self.bigramCost(prevWord, possFill)))
+
 		# print 'RESULTS: ', results
 		return results
-		# END_YOUR_CODE
+	# END_YOUR_CODE
 
 # takes in a queryList that is the sentence including spacing. returns the filled up words
 def segmentAndInsert(query, bigramCost, corpus):
-    # print 'QUERY', query
+	# print 'QUERY', query
 
-    if len(query) == 0:
-        return ''
+	if len(query) == 0:
+		return ''
 
-    # BEGIN_YOUR_CODE (our solution is 4 lines of code, but don't worry if you deviate from this)
-    final = []
-    finalWords = []
-    ucs = searchProblem.UniformCostSearch(verbose=0)
-    for phrase in query: 
-    	# print 'phrase: ', phrase
-    	ucs.solve(JointInsertionSegmentationProblem(phrase, bigramCost, corpus))
-    	# print 'actions: ', ucs.actions
-    	# print 'words: ', ucs.words
-    	final.append(ucs.actions)
-    	# finalWords.append(ucs.words)
-    
-    # print final
+	# BEGIN_YOUR_CODE (our solution is 4 lines of code, but don't worry if you deviate from this)
+	final = []
+	finalWords = []
+	ucs = searchProblem.UniformCostSearch(verbose=0)
+	for phrase in query:
+		# print 'phrase: ', phrase
+		ucs.solve(JointInsertionSegmentationProblem(phrase, bigramCost, corpus))
+		# print 'actions: ', ucs.actions
+		# print 'words: ', ucs.words
 
-    flattened = [val for sublist in final for val in sublist]
-    print flattened
-    # flattenedWords = [val for sublist in finalWords for val in sublist]
-    # phrase = ' '.join(flattenedWords)
-    # print "Final phrase: ", phrase
-    # print ' '.join(final)
+		def numBlanks(phrase):
+			counter = 0
+			for char in phrase:
+				if char == '*':
+					counter += 1
+			return counter
 
-    # #print query, ' '.join(ucs.actions)
-    return flattened
-    #return query
-    #raise Exception("Not implemented yet")
-    # END_YOUR_CODE
+		if ucs.actions == None:
+			ucs.actions = ['e' * numBlanks(phrase)]
+
+		final.append(ucs.actions)
+		# print ucs.actions
+	# finalWords.append(ucs.words)
+
+	# print final
+
+	flattened = [val for sublist in final for val in sublist]
+	# print flattened
+	# flattenedWords = [val for sublist in finalWords for val in sublist]
+	# phrase = ' '.join(flattenedWords)
+	# print "Final phrase: ", phrase
+	# print ' '.join(final)
+
+	# #print query, ' '.join(ucs.actions)
+	return flattened
+	#return query
+	#raise Exception("Not implemented yet")
+	# END_YOUR_CODE
 
 def cleaned(query):
 

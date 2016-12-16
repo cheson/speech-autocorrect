@@ -8,7 +8,7 @@ import subprocess
 ALIGNMENTS = os.getcwd() + '/data/alignments/pcgita_words_read_mono.frame.ali_NEW'
 OUTPUT = os.getcwd() + '/data/cut/'
 ALPHABET = list(string.ascii_lowercase)
-VOWELS = ['a', 'e', 'i', 'o', 'u'] # 'y' as vowel?
+VOWELS = ['a', 'e', 'i', 'o', 'u', 'w'] # 'y' as vowel?
 
 
 class ProcessAlignments():
@@ -114,8 +114,9 @@ class ProcessAlignments():
             for element in ranges:
                 letter = element[0]
                 if letter in VOWELS: toProcess += '*'
+                elif letter == 'k': toProcess += 'c'
                 elif letter == 'SIL': toProcess += ' '
-                elif letter == 'w': toProcess += '*'
+                # elif letter == 'w': toProcess += '*'
                 else: toProcess += letter
 
             stringsToProcess[filePrefix] = toProcess
