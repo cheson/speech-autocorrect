@@ -49,9 +49,9 @@ class Reconstruct():
         
     def getReplacementWav(self, vowel, gender):
         return self.replacementVowelLocation + gender + vowel + '.wav'
-        # perfectVowel = self.replacementVowelLocation + vowel +'.wav'
+        # return self.replacementVowelLocation + vowel +'.wav'
 
-    
+
     # Repeatedly call reconstruct on the correct start and end points 
     # (corresponding to the places surrounding what we need to replace). 
     # H*L*
@@ -87,7 +87,7 @@ class Reconstruct():
 
             replacementWav = self.getReplacementWav(vowel, gender)
 
-            # self.reconstruct(originalWavFile, currEnd, start, replacementWav, finalConcatWav)
+            self.reconstruct(originalWavFile, currEnd, start, replacementWav, finalConcatWav)
 
             currEnd = end
 
@@ -121,8 +121,8 @@ alignment = ProcessAlignments()
 monologueALLCutTimes = alignment.getCutTimes('monologue', ALPHABET)
 queries = alignment.produceStrings(monologueALLCutTimes)
 
-# for filePrefix in queries:
 filePrefix = '001_monologue_'
+# for filePrefix in queries:
 print 'working on ', filePrefix
 
 # query = queries[filePrefix]
