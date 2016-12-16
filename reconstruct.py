@@ -1,7 +1,11 @@
 import subprocess
 import os
+import string
 from cutWavFiles import ProcessAlignments
+import charStates, charsegUtil
 
+ALPHABET = list(string.ascii_lowercase)
+VOWELS = ['a', 'e', 'i', 'o', 'u'] # 'y' as vowel?
 
 class Reconstruct():
     def __init__(self):
@@ -70,7 +74,6 @@ class Reconstruct():
         subprocess.call(createFinalWav)
 
         currEnd = 0.0
-        # i=0
 
         for i in range(len(replacements)):
             vowel = replacements[i]
@@ -85,14 +88,26 @@ class Reconstruct():
             currEnd = end
 
 
-alignment = ProcessAlignments()
-vowelsStartEnd = alignment.getCutTimes('monologue', ['a', 'e', 'i', 'o', 'u'])['001_monologue_']
-correct = []
-for item in vowelsStartEnd:
-    if not item[0] == 'SIL':
-        correct.append(item[0])
-print correct
 
+# correct = []
+# for item in vowelsStartEnd:
+#     if not item[0] == 'SIL':
+#         correct.append(item[0])
+# print correct
+
+path = 'corpus/'
+bigramCost, corpus = charStates.make_character_models(path)
+
+
+alignment = ProcessAlignments()
+vowelsStartEnd = alignment.getCutTimes('monologue', VOWELS)['001_monologue_']
+
+monologueAllCutTimes = alignment.getCutTimes('monologue', ALPHABET)
+queries = alignment.produceStrings(monologueAllCutTimes)
+query = queries['001_monologue_']
+print query
+
+answer = charStates.segmentAndInsert(query, bigramCost, corpus)
 
 reconstruct = Reconstruct()
-reconstruct.fullReconstruct('001_monologue_', 'monologue', correct, 'reconstructed_001_monologue.wav')
+reconstruct.fullReconstruct('001_monologue_', 'monologue', answer, 'reconstructed_001_monologue.wav')

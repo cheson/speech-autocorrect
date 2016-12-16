@@ -115,6 +115,7 @@ class ProcessAlignments():
                 letter = element[0]
                 if letter in VOWELS: toProcess += '*'
                 elif letter == 'SIL': toProcess += ' '
+                elif letter == 'w': toProcess += '*'
                 else: toProcess += letter
 
             stringsToProcess[filePrefix] = toProcess
@@ -124,10 +125,10 @@ class ProcessAlignments():
 
 
 
-alignment = ProcessAlignments()
+# alignment = ProcessAlignments()
 
 # monologueVowelCutTimes = alignment.getCutTimes('monologue', VOWELS)
 # alignment.cutWavFiles(monologueVowelCutTimes)
 
-monologueAllCutTimes = alignment.getCutTimes('monologue', ALPHABET)
-alignment.produceStrings(monologueAllCutTimes)
+# monologueAllCutTimes = alignment.getCutTimes('monologue', ALPHABET)
+# alignment.produceStrings(monologueAllCutTimes)

@@ -91,14 +91,15 @@ def segmentAndInsert(query, bigramCost, corpus):
     	# print 'actions: ', ucs.actions
     	# print 'words: ', ucs.words
     	final.append(ucs.actions)
-    	finalWords.append(ucs.words)
+    	# finalWords.append(ucs.words)
     
     # print final
 
     flattened = [val for sublist in final for val in sublist]
-    flattenedWords = [val for sublist in finalWords for val in sublist]
-    phrase = ' '.join(flattenedWords)
-    print "Final phrase: ", phrase
+    print flattened
+    # flattenedWords = [val for sublist in finalWords for val in sublist]
+    # phrase = ' '.join(flattenedWords)
+    # print "Final phrase: ", phrase
     # print ' '.join(final)
 
     # #print query, ' '.join(ucs.actions)
@@ -126,29 +127,29 @@ def cleaned(query):
 
 
 
-path = "corpus/"
-
-start = time.time() 
-
-bigramCost, corpus = make_character_models(path)
-
-charModelTime = time.time()
-
-query = "NORMALMENTE PUESACTUALMENTE EHCOMOESTOYRECIBIENDO MANUALIDADESALLADELA FUNDACIONPARKINSON DEPARKINSONME ESTOY DEDICANDOULTIMAMENTE HACERMANUALIDADES . UNAS , UNOSTRABAJOSEN , ENPUN , ENPUNTILLISMO , QUESON EN MADERA A ESO ME ESTOY DEDICANDO ULTIMAMENTE FUERA DE PUES , DE , DE , TAMBIEN VOY AL GIMNASIO A LUNES , MIERCOLES Y VIERNES , UNA HORA . PUES HAGO , EN LA QUE LE COLABORO A LA SENORA EN LOS QUEHACERES DE LA CASA CAMINO , NO MAS . ME , YO NORMALMENTE ME DESPIERTO CUATRO Y MEDIA DE LA MANANA , CUATRO Y MEDIA DE LA , CUATRO , NO , NO HASTA AHI DESPIERTO Y NO SOY CAPAZ DE DORMIR MAS PERO ME LEVANTO SEIS Y MEDIA , SIETE."
-print "Query: ", query 
-print "Cleaned query: ", cleaned(query)
-# answer = segmentAndInsert(["pl*y*"], ngramCost, bigramCost, possibleFills, corpus)# 
-
-beginSolveTime = time.time()
-
-answer = segmentAndInsert(cleaned(query), bigramCost, corpus)# 
-
-solveTime = time.time()
-
-print "final answer: ", answer
-print "made character models in time: ", charModelTime - start
-print "Time taken to solve: ", solveTime - beginSolveTime
-# rewrite main_g.py to run dummy query through character n-gram model 
+# path = "corpus/"
+#
+# start = time.time()
+#
+# bigramCost, corpus = make_character_models(path)
+#
+# charModelTime = time.time()
+#
+# query = "NORMALMENTE PUESACTUALMENTE EHCOMOESTOYRECIBIENDO MANUALIDADESALLADELA FUNDACIONPARKINSON DEPARKINSONME ESTOY DEDICANDOULTIMAMENTE HACERMANUALIDADES . UNAS , UNOSTRABAJOSEN , ENPUN , ENPUNTILLISMO , QUESON EN MADERA A ESO ME ESTOY DEDICANDO ULTIMAMENTE FUERA DE PUES , DE , DE , TAMBIEN VOY AL GIMNASIO A LUNES , MIERCOLES Y VIERNES , UNA HORA . PUES HAGO , EN LA QUE LE COLABORO A LA SENORA EN LOS QUEHACERES DE LA CASA CAMINO , NO MAS . ME , YO NORMALMENTE ME DESPIERTO CUATRO Y MEDIA DE LA MANANA , CUATRO Y MEDIA DE LA , CUATRO , NO , NO HASTA AHI DESPIERTO Y NO SOY CAPAZ DE DORMIR MAS PERO ME LEVANTO SEIS Y MEDIA , SIETE."
+# print "Query: ", query
+# print "Cleaned query: ", cleaned(query)
+# # answer = segmentAndInsert(["pl*y*"], ngramCost, bigramCost, possibleFills, corpus)#
+#
+# beginSolveTime = time.time()
+#
+# answer = segmentAndInsert(cleaned(query), bigramCost, corpus)#
+#
+# solveTime = time.time()
+#
+# print "final answer: ", answer
+# print "made character models in time: ", charModelTime - start
+# print "Time taken to solve: ", solveTime - beginSolveTime
+# rewrite main_g.py to run dummy query through character n-gram model
 
 
 
