@@ -49,9 +49,11 @@ def text_to_vector(text):
 
 def main(wavFile, transcript, monologueName):
     """Transcribe the given audio file.
-
     Args:
         speech_file: the name of the audio file.
+        wavFile: wav file
+        transcript: original text 
+        monologueName: filePrefix
     """
         ##############################################
     transcriptOne = ''
@@ -76,33 +78,33 @@ def main(wavFile, transcript, monologueName):
         transcriptOne += transcript_segment
         ##################################################
     transcriptTwo = transcript
-    # transcriptTwo = ''
-    # with open(speech_two, 'rb') as speech:
-    #     speech_content = base64.b64encode(speech.read())
+    transcriptTwo = ''
+    with open(speech_two, 'rb') as speech:
+        speech_content = base64.b64encode(speech.read())
 
-    # service = get_speech_service()
-    # service_request = service.speech().syncrecognize(
-    #     body={
-    #         'config': {
-    #             'encoding': 'LINEAR16',  # raw 16-bit signed LE samples
-    #             'sampleRate': 16000,  # 16 khz
-    #             'languageCode': 'es',  # a BCP-47 language tag
-    #         },
-    #         'audio': {
-    #             'content': speech_content.decode('UTF-8')
-    #             }
-    #         })
-    # response = service_request.execute()
-    # transcriptTwo = ''
-    # for segment in response['results']:
-    #     transcript_segment = segment['alternatives'][0]['transcript']
-    #     transcriptTwo += transcript_segment
+    service = get_speech_service()
+    service_request = service.speech().syncrecognize(
+        body={
+            'config': {
+                'encoding': 'LINEAR16',  # raw 16-bit signed LE samples
+                'sampleRate': 16000,  # 16 khz
+                'languageCode': 'es',  # a BCP-47 language tag
+            },
+            'audio': {
+                'content': speech_content.decode('UTF-8')
+                }
+            })
+    response = service_request.execute()
+    transcriptTwo = ''
+    for segment in response['results']:
+        transcript_segment = segment['alternatives'][0]['transcript']
+        transcriptTwo += transcript_segment
 
-    # print ("==============================================")
-    # print ("transcript one: " + ' '.join(transcriptOne.split()))
+    print ("==============================================")
+    print ("transcript one: " + ' '.join(transcriptOne.split()))
 
-    # print ("==============================================")
-    # print ("transcript two: " + ' '.join(transcriptTwo.split()))
+    print ("==============================================")
+    print ("transcript two: " + ' '.join(transcriptTwo.split()))
 
 
     vector1 = text_to_vector(transcriptOne)
@@ -110,8 +112,8 @@ def main(wavFile, transcript, monologueName):
 
     cosine = get_cosine(vector1, vector2)
 
-    # print ("==============================================")
-    # print ('Cosine similarity:', cosine)
+    print ("==============================================")
+    print ('Cosine similarity:', cosine)
 
     #eval should write to results.txt the filename, transcripts, cosine similarity
     f = open('results.txt', 'a')
@@ -120,10 +122,12 @@ def main(wavFile, transcript, monologueName):
     f.write('Cosine similarity: ' + cosine)
     f.write('\n')
 
+    return cosine
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('wavFile')
     parser.add_argument('transcript')
     parser.add_argument('monologueName')
     args = parser.parse_args()
-    main(args.speech_one, args.speech_two)
+    main(args.wavFile, args.transcript, args.monologueName)
